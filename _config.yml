@@ -48,3 +48,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+image:
+  feature: IMG_7722.JPG
+  thumb: thumbnail-image.jpg #keep it square 200x200 px is good
