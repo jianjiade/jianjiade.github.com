@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>Javascript中不引入第三方变量交换a和b的值</title>
+    <meta name="description" content="在上一家公司面试的时候，面试官出了一个问题，如何不引入第三方变量交换a和b的值。当时的回答并不好，后来回去研究了下，发现还是蛮好玩的. 1.最省字节法 a = [b, b = a][0] 2.数值型可用 a = a + b; b = a - b; a = a - b; 3.恶搞法1 a = {a: b, b: b...">
+    <link rel="canonical" href="http://localhost:4000/%E5%89%8D%E7%AB%AF/2014/10/19/Javascript%E4%B8%AD%E4%B8%8D%E5%BC%95%E5%85%A5%E7%AC%AC%E4%B8%89%E6%96%B9%E5%8F%98%E9%87%8F%E4%BA%A4%E6%8D%A2a%E5%92%8Cb%E7%9A%84%E5%80%BC.html">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  <link rel="alternate" type="application/atom+xml" title="蒹葭从风" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  javascript中不引入第三方变量交换a和b的值">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+    <header class="masthead">
+  <div class="wrap">
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/">蒹葭从风</a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">📖📖📖</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">Javascript中不引入第三方变量交换a和b的值
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><div class="author-info">
+    <time class="page-date dt-published" datetime="2014-10-19T06:31:38+08:00"><a class="u-url" href="">October 19, 2014</a>
+</time>
+
+  </div>
+</div>
+
+        
+  <h3 class="page-taxonomies-title">Categories</h3>
+  <ul class="page-taxonomies"><li class="page-taxonomy">前端</li>
+  </ul>
+
+
+        
+  <h3 class="page-taxonomies-title">Tags</h3>
+  <ul class="page-taxonomies"><li class="page-taxonomy">javascript</li>
+  </ul>
+
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <div>在上一家公司面试的时候，面试官出了一个问题，如何不引入第三方变量交换a和b的值。当时的回答并不好，后来回去研究了下，发现还是蛮好玩的.</div>
+<!--more-->
+<div>1.最省字节法 <code>a = [b, b = a][0]</code></div>
+<div>2.数值型可用 <code>a = a + b; b = a - b; a = a - b; </code></div>
+<div>3.恶搞法1 <code>a = {a: b, b: b = a}</code></div>
+<div>4.恶搞法2 <code>a = a * b; b = a / b; a = a / b;</code></div>
+<div>5.其他方法 <code>a = [b][b = a, 0]</code></div>
+<div>6.<code>[a,b] = [b,a]</code></div>
+<div>7.<code>a = [b, b = a][+[]]</code></div>
+<div>8.<code>b = a + 0 * (a = b)</code></div>
+<div>9.<code>a = a ^ b; b = b ^ a; a = b ^ a;</code><br /></div>
+<p>####暂时想到这么多，你们还有什么好的想法？####</p>
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/2014/10/18/%E6%9C%80%E8%BF%91%E7%9A%84%E7%94%9F%E6%B4%BB%E7%8A%B6%E6%80%81.html">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> 最近的生活状态
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/%E9%9A%8F%E7%AC%94/2014/10/27/%E6%9C%80%E8%BF%91%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95.html">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        最近的一些想法
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="copyright">
+    
+      <p>&copy; 2020 蒹葭从风. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>

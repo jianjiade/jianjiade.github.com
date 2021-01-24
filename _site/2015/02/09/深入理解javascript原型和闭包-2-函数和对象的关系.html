@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>深入理解javascript原型和闭包（2）——函数和对象的关系</title>
+    <meta name="description" content="上文已经提到，函数就是对象的一种，因为通过instanceof 函数可以判断。 var fn = function () {}; console.log(fn instanceof Object); h 对！函数是一种对象，但是函数却不像数组一样，你可以说数组是对象的一种，因为数组就是对象的一个子集一样。但是函数...">
+    <link rel="canonical" href="http://localhost:4000/2015/02/09/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3javascript%E5%8E%9F%E5%9E%8B%E5%92%8C%E9%97%AD%E5%8C%85-2-%E5%87%BD%E6%95%B0%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%85%B3%E7%B3%BB.html">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  <link rel="alternate" type="application/atom+xml" title="蒹葭从风" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  深入理解javascript原型和闭包-2-函数和对象的关系">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+    <header class="masthead">
+  <div class="wrap">
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/">蒹葭从风</a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">📖📖📖</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">深入理解javascript原型和闭包（2）——函数和对象的关系
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><div class="author-info">
+    <time class="page-date dt-published" datetime="2015-02-09T05:10:03+08:00"><a class="u-url" href="">February 9, 2015</a>
+</time>
+
+  </div>
+</div>
+
+        
+
+        
+  <h3 class="page-taxonomies-title">Tags</h3>
+  <ul class="page-taxonomies"><li class="page-taxonomy">javascript</li>
+  </ul>
+
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <p>上文已经提到，函数就是对象的一种，因为通过instanceof 函数可以判断。</p>
+<pre>
+var fn = function () {};
+console.log(fn instanceof Object);
+</pre>
+<p>h
+<!--more-->
+对！函数是一种对象，但是函数却不像数组一样，你可以说数组是对象的一种，因为数组就是对象的一个子集一样。但是函数与对象之间，却不仅仅是一种包含和被包含的关系，函数和对象之间的关系比较复杂，甚至有一点鸡生蛋蛋生鸡的逻辑，这一节就缕一缕。
+还是先看一个小例子。</p>
+<pre>
+function Fn () {
+	this.name = "iu2fish",
+	this.year = 1990;
+}
+
+var fn1 = new Fn();
+</pre>
+<p>上面的这个例子很简单，他能说明，对象可以通过函数来创建。对，也只能说明这一点。
+但是，我要说—–对象都是通过函数创建的。===有些人可能反驳，不对！因为：</p>
+<pre>
+var obj = {a: 10, b: 20};
+var arr = [5, 'x', true];
+</pre>
+<p>但是不好意思，这个真的是一种快捷方式，在编程语言中，一般叫做“语法糖”。
+做语法糖做的最好的可谓是微软大哥，他把他们家c#那小子弄的不男不女，本想图个人见人爱，谁承想还得给别人解释，其实他是个男孩。
+言归正传，其实以上代码的本质是：</p>
+<pre>
+//var obj = {a: 10, b: 20};
+//var arr = [5, ''x'', true];
+
+var obj = new Object ();
+obj.a = 10;
+obj.b = 20;
+
+var arr  = new Array();
+arr[0] = 5;
+arr[1] = 'x';
+arr[2] = true;
+</pre>
+<p>而其中的Object和Array都是函数</p>
+<pre>
+console.log(typeof (Object)); //function
+console.log(typeof (Array));//function
+</pre>
+<p>所以，可以很负责人的说，对象都是通过函数来创建的。</p>
+
+<p>现在是不是糊涂了，对象是函数创建的，而函数有时一种对象，天哪，函数和对象到底是什么关系啊？别着急，揭开这个谜底，还得先去了解一下另一位老朋友，prototype原型。</p>
+
+<p>转自：http://www.cnblogs.com/wangfupeng1988/p/3978035.html</p>
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/2015/02/09/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3javascript%E5%8E%9F%E5%9E%8B%E5%92%8C%E9%97%AD%E5%8C%851%E4%B9%8B%E4%B8%80%E5%88%87%E9%83%BD%E6%98%AF%E5%AF%B9%E8%B1%A1.html">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> 深入理解javascript原型和闭包1之一切都是对象
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/2015/02/09/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3javascript%E5%8E%9F%E5%9E%8B%E5%92%8C%E9%97%AD%E5%8C%85-3-prototype%E5%8E%9F%E5%9E%8B.html">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        深入理解javascript原型和闭包（3）——prototype原型
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="copyright">
+    
+      <p>&copy; 2020 蒹葭从风. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>

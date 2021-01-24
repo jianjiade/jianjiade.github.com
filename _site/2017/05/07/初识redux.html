@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>初识redux</title>
+    <meta name="description" content="简书 i蒹葭从风 转载请注明原创出处，谢谢！ 如果读完觉得有收获的话，欢迎点赞加关注">
+    <link rel="canonical" href="http://localhost:4000/2017/05/07/%E5%88%9D%E8%AF%86redux.html">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  <link rel="alternate" type="application/atom+xml" title="蒹葭从风" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  初识redux">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+    <header class="masthead">
+  <div class="wrap">
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/">蒹葭从风</a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">📖📖📖</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">初识redux
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><div class="author-info">
+    <time class="page-date dt-published" datetime="2017-05-07T00:10:06+08:00"><a class="u-url" href="">May 7, 2017</a>
+</time>
+
+  </div>
+</div>
+
+        
+
+        
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <blockquote>
+  <p>简书 <a href="http://www.jianshu.com/u/1578eaace5b4">i蒹葭从风</a>
+转载请注明原创出处，谢谢！
+如果读完觉得有收获的话，欢迎点赞加关注</p>
+</blockquote>
+
+<p>简单介绍一下redux 的一些术语和基本概念。 action，reducer，state，store。主要是这4个术语。下面依次来说说这些概念。</p>
+
+<h2 id="action">action</h2>
+<p>action 本质上是javascript 的普通对象。约定action内使用一个字符串类型的type字段来表示将要执行的动作。很多情况下，type将会定义成字符串常量。例如：<code class="language-plaintext highlighter-rouge">const INCREMENT = 'INCREMENT'</code>，另外，当应用项目很大的时候，建议使用单独的模块或文件来存放action。除了type字段以外，action 对象的结构完全有开发者自己决定。</p>
+<h2 id="reducer">reducer</h2>
+<p>reducer 是个形式为(state, action) =&gt; state 的纯函数 ，描述了action 如何把state 转变成下一个state。</p>
+<blockquote>
+  <p>Reducer  这个名称来源于Array.prototype.reduce中的第一个参数，reducer 。reducer 是一个累加器函数，它的参数是上个累加值和数组当前元素，然后通过计算返回本次的累加值。在redux中，state 就是那个累加值，action 就是数组当前的元素。reduce 以及map filter 等方法是函数式编程中十分常用的数组处理方法。
+<!-- more -->
+state 的形式取决于开发者项目的需要，可是是基本类型，数组，是对象，甚至是immutable.js 生成的数据结构。唯一的点是当state 变化时需要返回全新的对象，而不是修改传入的参数。reducer 要用纯函数。那么什么是纯函数。</p>
+  <h3 id="纯函数">纯函数</h3>
+  <p>纯函数 pure function 是这样一种函数，输入输出数据流全是显式的，显式的意思是，函数与外界交换数据只有一个唯一的渠道，参数和返回值。函数从函数外部接受的所有输入信息都通过参数传递到该函数内部；函数输出到函数外部的所有信息都通过函数返回值传递到该函数外部。
+纯函数不能访问外部变量，它能接触的外部参数只有来自外部的参数。纯函数不能修改参数，因为这样做可能会把一些信息通过输入参数夹带到外界。
+reducer 就是这样的纯函数，永远不要在reducer 里做一下操作：</p>
+  <ol>
+    <li>修改传入的参数</li>
+    <li>执行有副作用的操作，比如：请求API和路由跳转</li>
+    <li>调用非纯函数，如 new Data.now(),Math.random()</li>
+  </ol>
+</blockquote>
+
+<p>函数副作用会给应用带来不可预测的麻烦，产生难以预测的效果。严格的函数式语言要求函数必须无副作用。</p>
+<h3 id="不能修改参数-state">不能修改参数 state</h3>
+<p>当state 是对象时，修改参数state会影响程序的变更追踪。如果你在项目里使用了react-redux 将redux 程序连接上了UI 组件上，那么你的组件将不能更新，因为react-redux 无法察觉到任何state变化。为什么会发生这样的事情？因为在javascript 上，对象是引用类型，当你改变了参数state 变化前后的state 将会指向同一个内存地址，react-redux 就会以为这是两个相同的state，而不会进行渲染。</p>
+<h2 id="store">store</h2>
+<p>store 是个全局对象，将action 和reducer 以及state 联系在一起。Store 有一下职能：
+维持应用的state
+提供getState 方法获取state
+提供dispatch 方法更新state
+通过subscribe (listener)注册监听器</p>
+
+<p>创建store需要从redux 包中导入createStore 这个方法。
+<code class="language-plaintext highlighter-rouge">import  {createStore} from 'redux'</code> 
+使用reducer 纯函数作为第一个参数创建store
+<code class="language-plaintext highlighter-rouge">let store = createStore(reducer)</code>
+还可以添加第二个参数，作为初始化state</p>
+<h3 id="获取和监听">获取和监听</h3>
+<p>创建完store 使用它获取数据，并监听变化</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const store = createStore(reducer);
+let currentValue = store.getState();
+store.subscribe(()=&gt;{
+    const previousValue = currentValue;
+    currentValue = store.getState();
+    console.log(previousValue, currentValue)
+})
+</code></pre></div></div>
+<p>以上代码做了这样几件事：</p>
+<ol>
+  <li>获取初始化state和currentValue</li>
+  <li>使用store.subscribe()方法监听变化</li>
+  <li>在store.subscribe的回调函数中，将currentValue 传递给previousValue 作为先前的state</li>
+  <li>获取更新后的state 到curentValue 作为当前的state</li>
+  <li>打印变化前后的state</li>
+</ol>
+
+<h2 id="发起action">发起action</h2>
+<p>Store 使用dispatch(action)方法发起action，更新state
+当发起action后，就将action 穿进了store中，使用reducer 纯函数继续执行更新。改变内部state 唯一方法是dispatch 一个action。这样确保了视图和网络请求都不能直接修改state，相反它们只能表达想要修改state的意图，也就是dispatch 一个action。</p>
+
+<h2 id="总结">总结</h2>
+<ol>
+  <li>action 是个javascript 对象，包含一个type 字段的javascript 对象，它是store 数据的唯一来源。</li>
+  <li>reducer 是一个纯函数，不要在reducer 中做这些事情，修改传入参数state，执行有副作用的操作，调用非穿函数</li>
+  <li>store 负责更新，查询，订阅state 等多个工作。store 是全局唯一的，它将action，reducer，state联系在一起。</li>
+</ol>
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/2016/10/27/we-chat-app-pages-1.html">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> 微信小程序系列「一」
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/2017/06/05/redux-%E4%B9%8B-middleware.html">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        redux 之 middleware
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="copyright">
+    
+      <p>&copy; 2020 蒹葭从风. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>

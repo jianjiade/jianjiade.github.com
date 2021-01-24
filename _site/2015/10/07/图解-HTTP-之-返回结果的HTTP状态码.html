@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>图解 HTTP 之 返回结果的HTTP状态码</title>
+    <meta name="description" content="状态码的类别 | 标示 | 类别 | 原因短语 | | —— | —— | —– | | 1XX | Informational（信息性状态码） | 接收的请求正在处理 | | 2XX | Success （成功状态码）| 请求正常处理完毕 | | 3XX | Redirection （重定向状态码）| 需要附加...">
+    <link rel="canonical" href="http://localhost:4000/2015/10/07/%E5%9B%BE%E8%A7%A3-HTTP-%E4%B9%8B-%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C%E7%9A%84HTTP%E7%8A%B6%E6%80%81%E7%A0%81.html">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  <link rel="alternate" type="application/atom+xml" title="蒹葭从风" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  图解-http-之-返回结果的http状态码">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+    <header class="masthead">
+  <div class="wrap">
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/">蒹葭从风</a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">📖📖📖</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">图解 HTTP 之 返回结果的HTTP状态码
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><div class="author-info">
+    <time class="page-date dt-published" datetime="2015-10-07T03:38:10+08:00"><a class="u-url" href="">October 7, 2015</a>
+</time>
+
+  </div>
+</div>
+
+        
+
+        
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <h2 id="状态码的类别">状态码的类别</h2>
+<p>| 标示 | 类别 | 原因短语 |
+| —— | —— | —– |
+| 1XX | Informational（信息性状态码） | 接收的请求正在处理 |
+| 2XX | Success （成功状态码）| 请求正常处理完毕 |
+| 3XX | Redirection （重定向状态码）| 需要附加操作以完成请求|
+| 4XX | Client Error （客户端错误状态码）| 服务器无法处理请求|
+| 5XX | Server Error （服务端错误状态码）| 服务器处理请求出错|
+<!--more--></p>
+<h2 id="2xx-成功">2XX 成功</h2>
+<h3 id="200-ok">200 ok</h3>
+<p>表示客户端发来的请求在服务端被正常处理了。</p>
+<h3 id="204-no-content">204 No Content</h3>
+<p>该状态码代笔服务器接收的请求已成功处理，但在返回的响应报文中不含实体的主体部分。另外，也不允许返回任何实体的主体。比如：当从浏览器发出请求处理后，返回204响应，那么浏览器显示的页面不发生更新。
+一般在只需要从客户端往服务端发送信息，而对客户端不需要发送新信息内容的情况下使用。</p>
+<h3 id="206-partial-content">206 Partial Content</h3>
+<p>该状态码表示客户端进行了范围请求，而服务器则成功执行了这部分get请求。响应报文中包含由Content-Range指定范围的实体内容。</p>
+<h2 id="3xx-重定向">3XX 重定向</h2>
+<h3 id="301-moved-permanently">301 Moved Permanently</h3>
+<p>永久性重定向。该状态码表示请求的资源已被分配到了新的URI，以后应使用资源现在所指的URI。也就是说，如果已经把资源对应的URI保存为书签了，这时应按Location首字母段提示的URI重新保存。</p>
+<h3 id="302-found">302 Found</h3>
+<p>临时性重定向。该状态码表示请求的资源已经被分配了新的URI，希望用户本次能使用新的URI访问。
+和 <code class="language-plaintext highlighter-rouge">301 Moved Permanently</code>状态码相似，但 <code class="language-plaintext highlighter-rouge">302</code>状态码代笔的是资源不是被永久性移动，只是临时性的。换句话说，已移动的资源对应的URI将来还有可能发生改变。比如，用户把URI保存为书签，但不会像301状态码出现时那样去更新书签，而是仍保留返回302状态码的页面对应的URI。</p>
+<h3 id="303-see-other">303 See Other</h3>
+<p>该状态码表示由于请求对应的资源存在着另一个URI，应使用GET方法定向获取请求的资源。
+303状态码和302Found 状态码有着相同的功能，但是303状态码明确表示客户端应采用GET方法获取资源，这点与302状态码有区别。
+比如：当使用POST方法访问CGI程序，其执行后的处理结果是希望客户端能以GET方法重定向到另外一个URI上去时，返回303状态码，虽然302 Found 状态码也可以实现相同的功能，但这里使用303 状态码是最理想的。</p>
+
+<blockquote>
+  <p>当301 302 303 响应状态码返回时，几乎所有的浏览器都会把POST改成GET，并删除请求报文内的主体，之后请求会自动再次发送。301 302 标准是禁止将POST方法改变成GET方法的，但实际使用时大家都会这么做。</p>
+</blockquote>
+
+<h3 id="304-not-modified">304 Not Modified</h3>
+<p>该状态码表示客户端发送附带请求时，服务器允许请求访问资源，但因发生请求未满足条件的情况后，直接返回304 Not Modified 服务器端资源未改变，可直接使用客户端未过期的缓存。 304 状态码返回时，不包含任何响应的主体部分。304虽然被划分为在3XX类别中，但是和重定向没有关系。</p>
+<h3 id="307-temporary-redirect">307 Temporary Redirect</h3>
+<p>临时重定向。该状态码与 302 Found 有着相同的含义。尽管302标准禁止POST变成GET，但实际上大家并不遵守。
+307会按浏览器标准，不会从POST变成GET。但是，对于处理响应时的行为，每种浏览器有可能出现不同的情况。</p>
+<h2 id="4xx-客户端错误">4XX 客户端错误</h2>
+<h3 id="400-bad-request">400 Bad Request</h3>
+<p>该状态表示请求报文中存在语法错误，当错误发生时，需要修改请求的内容再次发送请求。另外，浏览器会像200OK一样对待该状态码。</p>
+<h3 id="402-unauthorized">402 Unauthorized</h3>
+<p>该状态码表示发送的请求需要有通过HTTP认证的认证信息。另外若之前已经进行过一次请求，则表示用户认证失败。
+返回401 的响应必须包含一个适用于被请求资源的www.Authenticate 首部用以质询challenge用户信息。当浏览器初次接收到401响应，会弹出认证用的对话窗口。</p>
+<h3 id="403-forbidden">403 Forbidden</h3>
+<p>该状态码表明对请求资源的访问被服务器拒绝了。服务端没有必要给出拒绝的详细理由，但如果想作说明的话，可以在实体的主体部分对原因进行描述，这样就能让用户看到了。</p>
+<h3 id="404-not-found">404 Not Found</h3>
+<p>该状态码表明服务器上无法找到请求的资源。除此之外，也可以在服务器端拒绝请求且不想说明理由时使用。</p>
+<h2 id="5xx-服务端错误">5XX 服务端错误</h2>
+<h3 id="500-internal-server-error">500 Internal Server Error</h3>
+<p>该状态表明服务端在执行请求时发生了错误。也有可能是Web 应用存在bug或某些临时故障。</p>
+<h3 id="503-service-unavailable">503 Service Unavailable</h3>
+<p>该状态码表明服务器暂时出于超负载或者正在进行停机维护，现在无法处理该请求。如果事先得知解除以上状况需要的时间，最好写入Retry-After首字母字段返回给客户端。</p>
+
+<blockquote>
+  <p>状态码和状态的不一致
+不少返回的状态码响应都是错误的，但是用户可能察觉不到这点。比如Web应用程序内部发生错误，状态码依然是200OK，这种情况也经常遇到。</p>
+</blockquote>
+
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/2015/10/07/Git%E4%B8%AD%E7%BA%A7%E7%94%A8%E6%88%B7%E7%9A%8425%E4%B8%AA%E6%8F%90%E7%A4%BA.html">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> Git中级用户的25个提示
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/2016/03/29/%E6%90%BA%E7%A8%8B%E9%97%A8%E7%A5%A8%E6%97%A0%E7%BA%BF%E7%BB%84%E6%8B%9B%E8%81%98JD.html">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        携程门票无线组招聘JD
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="copyright">
+    
+      <p>&copy; 2020 蒹葭从风. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>

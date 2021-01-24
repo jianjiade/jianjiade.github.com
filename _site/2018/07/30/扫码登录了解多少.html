@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>扫码登录了解多少</title>
+    <meta name="description" content="周末，想写一个即刻app的微信小程序，通过web端的页面，抓取了一些接口API，但是都需要auth。然后看下，auth从哪获取的，然后发现是扫码之后，通过接口拿到的。 然后分析了一下，也算知道了，扫码登录的一些实现方式。 step 1 通过一个接口获取唯一的UUID，同时这个UUID也是有过期时间的。即刻好像是2...">
+    <link rel="canonical" href="http://localhost:4000/2018/07/30/%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95%E4%BA%86%E8%A7%A3%E5%A4%9A%E5%B0%91.html">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  <link rel="alternate" type="application/atom+xml" title="蒹葭从风" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  扫码登录了解多少">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+    <header class="masthead">
+  <div class="wrap">
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/">蒹葭从风</a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">📖📖📖</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">扫码登录了解多少
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><div class="author-info">
+    <time class="page-date dt-published" datetime="2018-07-30T07:39:12+08:00"><a class="u-url" href="">July 30, 2018</a>
+</time>
+
+  </div>
+</div>
+
+        
+
+        
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <p>周末，想写一个即刻app的微信小程序，通过web端的页面，抓取了一些接口API，但是都需要auth。然后看下，auth从哪获取的，然后发现是扫码之后，通过接口拿到的。
+然后分析了一下，也算知道了，扫码登录的一些实现方式。</p>
+<h4 id="step-1">step 1</h4>
+<p>通过一个接口获取唯一的<code class="language-plaintext highlighter-rouge">UUID</code>，同时这个<code class="language-plaintext highlighter-rouge">UUID</code>也是有过期时间的。即刻好像是2分钟。</p>
+<h4 id="step-2">step 2</h4>
+<p>拿到这个<code class="language-plaintext highlighter-rouge">UUID</code>，再加上一些参数，生成一个二维码。在页面上展示。同时调用验证接口，传入生成的UUID。</p>
+<h4 id="step-3">step 3</h4>
+<p>拿出手机，用已经登录之后的app扫第二步生成的二维码。在手机上点确认。如果点了确认，第二步的验证接口会返回true。这时候，再调用另外一个confirm接口。</p>
+<h4 id="step-4">step 4</h4>
+<p>调用confirm接口，这时候，返回的数据就有<code class="language-plaintext highlighter-rouge">auth</code>的值了，这时候把auth的值保存在<code class="language-plaintext highlighter-rouge">localstorage</code>里，就可以做成登录态了。
+这个就是简单的，扫码登录的原理。
+<!--more--></p>
+<h4 id="挖个坑">挖个坑</h4>
+<p>不过原理很简单，但是实现起来，却不简单。具体的实现，可能会有一些意向不到的问题。虽然，调用即刻的扫码登录，已经成功，但是具体接口API内部怎么实现的，我还不知道，先挖个坑，以后有时间，自己写一个吧。</p>
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/2018/07/25/NPM-Version-%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%B8%AABug.html">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> NPM Version 导致的一个Bug
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/2020/12/31/A-Few-Friendly-Tips-For-Your-JavaScript.html">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        A few firendy tips for your javascript
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="copyright">
+    
+      <p>&copy; 2020 蒹葭从风. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>

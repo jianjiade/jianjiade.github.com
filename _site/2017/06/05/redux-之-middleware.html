@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>redux 之 middleware </title>
+    <meta name="description" content="在回调中分发一个 action ，reducer 收到 action 后，更新 state 并通知 view 重新渲染。单向数据流，看着没什么问题，但是，如果需要打印每一个 action 信息来调试，就得去改 dispatch 或者 reducer 实现，使其具有打印日志的功能。又比如，点击 button 后，需...">
+    <link rel="canonical" href="http://localhost:4000/2017/06/05/redux-%E4%B9%8B-middleware.html">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  <link rel="alternate" type="application/atom+xml" title="蒹葭从风" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+
+  <body class="layout--post  redux-之-middleware">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+    <header class="masthead">
+  <div class="wrap">
+    
+    
+    
+      
+        <div class="site-title animated fadeIn"><a href="/">蒹葭从风</a></div>
+      
+      <p class="site-description animated fadeIn" itemprop="description">📖📖📖</p>
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">redux 之 middleware
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author"><div class="author-info">
+    <time class="page-date dt-published" datetime="2017-06-05T06:58:00+08:00"><a class="u-url" href="">June 5, 2017</a>
+</time>
+
+  </div>
+</div>
+
+        
+
+        
+  <h3 class="page-taxonomies-title">Tags</h3>
+  <ul class="page-taxonomies"><li class="page-taxonomy">redux</li><li class="page-taxonomy">javascript</li>
+  </ul>
+
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <p>在回调中分发一个 action ，reducer 收到 action 后，更新 state 并通知 view 重新渲染。单向数据流，看着没什么问题，但是，如果需要打印每一个 action 信息来调试，就得去改 dispatch 或者 reducer 实现，使其具有打印日志的功能。又比如，点击 button 后，需要先去服务端请求数据，只有等数据返回后，才能重新渲染 view ，此时我们希望 dispatch 或者 reducer 拥有异步请求的功能。再比如，需要异步请求数据返回后，打印一条日志，再请求数据，再打印日志，再渲染。
+<!-- more -->
+面对多样的业务场景，单纯的修改 dispatch 或者 reducer 的代码显然不具有普适性么，我们需要的是可以组合的，自由拔插的插件机制，这一点 redux 借鉴了koa里的 middleware 的思想，另外 redux 中的 reducer 更关心的是数据的转化逻辑，所以 middleware 就是为了增强 dispatch 而出现的。
+展示了应用middleware 后 redux 处理事件的逻辑，每一个 middleware 处理一个相对独立的业务需求，通过串联不同的middleware 实现变化多样的功能。</p>
+
+<p>currying 的middleware 结构的好处主要有以下两点：</p>
+<ol>
+  <li>易串联 currying 函数具有延迟执行的特性，通过不断currying 形成的middleware 可以 i累积参数，再配合 compose 的方式，很容易形成pipeline 来处理数据流。</li>
+  <li>共享store 在 appleMiddleware 执行的过程中，store 还是旧的，但是 因为闭包的存在，applyMiddleware 完成后，所有middleware 内部拿到的store 是最新且相同的。</li>
+</ol>
+
+<p>另外，我们会发现，applyMiddleware 的结构也是一个多层currying 函数，借助compose applyMiddleware 可以用来和其他插件加强createStore 函数。</p>
+
+<h2 id="给middleware-分发store">给middleware 分发store</h2>
+<p>通过如下方式创建一个普通的 store 
+<code class="language-plaintext highlighter-rouge">let newstore = applyMiddleware(mid1, mid2,mid3,...)(createStore)(reducer, null)</code>;
+上述代码执行后，applymiddleware 方法陆续得到了3个参数，第一个是middlewares 数组，第二个是redux 原生的 createStore 最后一个是reducer 。然后，我们可以看到applyMiddleware 利用createStore 和 reducer 创建了一个store。 而store 的getState 方法和 dispatch 方法又分别被直接和间接的赋值给middlewareAPI变量store：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const middlewareAPI = {
+	getState: store.getState,
+	dispatch: (action)=&gt; dispatch(action)
+};
+chain = middlewares.map(middleware =&gt; middleware(middlewareAPI))
+</code></pre></div></div>
+
+<p>然后，让每个middleware 带着middleware API 这个参数分别执行一遍。执行完后，获得chain 数组，f1,f2,f3,…fx,…fn，它保存的对象是第二个箭头函数返回的匿名函数。因为是闭包，每个匿名函数可以访问相同的store， 即middleware API。</p>
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/2017/05/07/%E5%88%9D%E8%AF%86redux.html">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> 初识redux
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/2018/07/25/NPM-Version-%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%B8%AABug.html">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        NPM Version 导致的一个Bug
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="copyright">
+    
+      <p>&copy; 2020 蒹葭从风. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+  </body>
+
+</html>
