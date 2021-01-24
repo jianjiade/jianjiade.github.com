@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 蒹葭从风
+title: 生活の日常
 email: i@jianjia.de
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "xqian.net" # the base hostname & protocol for your site, e.g. http://example.com
