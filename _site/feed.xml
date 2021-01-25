@@ -1,1222 +1,816 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-31T19:19:38+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">蒹葭从风</title><subtitle>📖📖📖</subtitle><entry><title type="html">2020年终复盘</title><link href="http://localhost:4000/2020/12/31/new-year.html" rel="alternate" type="text/html" title="2020年终复盘" /><published>2020-12-31T15:13:29+08:00</published><updated>2020-12-31T15:13:29+08:00</updated><id>http://localhost:4000/2020/12/31/new-year</id><content type="html" xml:base="http://localhost:4000/2020/12/31/new-year.html">&lt;p&gt;又到了写年终总结的时候了，刚毕业那几年每年都会写，断了几年，今年发生的事情太多了，还是记录一下吧。&lt;/p&gt;
-&lt;h2 id=&quot;疫情&quot;&gt;疫情&lt;/h2&gt;
-&lt;p&gt;年初，疫情大规模爆发，在家看新闻，大年三十晚上是最撕裂的一天吧，电视里歌舞升平，现实呢，后来武汉解封问了从武汉回来的同事，我说，春节期间网上流传的视频是真的么？他说是真的，真相远比网上流传的视频要震撼的多的多。怕封路，在家也没呆几天就匆匆的返回上海。一路上见了很多奇奇怪怪的事，比如乡下用土堆封路，比如租售待遇不一样，同一个小区，都是从外地返回，业主可以直接进去，租赁的租户就不可以进去，奇奇怪怪的事太多了。觉得自己被冒犯，可是哪有如何呢，很多人都说自己见证了历史，可是历史不是每天都是么。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your Blog</title>
+    <description></description>
+    <link>http://huangxuan.me/huxblog-boilerplate/</link>
+    <atom:link href="http://huangxuan.me/huxblog-boilerplate/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 25 Jan 2021 19:25:22 +0800</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 19:25:22 +0800</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Example Post</title>
+        <description>&lt;p&gt;JavaScript 有着很奇怪的命名史。&lt;/p&gt;
 
-&lt;h2 id=&quot;生活&quot;&gt;生活&lt;/h2&gt;
-&lt;p&gt;2020对我来说就是角色的转变吧。计划结婚是从5月份开始，这期间要办理户口，买房，订婚，领证，结婚。这一系列的流程真的是不可多言。大概是3.4月份的时候，女票说我们去看看房子吧，最近房价好像挺适合上车的。再加上疫情初期时候的，租售同权伤了我，听她这么一说，再加上她的一个表舅是二手房中介，就咨询了一下，对方说，房子这事如果是自住，早买早好。于是在4月份的时候，算了下手里的现金，加上把理财的钱，七七八八加起来，算了下，差不多够首付，于是开启了看房之旅。&lt;/p&gt;
-&lt;h3 id=&quot;买房&quot;&gt;买房&lt;/h3&gt;
-&lt;p&gt;因为限购，我又没有交社保，所以先看的都是不限购区域，女票先是看中了一套洋房，看样板房，双阳台，各种都满意，但是手里的首付不满意。所以洋房的打算就撤了，后面发现可以直接落户，这样就可以购买限购的区域，于是开始了折腾户口的事情，从开始申请户口，到后面拿到户口本，前前后后，花了差不多一个月吧。五一期间也看中了新房，交了意向金，就等着开盘了。开盘那天是5月30号，天还下着小雨，临时通知我们开盘了，我们急匆匆的赶过去，还好还好，最后选到了心仪的楼层和户型。5月31日，交了首付款。&lt;/p&gt;
-&lt;h3 id=&quot;领证&quot;&gt;领证&lt;/h3&gt;
-&lt;p&gt;6.1领证，也算是意外的，本来是打算12.25去领证的，因为那是在一起的纪念日，但是买房的事赶的急，就临时觉得6.1领证也蛮好的，以后可以2个节日一起过。领证那天也是蛮逗的，因为女票匆匆出门，忘了带户口本。要不是我提醒，估计我们那天就领不了证了，前几天，老婆问我，你2020哪件事印象最深？我说当然是结婚啊。她说，你猜我是哪件事？我说，你肯定是领证那天忘了带户口本。哈哈哈哈哈哈哈哈哈哈哈，她说你真聪明。&lt;/p&gt;
-&lt;h3 id=&quot;定亲&quot;&gt;定亲&lt;/h3&gt;
-&lt;p&gt;从6月份到7月底一直在忙碌这件事。因为是异地，定亲我家里人要过来，我老婆家也不在我工作地，所以，只能两地奔波去忙碌这件事，老婆一起搞，帮忙订酒店，饭店，确定菜单，酒水。最后也不负付出，没出啥大乱子。&lt;/p&gt;
-&lt;h3 id=&quot;回老家结婚&quot;&gt;回老家结婚&lt;/h3&gt;
-&lt;p&gt;十一回去结婚，这个都是我爸在弄，我和老婆就是2个工具人，也没啥事，就是十一家里好冷，哈哈，岳父母到了之后说，怎么那么冷。&lt;/p&gt;
-&lt;h3 id=&quot;扬州&quot;&gt;扬州&lt;/h3&gt;
-&lt;p&gt;国庆假期结束之后，返回上海的时候，发现途径扬州，于是就暂作停留，在扬州玩了2天，十年之后再次去扬州和大学时时不一样的，或许是在江南看多了，到了扬州觉得一般般，不是十年前去的那个扬州了。&lt;/p&gt;
+&lt;p&gt;1995 年，它作为网景浏览器（Netscape Navigator）的一部分首次发布，网景给这个新语言命名为 LiveScript。一年后，为了搭上当时媒体热炒 Java 的顺风车，临时改名为了 JavaScript &lt;em&gt;（当然，Java 和 JavaScript 的关系，就和雷锋和雷锋塔一样 —— 并没有什么关系）&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;工作&quot;&gt;工作&lt;/h2&gt;
-&lt;p&gt;这一年的工作，总体没啥大的变化，除了因为疫情，收入没有涨，其他还行，就是中间穿插了点小插曲。因为组织架构调整的原因，遇到不淑的同事，也算是无话可说，幸好及时调整，也算是及时止损吧。&lt;/p&gt;
-&lt;h2 id=&quot;电池产品&quot;&gt;电池产品&lt;/h2&gt;
-&lt;p&gt;今年是买苹果产品最多的一年&lt;/p&gt;
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;iPhone 12 Pro Max *2&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;iPhone 12 * 1&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Apple Watch 5 * 1&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;iPad Air 3 * 1&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;iPad Air 4 * 1&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;AirPods Pro * 1&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Apple Pencil * 1&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/img/in-post/post-js-version/javascript-java.jpg&quot; alt=&quot;java-javascript&quot; /&gt;
+&lt;small class=&quot;img-hint&quot;&gt;歪果仁的笑话怎么一点都不好笑&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;希望明年少买一些吧，太贵了。&lt;/p&gt;
-
-&lt;h2 id=&quot;其他&quot;&gt;其他&lt;/h2&gt;
-&lt;p&gt;要说遗憾，有很多未完成的吧，也有很多不愉快，比如因为订婚，结婚，意见的分歧，幸好最后大家统一了意见。比如婚纱照，拍了2次还是不满意，最后退款，和影楼闹的不欢而散。比如未能出去玩，2019年底的计划，但是总的来说，2020还是收获很多的。靠自己买房，结婚，我可以傲娇的说，买房我没有啃老，没有用6个钱包，都是我自己一行代码一行代码码出来的。老婆说，以后我们要做一年和五年规划。虽然2021和2020不会有大的差别，寒潮依然在，温度依然是寒冷的，但是仪式感还是要有的。&lt;/p&gt;
-&lt;h2 id=&quot;2021规划&quot;&gt;2021规划&lt;/h2&gt;
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;把户口落到上海&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;学会驾照&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;买个车车&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;第一个五年计划&quot;&gt;第一个五年计划&lt;/h2&gt;
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;要个宝宝&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">又到了写年终总结的时候了，刚毕业那几年每年都会写，断了几年，今年发生的事情太多了，还是记录一下吧。 疫情 年初，疫情大规模爆发，在家看新闻，大年三十晚上是最撕裂的一天吧，电视里歌舞升平，现实呢，后来武汉解封问了从武汉回来的同事，我说，春节期间网上流传的视频是真的么？他说是真的，真相远比网上流传的视频要震撼的多的多。怕封路，在家也没呆几天就匆匆的返回上海。一路上见了很多奇奇怪怪的事，比如乡下用土堆封路，比如租售待遇不一样，同一个小区，都是从外地返回，业主可以直接进去，租赁的租户就不可以进去，奇奇怪怪的事太多了。觉得自己被冒犯，可是哪有如何呢，很多人都说自己见证了历史，可是历史不是每天都是么。</summary></entry><entry><title type="html">A few firendy tips for your javascript</title><link href="http://localhost:4000/2020/12/31/A-Few-Friendly-Tips-For-Your-JavaScript.html" rel="alternate" type="text/html" title="A few firendy tips for your javascript" /><published>2020-12-31T15:13:29+08:00</published><updated>2020-12-31T15:13:29+08:00</updated><id>http://localhost:4000/2020/12/31/A-Few-Friendly-Tips-For-Your-JavaScript</id><content type="html" xml:base="http://localhost:4000/2020/12/31/A-Few-Friendly-Tips-For-Your-JavaScript.html">&lt;p&gt;JavaScript is a very loose programming language. By saying that I mean it’s so easy to write heaps of crap that still works, however it will be hard to maintain and to extend. In this post I’d love to present some quick and friendly tips for JavaScript beginners and it might be able to help you. Now relax and let’s get started.&lt;!--more--&gt;&lt;/p&gt;
-&lt;h3 id=&quot;know-your-target&quot;&gt;Know your target&lt;/h3&gt;
-&lt;p&gt;Before you start writing any code, please spend a few minutes to figure out a simple question: which browsers will you write for?. Knowing your target (browser) can make a big difference because we all know the moderner the browser is, the more power you gain.&lt;/p&gt;
-
-&lt;p&gt;We all know how to loop an array:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var list = [1, 2, 3];
-for (var i = 0; i &amp;lt; list.length; i++) {
-  var current = list[i];
-  // more code omitted...
-}
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Later on you learned the power of jQuery, and then you started to make it simpler:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var list = [1, 2, 3];
-$.each(list, function(index, value) {
-  // more code omitted...
-});
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Now the problem is that a lot developers just don’t know that if you are targeting a browser which supports ES5, you have the full support of wrting
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.forEach&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var list = [1, 2, 3];
-list.forEach(function(element, index) {
-  // more code omitted...
-});
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And if you dig a little bit more, you should find that even IE 9 supports ES5. This may not sound over exciting, but if you check this list, you can find a lot array functions natively supported. You can gain the power of map, reduce and filter etc. This means if you are NOT writing JavaScript for old browsers, you already have much more convenience. Happy?&lt;/p&gt;
-
-&lt;p&gt;Alright, let’s say you are still writing code for old browsers. Worry not, there’re &lt;a href=&quot;https://github.com/es-shims/es5-shim&quot;&gt;shims&lt;/a&gt; which can “trick” old browsers so that you can use ES5 functions on them.&lt;/p&gt;
-
-&lt;p&gt;Thus, know your enemy, know your browser.&lt;/p&gt;
-
-&lt;h3 id=&quot;be-functional&quot;&gt;Be functional&lt;/h3&gt;
-&lt;p&gt;Maybe you have heard of &lt;a href=&quot;http://stackoverflow.com/questions/24279/functional-programming-and-non-functional-programming&quot;&gt;functional programming&lt;/a&gt; already. This could be extremely handy when you write JavaScript.&lt;/p&gt;
-
-&lt;p&gt;A typical example is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.map&lt;/code&gt;, which takes a function as input, and outputs a function in which each element is a projection of the elements from input function. Let’s have a look at the example below.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var oddNumbers = [1, 3, 5];
-oddNumbers.forEach(function(x) {
-  console.log(x);
-}); // output 1, 3, 5
-var evenNumbers = oddNumbers.map(function(x) {
-    return x + 1;
-  })
-  .forEach(function(x) {
-    console.log(x);
-  }); // output 2, 4, 6
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;As you can see that we map each number &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x &lt;/code&gt;in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oddNumbers&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x + 1&lt;/code&gt; so that we got the evenNumbers.
- Functional programming style is usually written in chained methods. Check the following example.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; [
-  { name: 'product 1', price: 10 },
-  { name: 'product 2', price: 20 },
-  { name: 'product 3', price: 30 }
-].filter(function(x) {
-  return x.price &amp;gt; 10;
-})
-.map(function(x) {
-  return x.price;
-})
-.reduce(function(x, y) {
-  return x + y
-}); // 50
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;In the code above, we first filter out products whose prices are greater than 10, then we create an array of prices on the fly, and finally we aggregate the prices to get the total price. This kind of pattern can be very powerful and flexible.&lt;/p&gt;
-
-&lt;h3 id=&quot;lint-your-javascript&quot;&gt;Lint your JavaScript&lt;/h3&gt;
-
-&lt;p&gt;If by now you still don’t know what lint is, you might already have produced a lot “bad code”. As I mentioned in the beginning, JavaScript (actually most dynamic script languages) is very loose, and unlike C#, Java, etc. you only see errors when it gets executed; in other words, you see runtime errors only. This could be quite annoying because some of those errors are human mistakes which are hard to detect by mortals’ eyes. JavaScript linting is a process that can help you avoid cheap errors and improve code quality, standard as well as consistency.&lt;/p&gt;
-
-&lt;p&gt;There’re many tools that can help you with linting, but I strongly recommend &lt;a href=&quot;http://eslint.org/&quot;&gt;ESLint&lt;/a&gt;, since it supports future JavaScript standard such as ES6. You can, of course just install eslint and use it straightaway, but I challenge you to have a look at &lt;a href=&quot;https://webpack.github.io/&quot;&gt;Webpack&lt;/a&gt; or &lt;a href=&quot;http://gulpjs.com/&quot;&gt;Gulp&lt;/a&gt;, and then find a way to make your linting process automatic, which means everytime you save a file, it will be scanned by ESLint.&lt;/p&gt;
-
-&lt;p&gt;In the meantime, I have a bonus for you. Go to have a look at the &lt;a href=&quot;http://ktei.github.io/2016/01/07/(https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)&quot;&gt;ESLint config&lt;/a&gt; provided by Airbnb. You can follow the readme file to configure your ESLint as strict as theirs. So easy to be professional, right?&lt;/p&gt;
-
-&lt;p&gt;Okay, these are just tips of Part 1. It shall be continued…&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;转载自：http://ktei.github.io/2016/01/07/some-general-js-tips-1.html
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">JavaScript is a very loose programming language. By saying that I mean it’s so easy to write heaps of crap that still works, however it will be hard to maintain and to extend. In this post I’d love to present some quick and friendly tips for JavaScript beginners and it might be able to help you. Now relax and let’s get started. Know your target Before you start writing any code, please spend a few minutes to figure out a simple question: which browsers will you write for?. Knowing your target (browser) can make a big difference because we all know the moderner the browser is, the more power you gain.</summary></entry><entry><title type="html">扫码登录了解多少</title><link href="http://localhost:4000/2018/07/30/%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95%E4%BA%86%E8%A7%A3%E5%A4%9A%E5%B0%91.html" rel="alternate" type="text/html" title="扫码登录了解多少" /><published>2018-07-30T07:39:12+08:00</published><updated>2018-07-30T07:39:12+08:00</updated><id>http://localhost:4000/2018/07/30/%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95%E4%BA%86%E8%A7%A3%E5%A4%9A%E5%B0%91</id><content type="html" xml:base="http://localhost:4000/2018/07/30/%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95%E4%BA%86%E8%A7%A3%E5%A4%9A%E5%B0%91.html">&lt;p&gt;周末，想写一个即刻app的微信小程序，通过web端的页面，抓取了一些接口API，但是都需要auth。然后看下，auth从哪获取的，然后发现是扫码之后，通过接口拿到的。
-然后分析了一下，也算知道了，扫码登录的一些实现方式。&lt;/p&gt;
-&lt;h4 id=&quot;step-1&quot;&gt;step 1&lt;/h4&gt;
-&lt;p&gt;通过一个接口获取唯一的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UUID&lt;/code&gt;，同时这个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UUID&lt;/code&gt;也是有过期时间的。即刻好像是2分钟。&lt;/p&gt;
-&lt;h4 id=&quot;step-2&quot;&gt;step 2&lt;/h4&gt;
-&lt;p&gt;拿到这个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UUID&lt;/code&gt;，再加上一些参数，生成一个二维码。在页面上展示。同时调用验证接口，传入生成的UUID。&lt;/p&gt;
-&lt;h4 id=&quot;step-3&quot;&gt;step 3&lt;/h4&gt;
-&lt;p&gt;拿出手机，用已经登录之后的app扫第二步生成的二维码。在手机上点确认。如果点了确认，第二步的验证接口会返回true。这时候，再调用另外一个confirm接口。&lt;/p&gt;
-&lt;h4 id=&quot;step-4&quot;&gt;step 4&lt;/h4&gt;
-&lt;p&gt;调用confirm接口，这时候，返回的数据就有&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;auth&lt;/code&gt;的值了，这时候把auth的值保存在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localstorage&lt;/code&gt;里，就可以做成登录态了。
-这个就是简单的，扫码登录的原理。
-&lt;!--more--&gt;&lt;/p&gt;
-&lt;h4 id=&quot;挖个坑&quot;&gt;挖个坑&lt;/h4&gt;
-&lt;p&gt;不过原理很简单，但是实现起来，却不简单。具体的实现，可能会有一些意向不到的问题。虽然，调用即刻的扫码登录，已经成功，但是具体接口API内部怎么实现的，我还不知道，先挖个坑，以后有时间，自己写一个吧。&lt;/p&gt;</content><author><name></name></author><summary type="html">周末，想写一个即刻app的微信小程序，通过web端的页面，抓取了一些接口API，但是都需要auth。然后看下，auth从哪获取的，然后发现是扫码之后，通过接口拿到的。 然后分析了一下，也算知道了，扫码登录的一些实现方式。 step 1 通过一个接口获取唯一的UUID，同时这个UUID也是有过期时间的。即刻好像是2分钟。 step 2 拿到这个UUID，再加上一些参数，生成一个二维码。在页面上展示。同时调用验证接口，传入生成的UUID。 step 3 拿出手机，用已经登录之后的app扫第二步生成的二维码。在手机上点确认。如果点了确认，第二步的验证接口会返回true。这时候，再调用另外一个confirm接口。 step 4 调用confirm接口，这时候，返回的数据就有auth的值了，这时候把auth的值保存在localstorage里，就可以做成登录态了。 这个就是简单的，扫码登录的原理。 挖个坑 不过原理很简单，但是实现起来，却不简单。具体的实现，可能会有一些意向不到的问题。虽然，调用即刻的扫码登录，已经成功，但是具体接口API内部怎么实现的，我还不知道，先挖个坑，以后有时间，自己写一个吧。</summary></entry><entry><title type="html">NPM Version 导致的一个Bug</title><link href="http://localhost:4000/2018/07/25/NPM-Version-%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%B8%AABug.html" rel="alternate" type="text/html" title="NPM Version 导致的一个Bug" /><published>2018-07-25T07:27:47+08:00</published><updated>2018-07-25T07:27:47+08:00</updated><id>http://localhost:4000/2018/07/25/NPM-Version-%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%B8%AABug</id><content type="html" xml:base="http://localhost:4000/2018/07/25/NPM-Version-%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E4%B8%AABug.html">&lt;h3 id=&quot;起因&quot;&gt;起因&lt;/h3&gt;
-&lt;p&gt;事情是这样的，一大早，测试小哥哥就说，新版的RN项目，怎么发布失败呀，你来解决一下。我打开打包日志，发现有一条错误的日志log。
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;未找到项目依赖的React-Native&lt;/code&gt;
-然后我就慢慢的debug，看看发现是哪里有依赖写的不对，导致的。debug了一上午。删掉本地的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_module&lt;/code&gt; 重新npm install 之后，发现有一个依赖包，始终安装不了。
-提示的报错文案
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm ERR! Invalid version: &quot;2.10&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;然后突然看到2.10，npm version的格式不是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x.x.x&lt;/code&gt;这种么？我怎么会手抖写成了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2.10&lt;/code&gt;呢，于是改成只正确的版本信息，提交之后，就可以打包了。
-&lt;!-- more --&gt;&lt;/p&gt;
-&lt;h3 id=&quot;思考&quot;&gt;思考&lt;/h3&gt;
-&lt;p&gt;该用工具管理的时候，就用工具管理，比如这个version就应该用npm version工具自己管理自己，不要手抖自己去做change。
-不要太相信自己的代码，出了问题，基本上是自己的问题，打包工具，有可能出现问题，但是，自己的代码，出现问题的概率更大。
-工程化构建过程，还需要继续努力。&lt;/p&gt;</content><author><name></name></author><summary type="html">起因 事情是这样的，一大早，测试小哥哥就说，新版的RN项目，怎么发布失败呀，你来解决一下。我打开打包日志，发现有一条错误的日志log。 未找到项目依赖的React-Native 然后我就慢慢的debug，看看发现是哪里有依赖写的不对，导致的。debug了一上午。删掉本地的node_module 重新npm install 之后，发现有一个依赖包，始终安装不了。 提示的报错文案 npm ERR! Invalid version: &quot;2.10&quot;</summary></entry><entry><title type="html">redux 之 middleware</title><link href="http://localhost:4000/2017/06/05/redux-%E4%B9%8B-middleware.html" rel="alternate" type="text/html" title="redux 之 middleware" /><published>2017-06-05T06:58:00+08:00</published><updated>2017-06-05T06:58:00+08:00</updated><id>http://localhost:4000/2017/06/05/redux-%E4%B9%8B-middleware</id><content type="html" xml:base="http://localhost:4000/2017/06/05/redux-%E4%B9%8B-middleware.html">&lt;p&gt;在回调中分发一个 action ，reducer 收到 action 后，更新 state 并通知 view 重新渲染。单向数据流，看着没什么问题，但是，如果需要打印每一个 action 信息来调试，就得去改 dispatch 或者 reducer 实现，使其具有打印日志的功能。又比如，点击 button 后，需要先去服务端请求数据，只有等数据返回后，才能重新渲染 view ，此时我们希望 dispatch 或者 reducer 拥有异步请求的功能。再比如，需要异步请求数据返回后，打印一条日志，再请求数据，再打印日志，再渲染。
-&lt;!-- more --&gt;
-面对多样的业务场景，单纯的修改 dispatch 或者 reducer 的代码显然不具有普适性么，我们需要的是可以组合的，自由拔插的插件机制，这一点 redux 借鉴了koa里的 middleware 的思想，另外 redux 中的 reducer 更关心的是数据的转化逻辑，所以 middleware 就是为了增强 dispatch 而出现的。
-展示了应用middleware 后 redux 处理事件的逻辑，每一个 middleware 处理一个相对独立的业务需求，通过串联不同的middleware 实现变化多样的功能。&lt;/p&gt;
-
-&lt;p&gt;currying 的middleware 结构的好处主要有以下两点：&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;易串联 currying 函数具有延迟执行的特性，通过不断currying 形成的middleware 可以 i累积参数，再配合 compose 的方式，很容易形成pipeline 来处理数据流。&lt;/li&gt;
-  &lt;li&gt;共享store 在 appleMiddleware 执行的过程中，store 还是旧的，但是 因为闭包的存在，applyMiddleware 完成后，所有middleware 内部拿到的store 是最新且相同的。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;另外，我们会发现，applyMiddleware 的结构也是一个多层currying 函数，借助compose applyMiddleware 可以用来和其他插件加强createStore 函数。&lt;/p&gt;
-
-&lt;h2 id=&quot;给middleware-分发store&quot;&gt;给middleware 分发store&lt;/h2&gt;
-&lt;p&gt;通过如下方式创建一个普通的 store 
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let newstore = applyMiddleware(mid1, mid2,mid3,...)(createStore)(reducer, null)&lt;/code&gt;;
-上述代码执行后，applymiddleware 方法陆续得到了3个参数，第一个是middlewares 数组，第二个是redux 原生的 createStore 最后一个是reducer 。然后，我们可以看到applyMiddleware 利用createStore 和 reducer 创建了一个store。 而store 的getState 方法和 dispatch 方法又分别被直接和间接的赋值给middlewareAPI变量store：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const middlewareAPI = {
-	getState: store.getState,
-	dispatch: (action)=&amp;gt; dispatch(action)
-};
-chain = middlewares.map(middleware =&amp;gt; middleware(middlewareAPI))
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;然后，让每个middleware 带着middleware API 这个参数分别执行一遍。执行完后，获得chain 数组，f1,f2,f3,…fx,…fn，它保存的对象是第二个箭头函数返回的匿名函数。因为是闭包，每个匿名函数可以访问相同的store， 即middleware API。&lt;/p&gt;</content><author><name>蒹葭从风</name></author><category term="redux" /><category term="javascript" /><summary type="html">在回调中分发一个 action ，reducer 收到 action 后，更新 state 并通知 view 重新渲染。单向数据流，看着没什么问题，但是，如果需要打印每一个 action 信息来调试，就得去改 dispatch 或者 reducer 实现，使其具有打印日志的功能。又比如，点击 button 后，需要先去服务端请求数据，只有等数据返回后，才能重新渲染 view ，此时我们希望 dispatch 或者 reducer 拥有异步请求的功能。再比如，需要异步请求数据返回后，打印一条日志，再请求数据，再打印日志，再渲染。 面对多样的业务场景，单纯的修改 dispatch 或者 reducer 的代码显然不具有普适性么，我们需要的是可以组合的，自由拔插的插件机制，这一点 redux 借鉴了koa里的 middleware 的思想，另外 redux 中的 reducer 更关心的是数据的转化逻辑，所以 middleware 就是为了增强 dispatch 而出现的。 展示了应用middleware 后 redux 处理事件的逻辑，每一个 middleware 处理一个相对独立的业务需求，通过串联不同的middleware 实现变化多样的功能。</summary></entry><entry><title type="html">初识redux</title><link href="http://localhost:4000/2017/05/07/%E5%88%9D%E8%AF%86redux.html" rel="alternate" type="text/html" title="初识redux" /><published>2017-05-07T00:10:06+08:00</published><updated>2017-05-07T00:10:06+08:00</updated><id>http://localhost:4000/2017/05/07/%E5%88%9D%E8%AF%86redux</id><content type="html" xml:base="http://localhost:4000/2017/05/07/%E5%88%9D%E8%AF%86redux.html">&lt;blockquote&gt;
-  &lt;p&gt;简书 &lt;a href=&quot;http://www.jianshu.com/u/1578eaace5b4&quot;&gt;i蒹葭从风&lt;/a&gt;
-转载请注明原创出处，谢谢！
-如果读完觉得有收获的话，欢迎点赞加关注&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;简单介绍一下redux 的一些术语和基本概念。 action，reducer，state，store。主要是这4个术语。下面依次来说说这些概念。&lt;/p&gt;
-
-&lt;h2 id=&quot;action&quot;&gt;action&lt;/h2&gt;
-&lt;p&gt;action 本质上是javascript 的普通对象。约定action内使用一个字符串类型的type字段来表示将要执行的动作。很多情况下，type将会定义成字符串常量。例如：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const INCREMENT = 'INCREMENT'&lt;/code&gt;，另外，当应用项目很大的时候，建议使用单独的模块或文件来存放action。除了type字段以外，action 对象的结构完全有开发者自己决定。&lt;/p&gt;
-&lt;h2 id=&quot;reducer&quot;&gt;reducer&lt;/h2&gt;
-&lt;p&gt;reducer 是个形式为(state, action) =&amp;gt; state 的纯函数 ，描述了action 如何把state 转变成下一个state。&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;Reducer  这个名称来源于Array.prototype.reduce中的第一个参数，reducer 。reducer 是一个累加器函数，它的参数是上个累加值和数组当前元素，然后通过计算返回本次的累加值。在redux中，state 就是那个累加值，action 就是数组当前的元素。reduce 以及map filter 等方法是函数式编程中十分常用的数组处理方法。
-&lt;!-- more --&gt;
-state 的形式取决于开发者项目的需要，可是是基本类型，数组，是对象，甚至是immutable.js 生成的数据结构。唯一的点是当state 变化时需要返回全新的对象，而不是修改传入的参数。reducer 要用纯函数。那么什么是纯函数。&lt;/p&gt;
-  &lt;h3 id=&quot;纯函数&quot;&gt;纯函数&lt;/h3&gt;
-  &lt;p&gt;纯函数 pure function 是这样一种函数，输入输出数据流全是显式的，显式的意思是，函数与外界交换数据只有一个唯一的渠道，参数和返回值。函数从函数外部接受的所有输入信息都通过参数传递到该函数内部；函数输出到函数外部的所有信息都通过函数返回值传递到该函数外部。
-纯函数不能访问外部变量，它能接触的外部参数只有来自外部的参数。纯函数不能修改参数，因为这样做可能会把一些信息通过输入参数夹带到外界。
-reducer 就是这样的纯函数，永远不要在reducer 里做一下操作：&lt;/p&gt;
-  &lt;ol&gt;
-    &lt;li&gt;修改传入的参数&lt;/li&gt;
-    &lt;li&gt;执行有副作用的操作，比如：请求API和路由跳转&lt;/li&gt;
-    &lt;li&gt;调用非纯函数，如 new Data.now(),Math.random()&lt;/li&gt;
-  &lt;/ol&gt;
+  &lt;p&gt;译者注：&lt;a href=&quot;https://en.wikipedia.org/wiki/JavaScript#History&quot;&gt;wikipedia 的 JavaScript 词条&lt;/a&gt; 更详细的叙述了这段历史&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;函数副作用会给应用带来不可预测的麻烦，产生难以预测的效果。严格的函数式语言要求函数必须无副作用。&lt;/p&gt;
-&lt;h3 id=&quot;不能修改参数-state&quot;&gt;不能修改参数 state&lt;/h3&gt;
-&lt;p&gt;当state 是对象时，修改参数state会影响程序的变更追踪。如果你在项目里使用了react-redux 将redux 程序连接上了UI 组件上，那么你的组件将不能更新，因为react-redux 无法察觉到任何state变化。为什么会发生这样的事情？因为在javascript 上，对象是引用类型，当你改变了参数state 变化前后的state 将会指向同一个内存地址，react-redux 就会以为这是两个相同的state，而不会进行渲染。&lt;/p&gt;
-&lt;h2 id=&quot;store&quot;&gt;store&lt;/h2&gt;
-&lt;p&gt;store 是个全局对象，将action 和reducer 以及state 联系在一起。Store 有一下职能：
-维持应用的state
-提供getState 方法获取state
-提供dispatch 方法更新state
-通过subscribe (listener)注册监听器&lt;/p&gt;
+&lt;p&gt;1996 年，网景将 JavaScript 提交给 &lt;a href=&quot;http://www.ecma-international.org/&quot;&gt;ECMA International（欧洲计算机制造商协会）&lt;/a&gt; 进行标准化，并最终确定出新的语言标准，它就是 ECMAScript。自此，ECMAScript 成为所有 JavaScript 实现的基础，不过，由于 JavaScript 名字的历史原因和市场原因（很显然 ECMAScript 这个名字并不令人喜欢……），现实中我们只用 ECMAScript 称呼标准，平时都还是使用 JavaScript 来称呼这个语言。&lt;/p&gt;
 
-&lt;p&gt;创建store需要从redux 包中导入createStore 这个方法。
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;import  {createStore} from 'redux'&lt;/code&gt; 
-使用reducer 纯函数作为第一个参数创建store
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let store = createStore(reducer)&lt;/code&gt;
-还可以添加第二个参数，作为初始化state&lt;/p&gt;
-&lt;h3 id=&quot;获取和监听&quot;&gt;获取和监听&lt;/h3&gt;
-&lt;p&gt;创建完store 使用它获取数据，并监听变化&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const store = createStore(reducer);
-let currentValue = store.getState();
-store.subscribe(()=&amp;gt;{
-    const previousValue = currentValue;
-    currentValue = store.getState();
-    console.log(previousValue, currentValue)
-})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;以上代码做了这样几件事：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;术语（译者注）：&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;em&gt;标准（Standard）&lt;/em&gt;： 用于定义与其他事物区别的一套规则&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;实现（Implementation）&lt;/em&gt;： 某个标准的具体实施/真实实践&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不过，JavaScript 开发者们并不怎么在乎这些，因为在诞生之后的 15 年里，ECMAScript 并没有多少变化，而且现实中的很多实现都已经和标准大相径庭。其实在第一版的 ECMAScript 发布后，很快又跟进发布了两个版本，但是自从 1999 年 ECMAScript 3 发布后，十年内都没有任何改动被成功添加到官方规范里。取而代之的，是各大浏览器厂商们争先进行自己的语言拓展，web 开发者们别无选择只能去尝试并且支持这些 API。即使是在 2009 年 ECMAScript 5 发布之后，仍然用了数年这些新规范才得到了浏览器的广泛支持，可是大部分开发者还是写着 ECMAScript 3 风格的代码，并不觉得有必要去了解这些规范。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;译者注：&lt;a href=&quot;https://en.wikipedia.org/wiki/ECMAScript#4th_Edition_.28abandoned.29&quot;&gt;ECMAScript 第四版草案&lt;/a&gt;由于太过激进而被抛弃，Adobe 的 &lt;a href=&quot;https://en.wikipedia.org/wiki/ActionScript&quot;&gt;ActionScript 3.0&lt;/a&gt; 是 ECMAScript edition 4 的唯一实现（ Flash 差点就统一 Web 了）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;到了 2012 年，事情突然开始有了转变。大家开始推动停止对旧版本 IE 浏览器的支持，用 ECMAScript 5 (ES5) 风格来编写代码也变得更加可行。与此同时，一个新的 ECMAScript 规范也开始启动。到了这时，大家开始逐渐习惯以对 ECMAScript 规范的版本支持程度来形容各种 JavaScript 实现。在正式被指名为 ECMAScript 第 6 版 (ES6) 之前，这个新的标准原本被称为 ES.Harmony（和谐）。2015 年，负责制定 ECMAScript 规范草案的委员会 TC39 决定将定义新标准的制度改为一年一次，这意味着每个新特性一旦被批准就可以添加，而不像以往一样，规范只有在整个草案完成，所有特性都没问题后才能被定稿。因此，ECMAScript 第 6 版在六月份公布之前，又被重命名为了 ECMAScript 2015（ES2015）&lt;/p&gt;
+
+&lt;p&gt;目前，仍然有很多新的 JavaScript 特性或语法正在提议中，包括 &lt;a href=&quot;https://github.com/wycats/javascript-decorators&quot;&gt;decorators（装饰者）&lt;/a&gt;，&lt;a href=&quot;https://github.com/lukehoban/ecmascript-asyncawait&quot;&gt;async-await（async-await 异步编程模型）&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/jeffmo/es-class-properties&quot;&gt;static class properties（静态类属性）&lt;/a&gt;。它们通常被称为 ES7，ES2016 或者 ES.Next 的特性，不过实际上它们只能被称作提案或者说可能性，毕竟 ES2016 的规范还没有完成，有可能全部都会引入，也有可能一个都没有。TC39 把一个提案分为 4 个阶段，你可以在 &lt;a href=&quot;https://babeljs.io/docs/usage/experimental/&quot;&gt;Babel 的官网&lt;/a&gt; 上查看各个提案目前都在哪个阶段了。&lt;/p&gt;
+
+&lt;p&gt;所以，我们该如何使用这一大堆术语呢？下面的列表或许能帮助到你：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ECMAScript&lt;/strong&gt;：一个由 ECMA International 进行标准化，TC39 委员会进行监督的语言。通常用于指代标准本身。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;：ECMAScript 标准的各种实现的最常用称呼。这个术语并不局限于某个特定版本的 ECMAScript 规范，并且可能被用于任何不同程度的任意版本的 ECMAScript 的实现。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ECMAScript 5 (ES5)&lt;/strong&gt;：ECMAScript 的第五版修订，于 2009 年完成标准化。这个规范在所有现代浏览器中都相当完全的实现了。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ECMAScript 6 (ES6) / ECMAScript 2015 (ES2015)&lt;/strong&gt;：ECMAScript 的第六版修订，于 2015 年完成标准化。这个标准被部分实现于大部分现代浏览器。可以查阅&lt;a href=&quot;http://kangax.github.io/compat-table/es6/&quot;&gt;这张兼容性表&lt;/a&gt;来查看不同浏览器和工具的实现情况。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ECMAScript 2016&lt;/strong&gt;：预计的第七版 ECMAScript 修订，计划于明年夏季发布。这份规范具体将包含哪些特性还没有最终确定&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ECMAScript Proposals&lt;/strong&gt;：被考虑加入未来版本 ECMAScript 标准的特性与语法提案，他们需要经历五个阶段：Strawman（稻草人），Proposal（提议），Draft（草案），Candidate（候选）以及 Finished （完成）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在这整个 Blog 中，我将把目前的 ECMAScript 版本称作 ES6（因为这是大部分开发者最习以为常的），把明年的规范称作 ES2016（因为，与 ES6/ES2015 不同，这个名字将在整个标准化过程中沿用）并且将那些还没有成为 ECMAScript 定稿或草案的未来语言概念称为 ECMAScript 提案或者 JavaScript 提案。我将尽我所能在任何可能引起困惑的场合沿用这篇文章。&lt;/p&gt;
+
+&lt;h4 id=&quot;一些资源&quot;&gt;一些资源&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TC39 的 &lt;a href=&quot;https://github.com/tc39/ecma262&quot;&gt;Github 仓库&lt;/a&gt;上可以看到所有目前公开的提案&lt;/li&gt;
+  &lt;li&gt;如果你还不熟悉 ES6，Babel 有一个&lt;a href=&quot;https://babeljs.io/docs/learn-es2015/&quot;&gt;很不错的特性概览&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;如果你希望深入 ES6，这里有两本很不错的书： Axel Rauschmayer 的 &lt;a href=&quot;http://exploringjs.com/&quot;&gt;Exploring ES6&lt;/a&gt;和 Nicholas Zakas 的 &lt;a href=&quot;https://leanpub.com/understandinges6&quot;&gt;Understanding ECMAScript 6&lt;/a&gt;。Axel 的博客 &lt;a href=&quot;http://www.2ality.com/&quot;&gt;2ality&lt;/a&gt; 也是很不错的 ES6 资源&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;shadow&quot; width=&quot;320&quot; src=&quot;/img/in-post/post-js-version/keep-calm-and-learn-javascript.png&quot; /&gt;
+&lt;small class=&quot;img-hint&quot;&gt;来学 JavaScript 吧！&lt;/small&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;著作权声明&quot;&gt;著作权声明&lt;/h4&gt;
+
+&lt;p&gt;本文译自 &lt;a href=&quot;http://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/&quot;&gt;ES5, ES6, ES2016, ES.Next: What’s going on with JavaScript versioning?&lt;/a&gt; &lt;br /&gt;
+译者 &lt;a href=&quot;http://weibo.com/huxpro&quot;&gt;黄玄&lt;/a&gt;，首次发布于 &lt;a href=&quot;http://huangxuan.me&quot;&gt;Hux Blog&lt;/a&gt;，转载请保留以上链接&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Sep 2015 00:00:00 +0800</pubDate>
+        <link>http://huangxuan.me/huxblog-boilerplate/2015/09/22/js-version/</link>
+        <guid isPermaLink="true">http://huangxuan.me/huxblog-boilerplate/2015/09/22/js-version/</guid>
+        
+        <category>前端开发</category>
+        
+        <category>JavaScript</category>
+        
+        <category>翻译</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Example Post using Keynote Layout</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;下滑这里查看更多内容&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;7月9日，我在公司内部进行了名为「JavaScript 模块化七日谈」分享，并将该 Slides 分享到了微博上。出乎意料地，这篇微博先后被 @JS小组 @尤小右 @寸志 等近 200 人转发，阅读达到 10w，获得了还不错的评价。&lt;/p&gt;
+
+&lt;p&gt;于是，我决定将它重新发到我的博客上，并为它专门制作了适用于 Keynote 展示文稿的新布局。它能自动根据屏幕大小/旋转以一定比例填充屏幕，你也可以直接点击下方链接在新页面打开，来获得更好的、沉浸式的全屏体验&lt;/p&gt;
+
+&lt;h3 id=&quot;watch-slides-&quot;&gt;&lt;a href=&quot;http://huangxuan.me/js-module-7day&quot;&gt;Watch Slides →&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://huangxuan.me/js-module-7day/attach/qrcode.png&quot; width=&quot;350&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small class=&quot;img-hint&quot;&gt;你也可以通过扫描二维码在手机上观看&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;这个 Web Slides 开源在&lt;a href=&quot;https://github.com/Huxpro/js-module-7day&quot;&gt;我的 Github 上&lt;/a&gt;，欢迎你帮助我完善这个展示文稿，你可以给我提 issue，可以 fork &amp;amp; pull request。如果它能帮助到你了，希望你还能不吝啬 star 一下这个项目&lt;/p&gt;
+
+&lt;h3 id=&quot;catalog&quot;&gt;Catalog&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;第一日 上古时期 &lt;strong&gt;&lt;em&gt;Module?&lt;/em&gt;&lt;/strong&gt; 从设计模式说起&lt;/li&gt;
+  &lt;li&gt;第二日 石器时代 &lt;strong&gt;&lt;em&gt;Script Loader&lt;/em&gt;&lt;/strong&gt; 只有封装性可不够，我们还需要加载&lt;/li&gt;
+  &lt;li&gt;第三日 蒸汽朋克 &lt;strong&gt;&lt;em&gt;Module Loader&lt;/em&gt;&lt;/strong&gt; 模块化架构的工业革命&lt;/li&gt;
+  &lt;li&gt;第四日 号角吹响 &lt;strong&gt;&lt;em&gt;CommonJS&lt;/em&gt;&lt;/strong&gt; 征服世界的第一步是跳出浏览器&lt;/li&gt;
+  &lt;li&gt;第五日 双塔奇兵 &lt;strong&gt;&lt;em&gt;AMD/CMD&lt;/em&gt;&lt;/strong&gt; 浏览器环境模块化方案&lt;/li&gt;
+  &lt;li&gt;第六日 精灵宝钻 &lt;strong&gt;&lt;em&gt;Browserify/Webpack&lt;/em&gt;&lt;/strong&gt; 大势所趋，去掉这层包裹！&lt;/li&gt;
+  &lt;li&gt;第七日 王者归来 &lt;strong&gt;&lt;em&gt;ES6 Module&lt;/em&gt;&lt;/strong&gt; 最后的战役&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thanks&quot;&gt;Thanks&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://lab.hakim.se/reveal-js&quot;&gt;Reveal.js&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jul 2015 00:00:00 +0800</pubDate>
+        <link>http://huangxuan.me/huxblog-boilerplate/2015/07/09/js-module-7day/</link>
+        <guid isPermaLink="true">http://huangxuan.me/huxblog-boilerplate/2015/07/09/js-module-7day/</guid>
+        
+        <category>前端开发</category>
+        
+        <category>JavaScript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Example Post with Code Highlight</title>
+        <description>&lt;h2 id=&quot;foreword&quot;&gt;Foreword&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Here comes Module!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;随着网站逐渐变成「互联网应用程序」，嵌入网页的 JavaScript 代码越来越庞大，越来越复杂。网页越来越像桌面程序，需要一个团队分工协作、进度管理、单元测试……我们不得不使用软件工程的方法，来管理网页的业务逻辑。&lt;/p&gt;
+
+&lt;p&gt;于是，JavaScript 的模块化成为迫切需求。在 ES6 Module 来临之前，JavaScript 社区提供了强大支持，尝试在现有的运行环境下，实现模块的效果。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;catalog&quot;&gt;Catalog&lt;/h2&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;获取初始化state和currentValue&lt;/li&gt;
-  &lt;li&gt;使用store.subscribe()方法监听变化&lt;/li&gt;
-  &lt;li&gt;在store.subscribe的回调函数中，将currentValue 传递给previousValue 作为先前的state&lt;/li&gt;
-  &lt;li&gt;获取更新后的state 到curentValue 作为当前的state&lt;/li&gt;
-  &lt;li&gt;打印变化前后的state&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#commonjs--node&quot;&gt;CommonJS &amp;amp; Node&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#history&quot;&gt;History&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#requirejs--amd&quot;&gt;RequireJS &amp;amp; AMD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#seajs--cmd&quot;&gt;SeaJS &amp;amp; CMD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#amd-vs-cmd&quot;&gt;AMD vs CMD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#webpack&quot;&gt;WebPack&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;发起action&quot;&gt;发起action&lt;/h2&gt;
-&lt;p&gt;Store 使用dispatch(action)方法发起action，更新state
-当发起action后，就将action 穿进了store中，使用reducer 纯函数继续执行更新。改变内部state 唯一方法是dispatch 一个action。这样确保了视图和网络请求都不能直接修改state，相反它们只能表达想要修改state的意图，也就是dispatch 一个action。&lt;/p&gt;
+&lt;h2 id=&quot;commonjs--node&quot;&gt;CommonJS &amp;amp; Node&lt;/h2&gt;
 
-&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Javascript: not just for browsers any more! —— CommonJS Slogen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;前端模块化的事实标准之一，2009 年 8 月，&lt;a href=&quot;http://wiki.commonjs.org/wiki/CommonJS&quot;&gt;CommonJS&lt;/a&gt; 诞生。&lt;/p&gt;
+
+&lt;p&gt;CommonJS 本质上只是一套规范（API 定义），而 Node.js 采用并实现了部分规范，CommonJS Module 的写法也因此广泛流行。&lt;/p&gt;
+
+&lt;p&gt;让我们看看 Node 中的实现：&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 由于 Node 原生支持模块的作用域，并不需要额外的 wrapper&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &quot;as though the module was wrapped in a function&quot;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 加载模块（同步加载）&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// 等上一句执行完才会执行&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 暴露 b 函数接口&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// do something&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exports&lt;/code&gt;是一个内置对象，就像&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require&lt;/code&gt;是一个内置加载函数一样。如果你希望直接赋值一个完整的对象或者构造函数，覆写&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;module.exports&lt;/code&gt;就可以了。&lt;/p&gt;
+
+&lt;p&gt;CommonJS 前身叫 ServerJS ，&lt;strong&gt;后来希望能更加 COMMON，成为通吃各种环境的模块规范，改名为 CommonJS&lt;/strong&gt; 。CommonJS 最初只专注于 Server-side 而非浏览器环境，因此它采用了同步加载的机制，这对服务器环境（硬盘 I/O 速度）不是问题，而对浏览器环境（网速）来说并不合适。&lt;/p&gt;
+
+&lt;p&gt;因此，各种适用于浏览器环境的模块框架与标准逐个诞生，他们的共同点是：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;采用异步加载（预先加载所有依赖的模块后回调执行，符合浏览器的网络环境）&lt;/li&gt;
+  &lt;li&gt;虽然代码风格不同，但其实都可以看作 CommonJS Modules 语法的变体。&lt;/li&gt;
+  &lt;li&gt;都在向着 &lt;strong&gt;COMMON&lt;/strong&gt; 的方向进化：&lt;strong&gt;兼容不同风格，兼容浏览器和服务器两种环境&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文接下来要讨论的典例是：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RequireJS &amp;amp; AMD（异步加载，预执行，依赖前置。默认推荐 AMD 写法）&lt;/li&gt;
+  &lt;li&gt;SeaJS &amp;amp; CMD（异步加载，懒执行，依赖就近，默认推荐 CommonJS 写法）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
+
+&lt;!--&lt;h2 id=&quot;history&quot;&gt; History &lt;/h2&gt;--&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;此段落参考自玉伯的 &lt;a href=&quot;https://github.com/seajs/seajs/issues/588&quot;&gt;前端模块化开发那点历史&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;09-10 年间，CommonJS（那时还叫 ServerJS） 社区推出 &lt;a href=&quot;http://wiki.commonjs.org/wiki/Modules&quot;&gt;Modules/1.0&lt;/a&gt; 规范，并且在 Node.js 等环境下取得了很不错的实践。&lt;/p&gt;
+
+&lt;p&gt;09年下半年这帮充满干劲的小伙子们想把 ServerJS 的成功经验进一步推广到浏览器端，于是将社区改名叫 CommonJS，同时激烈争论 Modules 的下一版规范。分歧和冲突由此诞生，逐步形成了三大流派：&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;action 是个javascript 对象，包含一个type 字段的javascript 对象，它是store 数据的唯一来源。&lt;/li&gt;
-  &lt;li&gt;reducer 是一个纯函数，不要在reducer 中做这些事情，修改传入参数state，执行有副作用的操作，调用非穿函数&lt;/li&gt;
-  &lt;li&gt;store 负责更新，查询，订阅state 等多个工作。store 是全局唯一的，它将action，reducer，state联系在一起。&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">简书 i蒹葭从风 转载请注明原创出处，谢谢！ 如果读完觉得有收获的话，欢迎点赞加关注</summary></entry><entry><title type="html">微信小程序系列「一」</title><link href="http://localhost:4000/2016/10/27/we-chat-app-pages-1.html" rel="alternate" type="text/html" title="微信小程序系列「一」" /><published>2016-10-27T08:48:45+08:00</published><updated>2016-10-27T08:48:45+08:00</updated><id>http://localhost:4000/2016/10/27/we-chat-app-pages-1</id><content type="html" xml:base="http://localhost:4000/2016/10/27/we-chat-app-pages-1.html">&lt;p&gt;2016年9月21日，在前端届的确是一个值得纪念的日子。这天，微信放出杀手锏，WeChatApp 又称微信小程序。但是就目前来看，有诸多不便，但是这个事情，依然有很大的意义。因为这是一个生态。从放出来这个消息，就开始关注。加上公司也有内测资格，所以准备写一些文章来聊聊weChatApp开发的一些情况，以及踩到的坑。
-&lt;!--more--&gt;
-首先提到的便是1M的大小限制🚫，其实这个看到1M的大小，觉得没什么，但是作为一个大的公司，那么多业务，总共就1M，那么就比较可怜了。算起来我们BU获得的大小容量就100Kb，100Kb是什么概念，纯代码大概只有3000行左右的代码。但是我们之前的代码压缩之后也有235kb呢。反正容量是一个限制。
-其次：很多官方推荐的API也是不能用的。比如ES6，虽然后来开发工具支持了ES6，但是一些android 机是不支持ES6的，也是呵呵哒。还有官方推荐flex布局，但是在iOS 8及其以下是不支持flex布局的，那怎么办呢？官方给的解释是，自己去做兼容。
-官方很容易改变API，很多官方组件还没上线呢，就已经废弃了。比如一下的截图：
-&lt;img src=&quot;https://raw.githubusercontent.com/iu2fish/_posts/master/media/14779317322951.jpg&quot; alt=&quot;&quot; /&gt;
-这个就比较尴尬了。很多在内测的公司，估计第一版就是按着官方的组件来的，结果还没上架，你就把官方的组件给废弃了，这是拿内测公司当小白鼠呢。但是，就算是当小白鼠，很多公司还是跪舔着争当小白鼠。
-下面来说说开发中遇到的坑&lt;/p&gt;
-&lt;h5 id=&quot;setdata-以数据来驱动view&quot;&gt;setData 以数据来驱动view&lt;/h5&gt;
-&lt;p&gt;在第一版的API中，setData是可以在onLoad的时候，设置数据的，但是更新一次api之后，在onload就不能设置setData了，但是官方的文档，并没有提到这个。还有在setData的时候，如果数据，有多层级。当数据有改变的时候，必须从外层开始设置，例如&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;obj:{
-    innerObj:{}
-}
+  &lt;li&gt;&lt;strong&gt;Modules/1.x&lt;/strong&gt; 流派。这个观点觉得 1.x 规范已经够用，只要移植到浏览器端就好。要做的是新增 &lt;a href=&quot;http://wiki.commonjs.org/wiki/Modules/Transport&quot;&gt;Modules/Transport&lt;/a&gt; 规范，即在浏览器上运行前，先通过转换工具将模块转换为符合 Transport 规范的代码。主流代表是服务端的开发人员。现在值得关注的有两个实现：越来越火的 component 和走在前沿的 es6 module transpiler。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Modules/Async&lt;/strong&gt; 流派。这个观点觉得浏览器有自身的特征，不应该直接用 Modules/1.x 规范。这个观点下的典型代表是 &lt;a href=&quot;http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition&quot;&gt;AMD&lt;/a&gt; 规范及其实现 &lt;a href=&quot;http://requirejs.org/&quot;&gt;RequireJS&lt;/a&gt;。这个稍后再细说。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Modules/2.0&lt;/strong&gt; 流派。这个观点觉得浏览器有自身的特征，不应该直接用 Modules/1.x 规范，但应该尽可能与 Modules/1.x 规范保持一致。这个观点下的典型代表是 BravoJS 和 FlyScript 的作者。BravoJS 作者对 CommonJS 的社区的贡献很大，这份 Modules/2.0-draft 规范花了很多心思。FlyScript 的作者提出了 Modules/Wrappings 规范，这规范是 CMD 规范的前身。可惜的是 BravoJS 太学院派，FlyScript 后来做了自我阉割，将整个网站（flyscript.org）下线了。这个观点在本文中的典型代表就是 SeaJS 和 CMD 了&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;补一嘴：阿里 KISSY 的 KMD 其实跟 AMD 非常类似，只是用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;add&lt;/code&gt;和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use&lt;/code&gt; 两个源自于 YUI Modules 的函数名替换了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;define&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require&lt;/code&gt; ，但其原理更接近 RequireJS ，与 YUI Modules 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Y&lt;/code&gt; 沙箱 Attach 机制并不相同&lt;/p&gt;
+
+&lt;h2 id=&quot;requirejs--amd&quot;&gt;RequireJS &amp;amp; AMD&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition&quot;&gt;AMD (Async Module Definition)&lt;/a&gt; 是 RequireJS 在推广过程中对模块定义的规范化产出。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;RequireJS 主要解决的还是 CommonJS 同步加载脚本不适合浏览器 这个问题：&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//CommonJS&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Employee&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;types/Employee&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//do something&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;  
+
+&lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Employee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//如果 require call 是异步的，那么肯定 error&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//因为在执行这句前 Employee 模块肯定来不及加载进来&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;如果在setData的时候写法这样的话，是无效的。&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;this.setData({
-	innerObj:innerObj
-})
+&lt;blockquote&gt;
+  &lt;p&gt;As the comment indicates above, if require() is async, this code will not work. However, loading scripts synchronously in the browser kills performance. So, what to do?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;所以我们需要 &lt;strong&gt;Function Wrapping&lt;/strong&gt; 来获取依赖并且提前通过 script tag 提前加载进来&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//AMD Wrapper&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;types&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Employee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;//依赖&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Employee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;//这个回调会在所有依赖都被加载后才执行&lt;/span&gt;
+
+        &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;//do something&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+        &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Employee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Programmer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;//return Constructor&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;这样是无效的。
-还有在上面提到，在onload 的时候设置setData无效，那怎么办呢，就像我们的项目，必须设置的话，只能采取官方不推荐或者说，比较猥琐的解决方案。&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;this.data.obj = obj;
+
+&lt;p&gt;当依赖模块非常多时，这种&lt;strong&gt;依赖前置&lt;/strong&gt;的写法会显得有点奇怪，所以 AMD 给了一个语法糖， &lt;strong&gt;simplified CommonJS wrapping&lt;/strong&gt;，借鉴了 CommonJS 的 require 就近风格，也更方便对 CommonJS 模块的兼容：&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dependency1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;dependency1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;dependency2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;dependency2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;虽然官方不推荐，但是也没办法不是吗
-setData在内部的一个队列方案，这个以后会详细的说，这一篇主要是说说小程序有哪些坑。现在有解决方案的，就把解决方案说一下，没有的话，就是吐槽吧。&lt;/p&gt;
-&lt;h4 id=&quot;数据存储&quot;&gt;数据存储&lt;/h4&gt;
-&lt;p&gt;每个微信小程序都可以有自己的本地缓存，可以通过 wx.setStorage（wx.setStorageSync）、wx.getStorage（wx.getStorageSync）、wx.clearStorage（wx.clearStorageSync）可以对本地缓存进行设置、获取和清理。本地缓存最大为10MB。
-在第一版的api中，删除storage是不能指定key进行删除的。那么怎么删除指定的storage呢，只有把当前的key的value值设置为空了。&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;wx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&quot;&lt;/span&gt;
+&lt;p&gt;The AMD loader will parse out the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require('')&lt;/code&gt; calls by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Function.prototype.toString()&lt;/code&gt;, then internally convert the above define call into this:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;dependency1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;dependency2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dependency1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;dependency1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;dependency2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;dependency2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;出于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Function.prototype.toString()&lt;/code&gt;兼容性和性能的考虑，最好的做法还是做一次 &lt;strong&gt;optimized build&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;AMD 和 CommonJS 的核心争议如下：&lt;/p&gt;
+
+&lt;h3 id=&quot;1-执行时机&quot;&gt;1. &lt;strong&gt;执行时机&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Modules/1.0:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 执行到此时，a.js 才同步下载并执行&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;AMD: （使用 require 的语法糖时）&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 在这里，a.js 已经下载并且执行好了&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 使用 require() 并不是 AMD 的推荐写法&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 此处仅仅是取模块 a 的 exports&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;这个确实也够猥琐的，不过后来的更新中，微信提供了，指定key的删除方法。&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;wx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;OBJECT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;p&gt;AMD 里提前下载 a.js 是出于对浏览器环境的考虑，只能采取异步下载，这个社区都认可（Sea.js 也是这么做的）&lt;/p&gt;
+
+&lt;p&gt;但是 AMD 的执行是 Early Executing，而 Modules/1.0 是第一次 require 时才执行。这个差异很多人不能接受，包括持 Modules/2.0 观点的人也不能接受。&lt;/p&gt;
+
+&lt;h3 id=&quot;2-书写风格&quot;&gt;2. &lt;strong&gt;书写风格&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;AMD 推荐的风格并不使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require&lt;/code&gt;，而是通过参数传入，破坏了&lt;strong&gt;依赖就近&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 提前申明了并初始化了所有模块&lt;/span&gt;
+
+    &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//即便根本没用到模块 b，但 b 还是提前执行了。&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/iu2fish/_posts/master/media/14780057339213.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;也提供了，同步删除的方法。
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wx.removeStorageSync(KEY)&lt;/code&gt;
-用法
-&lt;img src=&quot;https://raw.githubusercontent.com/iu2fish/_posts/master/media/14780058000923.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;request请求并发限制&quot;&gt;request请求并发限制&lt;/h4&gt;
-&lt;p&gt;微信为了保证安全，在同时request请求的时候，做了限制，也就是同时并发5个请求，这个暂时无解。只能自己去封装队列来处理请求。
-request没有cancel的事件，只要这个请求发出去了，是不能取消的。&lt;/p&gt;
-&lt;h4 id=&quot;5层url跳转&quot;&gt;5层url跳转&lt;/h4&gt;
-&lt;p&gt;微信也是为了安全考虑，限制了，页面跳转的限制，如果层级大于5个的话，不报错，页面就是白页，官方提供的wx.redirectTo去处理，而不是wx.navigateTo。&lt;/p&gt;
-&lt;h4 id=&quot;view的布局以及wxss&quot;&gt;view的布局以及wxss&lt;/h4&gt;
-&lt;p&gt;官方推荐flex布局，但是当使用form表单的时候，form表单支持flex的并不是很好，使用的时候，要注意。
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;action-sheet&lt;/code&gt; 这个东西，很适合做下面的筛选项，但是这个适合少量的数据，因为不能滚动而且自带的样式也是不好控制。呵呵哒。不过也被官方判了死刑，还未上线就被废弃。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;modal lodding toast&lt;/code&gt;，这3个组件已经被官方判了死刑了，还没上线就被废弃。&lt;/p&gt;
-&lt;h4 id=&quot;wxss的一些限制&quot;&gt;wxss的一些限制&lt;/h4&gt;
-&lt;p&gt;第一版的时候，wxss不支持层级选择，后来更新的时候，官方把这句话给删除了，也不知道是推荐使用层级还是不支持，反正就是把不支持层级选择给删除了。官方的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;changelist&lt;/code&gt;也没提到这块。
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;iconfont&lt;/code&gt;能不能使用？可以，但是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ios&lt;/code&gt;下有兼容性，如果使用在线的iconfont的话，ios不支持，所以为了包的容量，只能&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;base64&lt;/code&gt;在本地了。&lt;/p&gt;
+&lt;p&gt;不过，在笔者看来，风格喜好因人而异，主要还是&lt;strong&gt;预执行&lt;/strong&gt;和&lt;strong&gt;懒执行&lt;/strong&gt;的差异。&lt;/p&gt;
 
-&lt;h4 id=&quot;另外一些别的坑如业务交互&quot;&gt;另外一些别的坑，如业务交互&lt;/h4&gt;
-&lt;p&gt;这块等下一篇再详细介绍&lt;/p&gt;</content><author><name></name></author><category term="WeChatApp" /><category term="javascript" /><category term="react" /><summary type="html">2016年9月21日，在前端届的确是一个值得纪念的日子。这天，微信放出杀手锏，WeChatApp 又称微信小程序。但是就目前来看，有诸多不便，但是这个事情，依然有很大的意义。因为这是一个生态。从放出来这个消息，就开始关注。加上公司也有内测资格，所以准备写一些文章来聊聊weChatApp开发的一些情况，以及踩到的坑。 首先提到的便是1M的大小限制🚫，其实这个看到1M的大小，觉得没什么，但是作为一个大的公司，那么多业务，总共就1M，那么就比较可怜了。算起来我们BU获得的大小容量就100Kb，100Kb是什么概念，纯代码大概只有3000行左右的代码。但是我们之前的代码压缩之后也有235kb呢。反正容量是一个限制。 其次：很多官方推荐的API也是不能用的。比如ES6，虽然后来开发工具支持了ES6，但是一些android 机是不支持ES6的，也是呵呵哒。还有官方推荐flex布局，但是在iOS 8及其以下是不支持flex布局的，那怎么办呢？官方给的解释是，自己去做兼容。 官方很容易改变API，很多官方组件还没上线呢，就已经废弃了。比如一下的截图： 这个就比较尴尬了。很多在内测的公司，估计第一版就是按着官方的组件来的，结果还没上架，你就把官方的组件给废弃了，这是拿内测公司当小白鼠呢。但是，就算是当小白鼠，很多公司还是跪舔着争当小白鼠。 下面来说说开发中遇到的坑 setData 以数据来驱动view 在第一版的API中，setData是可以在onLoad的时候，设置数据的，但是更新一次api之后，在onload就不能设置setData了，但是官方的文档，并没有提到这个。还有在setData的时候，如果数据，有多层级。当数据有改变的时候，必须从外层开始设置，例如 obj:{ innerObj:{} } 如果在setData的时候写法这样的话，是无效的。 this.setData({ innerObj:innerObj }) 这样是无效的。 还有在上面提到，在onload 的时候设置setData无效，那怎么办呢，就像我们的项目，必须设置的话，只能采取官方不推荐或者说，比较猥琐的解决方案。 this.data.obj = obj; 虽然官方不推荐，但是也没办法不是吗 setData在内部的一个队列方案，这个以后会详细的说，这一篇主要是说说小程序有哪些坑。现在有解决方案的，就把解决方案说一下，没有的话，就是吐槽吧。 数据存储 每个微信小程序都可以有自己的本地缓存，可以通过 wx.setStorage（wx.setStorageSync）、wx.getStorage（wx.getStorageSync）、wx.clearStorage（wx.clearStorageSync）可以对本地缓存进行设置、获取和清理。本地缓存最大为10MB。 在第一版的api中，删除storage是不能指定key进行删除的。那么怎么删除指定的storage呢，只有把当前的key的value值设置为空了。 wx.setStorage({ key:&quot;key&quot;, data:&quot;&quot; }) 这个确实也够猥琐的，不过后来的更新中，微信提供了，指定key的删除方法。 wx.removeStorage(OBJECT)</summary></entry><entry><title type="html">eslint 在项目中的使用</title><link href="http://localhost:4000/2016/09/27/eslint-%E5%9C%A8%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8.html" rel="alternate" type="text/html" title="eslint 在项目中的使用" /><published>2016-09-27T09:04:33+08:00</published><updated>2016-09-27T09:04:33+08:00</updated><id>http://localhost:4000/2016/09/27/eslint-%E5%9C%A8%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8</id><content type="html" xml:base="http://localhost:4000/2016/09/27/eslint-%E5%9C%A8%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8.html">&lt;p&gt;前段一段时间，组里搞了jslint，但是，jslint好像没有eslint的配置灵活一些，并且webstrom 也支持eslint，所以就自己搞了一套eslint的检测配置，虽然提交了代码，但是并不强制要求使用。&lt;/p&gt;
+&lt;p&gt;另外，require 2.0 也开始思考异步处理&lt;strong&gt;软依赖&lt;/strong&gt;（区别于一定需要的&lt;strong&gt;硬依赖&lt;/strong&gt;）的问题，提出了这样的方案：&lt;/p&gt;
 
-&lt;!--more--&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
-***
-***
-Rules 规则说明
-'off' 或者 0  - 关闭规则
-'warn' 或者 1 - 开启规则，使用警告级别的错误，warn 不会导致程序退出
-'error' 或者 2 - 开启规则，使用错误级别的错误，error 当被触发的时候，程序会退出
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// 函数体内：&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
- @link http://eslint.cn/docs/rules/
- @link http://eslint.org/docs/rules/
-*/
+&lt;h2 id=&quot;seajs--cmd&quot;&gt;SeaJS &amp;amp; CMD&lt;/h2&gt;
 
+&lt;p&gt;CMD (Common Module Definition) 是 &lt;a href=&quot;http://seajs.org/docs/&quot;&gt;SeaJS&lt;/a&gt; 在推广过程中对模块定义的规范化产出，是 Modules/2.0 流派的支持者，因此 SeaJS 的模块写法尽可能与 Modules/1.x 规范保持一致。&lt;/p&gt;
 
-{
-  &quot;env&quot;: {
-    &quot;browser&quot;: false,
-    &quot;node&quot;:true,
-    &quot;es6&quot;: true
-  },
-  &quot;globals&quot;: {
+&lt;p&gt;不过目前国外的该流派都死得差不多了，RequireJS 目前成为浏览器端模块的事实标准，国内最有名气的就是玉伯的 Sea.js ，不过对国际的推广力度不够。&lt;/p&gt;
 
-  },
-  &quot;rules&quot;: {
-    &quot;camelcase&quot;: 2,
-    &quot;curly&quot;: 0,
-    &quot;brace-style&quot;: [2, &quot;1tbs&quot;],
-    &quot;quotes&quot;: [2, &quot;single&quot;],
-    &quot;semi&quot;: [2, &quot;always&quot;],
-    &quot;array-bracket-spacing&quot;: [2, &quot;never&quot;],
-
-    &quot;space-infix-ops&quot;: 2,
-
-    &quot;no-unused-vars&quot;: [&quot;error&quot;, { &quot;vars&quot;: &quot;all&quot;, &quot;args&quot;: &quot;all&quot; }],
-
-    &quot;comma-dangle&quot;: [2, &quot;only-multiline&quot;],
-    &quot;no-cond-assign&quot;: 2,
-    &quot;no-console&quot;: 2,
-    &quot;no-constant-condition&quot;: 0, // 待确定
-    &quot;no-control-regex&quot;: 0,
-    &quot;no-debugger&quot;: 2,
-    &quot;no-dupe-args&quot;: 2,
-    &quot;no-dupe-keys&quot;: 2,
-    &quot;no-duplicate-case&quot;: 2,
-    &quot;no-empty&quot;: 2,
-    &quot;no-empty-character-class&quot;: 2,
-    &quot;no-ex-assign&quot;: 2,
-    &quot;no-extra-boolean-cast&quot;: 2,
-    &quot;no-extra-semi&quot;: 2,
-    &quot;no-func-assign&quot;: 2,
-    &quot;no-inner-declarations&quot;: 2,
-    &quot;no-prototype-builtins&quot;: 2,
-    &quot;use-isnan&quot;: 2,
-    &quot;valid-jsdoc&quot;: 2,
-    &quot;valid-typeof&quot;: 2,
-    &quot;accessor-pairs&quot;: 2,
-    &quot;array-callback-return&quot;: 2,
-    &quot;block-scoped-var&quot;: 2, // Fix me 是否有必要开启
-    &quot;complexity&quot;: [2, {'max': 4}],
-    &quot;consistent-return&quot;: 0,
-    &quot;default-case&quot;: 2,
-    &quot;dot-location&quot;: [2, &quot;property&quot;],
-    &quot;eqeqeq&quot;: 2,
-    &quot;guard-for-in&quot;: 2, //  不建议使用for in 循环
-    &quot;no-alert&quot;: 2,
-    &quot;no-case-declarations&quot;: 2,
-    &quot;no-else-return&quot;: 0,
-    &quot;no-empty-function&quot;: 2,
-    &quot;no-eq-null&quot;: 2,
-    &quot;no-eval&quot;: 2,
-    &quot;no-extend-native&quot;: 2,
-    &quot;no-extra-bind&quot;: 2,
-    &quot;no-fallthrough&quot;: 2,
-    &quot;no-floating-decimal&quot;: 2,
-    &quot;no-implicit-coercion&quot;: 0,
-    &quot;no-implicit-globals&quot;: 2,
-    &quot;no-implied-eval&quot;: 2,
-    &quot;no-invalid-this&quot;: 0,
-    &quot;no-lone-blocks&quot;: 2,
-    &quot;no-loop-func&quot;: 2,
-    &quot;no-magic-numbers&quot;: 2,
-    &quot;no-multi-spaces&quot;: 2,
-    &quot;no-multi-str&quot;: 2,
-    &quot;no-native-reassign&quot;: 2,
-    &quot;no-new&quot;: 2,
-    &quot;no-new-func&quot;: 2,
-    &quot;no-new-wrappers&quot;: 2,
-    &quot;no-octal&quot;: 2,
-    &quot;no-octal-escape&quot;: 2,
-    &quot;no-param-reassign&quot;: [2, { &quot;props&quot;: false }],
-    &quot;no-redeclare&quot;: 2,
-    &quot;no-return-assign&quot;: 2,
-    &quot;no-script-url&quot;: 2,
-    &quot;no-self-assign&quot;: 2,
-    &quot;no-self-compare&quot;: 2,
-    &quot;no-useless-call&quot;: 2,
-    &quot;wrap-iife&quot;: 2,
-    &quot;block-spacing&quot;: 0,
-    &quot;indent&quot;: [2, &quot;tab&quot;]
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">前段一段时间，组里搞了jslint，但是，jslint好像没有eslint的配置灵活一些，并且webstrom 也支持eslint，所以就自己搞了一套eslint的检测配置，虽然提交了代码，但是并不强制要求使用。</summary></entry><entry><title type="html">团队JavaScript的一些规范</title><link href="http://localhost:4000/2016/08/22/%E5%9B%A2%E9%98%9FJavaScript%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%84%E8%8C%83.html" rel="alternate" type="text/html" title="团队JavaScript的一些规范" /><published>2016-08-22T06:31:29+08:00</published><updated>2016-08-22T06:31:29+08:00</updated><id>http://localhost:4000/2016/08/22/%E5%9B%A2%E9%98%9FJavaScript%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%84%E8%8C%83</id><content type="html" xml:base="http://localhost:4000/2016/08/22/%E5%9B%A2%E9%98%9FJavaScript%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%84%E8%8C%83.html">&lt;h3 id=&quot;命名规范&quot;&gt;命名规范&lt;/h3&gt;
-&lt;h4 id=&quot;全名总体规范&quot;&gt;全名总体规范&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;尽量以英文名命名，避免出现拼写错误&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; //restful返回字段fistchar拼写错误
-  var firstChar = city.fistchar.toUpperCase();
-  //框架写错
-  model.excute(...)
-  //单词拼写不规范
-  detailinfo.rainfos = pts.modeldata.boxs[0].rainfos;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;CMD Specification
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/cmdjs/specification/blob/master/draft/module.md&quot;&gt;English (CMDJS-repo)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/seajs/seajs/issues/242&quot;&gt;Chinese (SeaJS-repo)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;除非特殊情况，如约定，不得以拼音方式命名（包括注释）&lt;/p&gt;
+&lt;/ul&gt;
 
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  //周边
-  zbAction: function (e) {...
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+&lt;p&gt;CMD 主要有 define, factory, require, export 这么几个东西&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;define &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;define(id?, deps?, factory)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;factory &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;factory(require, exports, module)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;require &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require(id)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;exports &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CMD 推荐的 Code Style 是使用 CommonJS 风格的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require&lt;/code&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;这个 require 实际上是一个全局函数，用于加载模块，这里实际就是传入而已&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// 获取模块 a 的接口&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 调用模块 a 的方法&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// 对外提供 foo 属性&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// 对外提供 doSomething 方法&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;但是你也可以使用 AMD 风格，或者使用 return 来进行模块暴露&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;jquery&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// 模块代码...&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// 直接通过 return 暴露接口&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Sea.js 借鉴了 RequireJS 的不少东西，比如将 FlyScript 中的 module.declare 改名为 define 等。Sea.js 更多地来自 Modules/2.0 的观点，但尽可能去掉了学院派的东西，加入了不少实战派的理念。&lt;/p&gt;
+
+&lt;h2 id=&quot;amd-vs-cmd&quot;&gt;AMD vs CMD&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;虽然两者目前都兼容各种风格，但其底层原理并不相同，从其分别推荐的写法就可以看出两者背后原理的不同：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;对于依赖的模块，AMD 是&lt;strong&gt;提前执行&lt;/strong&gt;，CMD 是&lt;strong&gt;懒执行&lt;/strong&gt;。（都是先加载）
+    &lt;ul&gt;
+      &lt;li&gt;CMD 推崇&lt;strong&gt;依赖就近&lt;/strong&gt;，AMD 推崇&lt;strong&gt;依赖前置&lt;/strong&gt;。&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;!--more--&gt;
-&lt;ol&gt;
-  &lt;li&gt;同一含义的命名，统一用一种英文单词，如gologin, gosign, 并且前后端命名一致&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;看代码：&lt;/p&gt;
 
- 	```
- 	//是否登录
- 	isLogin: function () {…
- 	//去登录
-&lt;p&gt;goSignin: function (e) {…&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-4. 尽量不要缩写，非要缩写，英文缩写按音节，并以辅音结尾
-	[查看百度文库缩写](http://wenku.baidu.com/link?url=ml6os4CXN0DqPnwI5DWtMlzldz6dGqpoTa_G8lADWUBWyCoMwgFM23uNrrm1ygCSs1zbbacYN9vOuNcgOzG_VOLJuJRALpzy015QKL2xlqu)
-5. 命名必须望文生意，可读性强
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// AMD 默认推荐&lt;/span&gt;
 
-	```
-	//好
-	 getBoxResById: function (id) {
-	//不好
-	getRes:function(boxid){
+&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 依赖前置，提前执行&lt;/span&gt;
 
-	```
+    &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 
-6. 禁止使用单字符命名
-
-	```
-	var p = this.getPassengerById(id);
-	function a(){...};
-	```
-
-#### 文件及文件夹命名
-1. 全部小写文件名.扩展名
-
-	```
-		citylist.js//注意文件名全小写，避免linux和window不同系统开发时，大小写敏感不一致问题
-	```
-
-2. 以.号分割，不得以_等其它分割符
-
-	```
-	//约定不要这样写
-	require_config.js
-	//推荐都用.分割
-	require.config.js或者requireconfig.js
-	```
-
-4. 同一功能职责集的文件，拆分后，以相同前缀开始，如index.\*.js, booking.\*.js
-
-	```
-	index.js
-	index.search.js //表示对index.js的功能扩展搜索功能
-	index.siderbar.js//表示对index.js的功能扩展边栏功能
-	```
-
-#### 变量（包括实例变量）
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;//采用驼峰命名法
-var ticketService = TicketService.getInstance();&lt;/p&gt;
 
-&lt;p&gt;//私有变量可以_开头，但尽量少用
-var _index = $(e.currentTarget).index() + 1;&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// CMD&lt;/span&gt;
 
-&lt;p&gt;//通过选择器获取的dom节点引用，可以用$开头
-var $bookingContainer = this.$el.find(…);&lt;/p&gt;
+&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 
-&lt;p&gt;//多个变量声明时，推荐采用单var模式声明变量
-var foo = 1,//多个变量竖向排列
-	bar = 2,//推荐=号对齐
-	coo;//未初始化的放在最后&lt;/p&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 
-&lt;p&gt;//变量最好不要用动词开头
-var getTicketCount = 2; //不好的写法&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-#### 方法
-驼峰命名
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;/**&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;点击当地玩乐右边几个标签&lt;/li&gt;
-  &lt;li&gt;@param e&lt;/li&gt;
-  &lt;li&gt;@author jianjia.de
-*/
-activityCategoryAction: function (e) {
-```&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;布尔型getter 以is等开头如isLogin()&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; isLogin: function () {
-            return islogin;
-        },
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./b&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 依赖就近，延迟执行&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;其它getter 以get开头，如getSelectedCity()&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; getSpotId: function () {
-            return spotid;
-        },
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;setter 以set开头，如setLogin()&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;setLogin: function (value) {
-            islogin = value;
-        },
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;private或protected方法可以用_开头，表示外部禁调用_开头的方法&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;getPassengerCount: function (ticketId) {
-  ...//此处省略N行
-  return this._getPassengerCount();
-},
-_getPassengerCount: function (ticketId) {
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;public方法不得以_开头，并且必须有多行注释&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
-* 获取票张数
-* @param ticketId {number}
-* @returns {*}
-*/
-getTicketCount: function (ticketId) {
-  ...//此处省略N行
-},
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;方法参数不得超过4个，否则要柯理化&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//不好，参数太长了
-function foo(arg1, arg2, arg3, arg4, arg5...){
-
-//柯理化
-function foo(options){
-	var arg1 = options.arg1,
-		arg2 = options.arg2,
-		...
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;方法名最好用动词或以动词开头命名&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//获取pageid
-pageid: function (hash) {//不推荐写法，应该用getPageId
-  var pageids = pageId.pageid;
-  return pageids[hash] ? pageids[hash][0] : &quot;&quot;;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;方法名不要缩写&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function getTid(){...}//不好
-function getTicketId(){}//推荐
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;常量&quot;&gt;常量&lt;/h4&gt;
-&lt;p&gt;全部大写，并以_号分割如&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; var MANUAL_SWITCH_TIP = '定位不到当前城市，可手动切换',
-     MANUAL_ENABLE_GEO = '定位未开启&amp;lt;br /&amp;gt;请到手机设置中开启定位服务';
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;字符常量， 如模拟枚举等，值与常量名一样&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;define({
-    //订单页消息常量
-    BOOKING_NOTIFICATION: {
-        BOOKING_LOGIN_INFO_READY: 'BOOKING_LOGIN_INFO_READY',
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;类名&quot;&gt;类名&lt;/h4&gt;
-&lt;p&gt;类名以大驼峰（帕斯卡）命名法，即以大写开头的驼峰命名法
- 实例名小驼峰全名法，（单例）与类名一致&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var TicketCityService = require('TicketCityService');
-var ticketCityService = TicketCityService.getInstance();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;代码格式规范&quot;&gt;代码格式规范&lt;/h3&gt;
-&lt;h4 id=&quot;注释&quot;&gt;注释&lt;/h4&gt;
-&lt;p&gt;单行注释 // 注释内容（注意注释内容行首//后有个空格）
-多行注释（注意注释内容行首*后有个空格）
-/**&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;注释内容
- */&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;注释保持简洁，可读性强，不要冗余&lt;/li&gt;
-  &lt;li&gt;单行注释过长也可另起一行&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;模块文件， 必须包含@description,@author,可选@version,@createDate&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /**
-   * @description 订单填写
-   * @author jianjia.de
-   */
-  define(function (require) {
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;方法注释, 必须包含@description,@param，可选@return,@deprecated&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /**
-  * 渲染推荐门票数据
-  * @param data 门票返回数据
-  * @param city
-  * @deprecated
-  */
-  renderRecommendTicket: function (data, city) {
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;public方法必须有且用多行注释，private/protected方法可用单行注释&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  //根据门票资源id, 获取这张票要填写几个出行人
-  _getPassengerCount: function (ticketId) {
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;model注释，必须包括@description,@author,@version&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /**
-  * @description:  首页精选门票
-  * @author:       jianjia.de
-  * @version 6.18
-  */
-  TicketRecommendProductListModelV1: {
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;如有链接请加上@link或@see&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  //@link http://conf.exmaple.com
- var AdSlider = require('AdSlider'),
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;代码中注释，没必要留着的，要定期清理，除非某些需求必须先放着，以防产品变更&lt;/li&gt;
-  &lt;li&gt;方法内一律使用单行注释，当需要多行时，可用单行叠加&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;待优化或修复的代码前加//TODO和//FIXME注释, 一般编辑器都会有提示&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   for (var i = 0, len = cities.length; i &amp;lt; len; i++) {
-  //Fixme jianjia.de 6.19验证一下，删除以下无用数据
-  ...
-
-  &amp;lt;!--使用方法。TODO:@weiyh.6.20写到js里去,这模板太繁杂了。--&amp;gt;
-&amp;lt;%var useage = _.find(ticket.rainfos || [], function(item) {
-      return item.subtcode == '13' &amp;amp;&amp;amp; _.size(item.desclist);
-  }), qkdesc = '';
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;测试用的一些注释，别提交上来&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;////////////test commit
-
-  return TicketStore;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;引号&quot;&gt;引号&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;字符串统一用单引号，html片断统一用双引号&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  url: 'RecommendProductListV1QOC',
-  var tpl='\&amp;lt;div class=&quot;xxx&quot;\&amp;gt;{...}\&amp;lt;/div\&amp;gt;'
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;json对象的key如果不是关键字，统一不用加引号&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  var config = { buEvn : 'dev'}//buEvn没必要加此号，dev加单引号
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;在网上也有很多争论，大家可以参考道格拉斯大神的说法，双引号看起来很脏，而且要多敲一下shift;&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;数字&quot;&gt;数字&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var count = 100;//整数
-var price = 100.5;//小数
-var price = 100.; //禁止省略小数
-或var price=.5//禁止省略整数
-var count = 0xf5;//可以用十六进制
-var count = 4e23;//可以用科学计数
-var count = 010;//禁止使用八进制写法
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;对象直接量&quot;&gt;对象直接量&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//不好的写法
-var obj = new Object();
-obj.a =1; obj.b=2; obj.c=3;
-//google和crockford推荐写法
-var obj = {a:1, b:2, c:3};
-//或者已有对obj时，用
-_.extend(obj, {a:1,b:2,c:3};
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h4 id=&quot;缩进&quot;&gt;缩进&lt;/h4&gt;
-&lt;p&gt;统一以4个空格缩进排版，请应用.editconfig配置&lt;/p&gt;
-
-&lt;h4 id=&quot;空格&quot;&gt;空格&lt;/h4&gt;
-&lt;p&gt;这说来话长长长，请应用webstorm默认配置，比如=号两边空格。
-参考门票项目views/index.js为范本&lt;/p&gt;
-
-&lt;h4 id=&quot;句末不要偷懒省略分号&quot;&gt;句末不要偷懒省略分号&lt;/h4&gt;
-&lt;p&gt;在某些情况下，会出错或未按预期效果执行，如&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var foo = abc//后面没加分号，导致压缩执行错误
-(function(){})();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function abc(){
-	return
-	{a:1};//两个错1.return后没加;号2.{另起一行
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;左号不得另起一行&quot;&gt;左{号不得另起一行&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;这里是有争论，但是google等公司都明禁止此行为，说来也话长，大家先遵守了&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;对象最后一行以结束&quot;&gt;对象最后一行以“,”结束&lt;/h4&gt;
-&lt;p&gt;这点不强要求，但用React的童鞋必须加，但这已经是ES6规范，避免在新增时，版本控制多一条记录&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var config = {
-	key1:111,
-	key2:222,
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;单行长度&quot;&gt;单行长度&lt;/h4&gt;
-
-&lt;p&gt;一般以笔记本全屏最长不需横向滚屏值为最大容忍值，这里估且约定为150，以不超过100行为最佳
-&lt;em&gt;编辑器可以配置&lt;/em&gt;
-&lt;em&gt;横向滚屏对于纯键盘操作，简直是噩耗，而且代码一个长横条也很不美观&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;单文件行数&quot;&gt;单文件行数&lt;/h4&gt;
-&lt;p&gt;单个文件，最长行数约定最长容忍行数是1500行， 以不超过1000行最佳。
-&lt;em&gt;编辑器可以配置&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;对齐&quot;&gt;对齐&lt;/h4&gt;
-&lt;p&gt;一般js编辑器都会自动对齐和缩进，比如花括号对齐，然而有些模板文件，因为解析不好，需要手工对齐&lt;/p&gt;
-
-&lt;p&gt;还有很多，不穷举了, 用vi的某些少年，注意对齐&lt;/p&gt;
-
-&lt;h4 id=&quot;块嵌套&quot;&gt;块嵌套&lt;/h4&gt;
-&lt;p&gt;块嵌套不宜过深，约定不得超过4层，以不超过3层最佳&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//过多的枪套会让代码呈现麻花状，可读性变差
-if(a){
-	if(b){
-		if(c){
-			if(d){
-				}
-			}
-	}
-}
-//可能改造写法如下
-if(!a) return;//能return则return
-if(!b) return;
-if(c){
-	if(d){
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;空行&quot;&gt;空行&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;方法之间加空行&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /**
-  * 身份证后的X全部转成大写
-  */
-  replaceX: function () {
-  ...
-  },
-
-  /**
-  * 获取出行人数量
-  * @param ticketId {number}
-  * @returns {number}
-  */
-  getPassengerCount: function (ticketId) {
-    ...
-  },
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;方法内，代码逻辑相对独立的行，用空行隔开&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /**
-  * 精选推荐最后,点击查看{cityname}全部{total}条产品事件处理
-  */
-  moreRecommendAction: function (e) {
-    e.preventDefault();
-    var data = this.recommendData;
-    if (!data) return;
-
-    var _cityInfo = this.getSelectedCity();
-    this.traceLog.log(Ubt.UBT_URL.INDEX.INDEX_MORE_RECOMMEND, {
-        hash: 'index',
-        cityid: _cityInfo.id
-    }, Ubt.UBT_KEY.HOME);
-
-    if (data.mcount === 0 &amp;amp;&amp;amp; data.total &amp;gt; 10) {//直接查看cityname全部产品
-        this.listAction(1);
-        return;
-    }
-
-    if (data.isosea) {//国外：查看{国家}全部产品                
-        ...
-    } else if (data.total) {//国内：城市及周边
-       ...            
-    } else {//国内：城市周边
-       ...
-    }
-  },
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;变量/常量归类var时，也用空行隔开&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  var Guider = require('cGuider'),
-
-  var rightMenu = TicketConfig.h5.indexMenu, //首页右侧菜单
-     	 leftBack  = TicketConfig.h5.indexBack; //首页后退是否禁止
-
-  var MANUAL_SWITCH_TIP = '定位不到当前城市，可手动切换',
- 		MANUAL_ENABLE_GEO = '定位未开启&amp;lt;br /&amp;gt;请到手机设置中开启定位服务';
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;常见写法规范&quot;&gt;常见写法规范&lt;/h3&gt;
-&lt;h4 id=&quot;事件&quot;&gt;事件&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;尽量采用委托方式注册事件（都懂的）&lt;/li&gt;
-  &lt;li&gt;事件处理时e.preventDefault()一下，以防止如默认跳转。&lt;/li&gt;
-  &lt;li&gt;事件尽量注册在自定义的class或id下，而不是csser提供的样式名，以防样式变更引起bug&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;events: {
-  &quot;click .tkt-pop-container ul li&quot;: &quot;loginTab&quot;,//不好，UI调整时，样式有可能会变
-  &quot;click .gomorecalendar&quot;: &quot;goCalendar&quot;,//不好，自定义class与csser应用的class混杂
-  &quot;click #ticket-booking-moretickets&quot;: &quot;goMoreTickets&quot;,//可以,但不推荐因为id是唯一的
-  'click .js_checkInsu': 'checkInsu', //好，推荐
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;事件回调函数统一用*action， 如果是序列节点，则以itemAction结尾&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
-* 精选特价点击处理
-* @param e
-*/
-recommendItemAction: function (e) {
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;相同/嵌套的节点，避免以不同的选择器，重复注册为不同的回调
-  &lt;em&gt;现场演示更换优惠券代码&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;amdcmd写法&quot;&gt;amd/cmd写法&lt;/h4&gt;
-&lt;p&gt;同一模块编写时，amd, cmd写法，只能用一种，否则打包后，在某些webview下会报错&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//不行
-+ define(['a'],function(a){ var b=require('b');...});//混着写H5ok,但是...呵
-//可行
-define(['a','b'],function(a,b){...});
-define(function(require){var a=require('a'),b=require('b')});
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;条件循环语句中不要有赋值操作&quot;&gt;条件/循环语句中不要有赋值操作&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if(a=b){...}
-while(el=...){...}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;条件循环语句后跟&quot;&gt;条件/循环语句后跟”{“&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 不好的写法
-if(con)
-	doSomething();
-// 可以容忍的写法
-if(con) doSomething();
-// 推荐的写法1
-if(con) {
-	doSomething();
-}
-// 推荐写法2
-con &amp;amp;&amp;amp; doSomething();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;其它for, while, do..while, try..catch..finally同理&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;尽量使用原生新方法es5而不是框架的方法&quot;&gt;尽量使用原生新方法(es5)，而不是框架的方法&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var arr = [1,2,100,3,20,9];
-找出item&amp;gt;10的集合
-//不推荐的写法
-for(var i=0, tmp=[];i&amp;lt;arr.length;i++){
-	if(arr[i]&amp;gt;10){
-		tmp.push(arr[i]);
-	}
-}
-// 推荐写法1
-var tmp = arr.filter(function(item){return item&amp;gt;10});
-
-// 推荐写法2
-// 在不确定arr是否有值，并且是数组的情况下，可使用如下，但尽量用推荐1，效率高一些
-var tmp = _.filter(arr,function(item){return item&amp;gt;10});
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;其它find, some, every等es5新增的api都用起来&lt;/em&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;禁止使用eval和with&quot;&gt;禁止使用eval和with&lt;/h4&gt;
-&lt;p&gt;效率太差，underscore模板引擎就有这货，干死&lt;/p&gt;
-
-&lt;h4 id=&quot;尽量少用trycatch&quot;&gt;尽量少用try..catch&lt;/h4&gt;
-&lt;p&gt;除非特殊情况，能不用try解决，尽量不要用，加了这货性能就变差了&lt;/p&gt;
-
-&lt;h4 id=&quot;禁止放空异常&quot;&gt;禁止放空异常&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;try{
-	doSomething()
-}catch(ex){
-	//nocode here
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;使用三等而不是双等&quot;&gt;使用三等而不是双等&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//举个小例子（被坑死的案例还有很多）
-null==undefined;//true
-new Object(1)==1;//true;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;选择器&quot;&gt;选择器&lt;/h4&gt;
-&lt;p&gt;尽量减少对dom节点的遍历，已选择过的节点，尽量在模块create/show的时候保存引用&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//不好
-var a = this.$el.find(x a);
-var b = this.$el.find(x b);
-var b2 = this.$el.find(x b);
-
-//应该
-var x = this.$el.find(a),
-a=x.find(a),
-b=x.find(b),
-b2=b;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;全局全变&quot;&gt;全局全变&lt;/h4&gt;
-&lt;p&gt;目前只允许ticket单全局变量，除非是框架已经挂好，如network
-&lt;strong&gt;污染全局变量，初学者容易范的错，老鸟有时也会阴沟翻床，可以用辅助工具检查&lt;/strong&gt;
-&lt;strong&gt;有些JS框架会采用命名空间的形式，来管理单全局变量，但我们项目约定不使用&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var myvar = 1;
-myvar =2;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h4 id=&quot;及时清除记时器&quot;&gt;及时清除记时器&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;setTimeout(function () {
-    self.getGeoInfo(self.getGeoInfoOk, self.getGeoInfoError);
-}, 300);
-
-var tid = setTimeout(function () {
-    self.getGeoInfo(self.getGeoInfoOk, self.getGeoInfoError);
-    clearTimeout(tid);
-}, 300);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;不要在原生原生方法或框架级别的方法的原型链上加东西&quot;&gt;不要在原生原生方法，或框架级别的方法的原型链上加东西&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;建议把getURLParams写到项目的util里
-AbstractStore.prototype.getURLParams = function () {
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;配置抽离&quot;&gt;配置抽离&lt;/h4&gt;
-
-&lt;p&gt;一些常用的配置，请统一写到一个地方&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var config = {
-   logServerIP: '',//日志服务器IP
-   logServerPort: '',//日志服务器端口
-   logAble: false,//是否允许向服务端发送日志
-   consoleAble: true,//是否允许向原生控制台打日志
-   guiderPrintAble: false,//是否允许向facade打印日志
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;js和模板尽量分离&quot;&gt;js和模板尽量分离&lt;/h4&gt;
-
-&lt;p&gt;参考6.19的门票优惠券代码改造前，与改造后代码
-模板只负责渲染,不要有过多的职责
-模板文件过长，有相对逻辑独立的模块进行拆分
-js文件尽量提示给模板渲染所需的所有字段，哪怕是组装出来的&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;以下是出行人列表一段不要的模板代码&lt;/em&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;% if(!!template&amp;amp;&amp;amp;tickets.length==1){ %&amp;gt;
-
-   &amp;lt;% var firstpassenger = passengers[0] || {};
-       var ele;
-       var language = 0;
-       var viewlanguage = 0;
-       if (!!template.name &amp;amp;&amp;amp; !template.ename ){
-           language = 1;
-           viewlangusge = 1;
-       }
-       if (!!template.ename &amp;amp;&amp;amp; !template.name){
-           language = 2;
-           viewlangusge = 2;
-       }
-       if (!!template.ename &amp;amp;&amp;amp; !!template.name ){
-           if(template.ename == template.name){
-               language = 3;
-           }else{
-               language = 4;
-           }
-           viewlanguage = !!firstpassenger.ename &amp;amp;&amp;amp; !firstpassenger.name ? 2 : 1;
-       }
-   %&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;以下推荐的js为模板准备的全部数据&lt;/em&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;this.controldata.islogin = this.isLogin();
-this.controldata.slide = this.isSlide();
-this.controldata.showdetail = this.isShowDetail();//TODO 6.19 是否自动展开详情
-this.controldata.isusecoupon = memcacheBooking.isusecoupon;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;避免重复代码&quot;&gt;避免重复代码&lt;/h4&gt;
-&lt;p&gt;相同的代码，请不要copy过来用，即时是临时方案，也要记得重构, 写上todo&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;events: {
-	returnHandler: function () {
-	 Guider.apply({
-	     hybridCallback: function () {
-	         Guider.home();
-	     },
-	     callback: function () {
-	         self.jump('/html5/');
-	     }
-	 });
-	 return true;
-	},
-	homeHandler: function () {
-	 Guider.apply({
-	     hybridCallback: function () {
-	         Guider.home();
-	     },
-	     callback: function () {
-	         self.jump('/html5/');
-	     }
-	 });
-	 return true;
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;巧用语法&quot;&gt;巧用语法&lt;/h4&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//有点长
-if (typeof json[key] === 'undefined' || json[key] === null) {
-    ...
-}
-//简洁写法
-if (!!json&amp;amp;&amp;amp;json[key]) {
-    ...
-}
-
-//if写法
-if(a){doSomething()};
-//&amp;amp;&amp;amp;写法
-a&amp;amp;&amp;amp;soSomething();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;webpack&quot;&gt;WebPack&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;感谢组里的同事一起合作写的，未完，还待补充。&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">命名规范 全名总体规范 尽量以英文名命名，避免出现拼写错误</summary></entry><entry><title type="html">talk about sesionStorage VS localStorage</title><link href="http://localhost:4000/2016/07/12/talk-about-sesionStorage-VS-localStorage.html" rel="alternate" type="text/html" title="talk about sesionStorage VS localStorage" /><published>2016-07-12T07:35:53+08:00</published><updated>2016-07-12T07:35:53+08:00</updated><id>http://localhost:4000/2016/07/12/talk-about-sesionStorage-VS-localStorage</id><content type="html" xml:base="http://localhost:4000/2016/07/12/talk-about-sesionStorage-VS-localStorage.html">&lt;p&gt;最近业务上，有个需求，当一次回话结束，保存的信息，就要销毁。这个一看，正好是sessionStorage的用法，但是之前并没有了解锅sessionStorage，一直是使用localStorage，并且公司的框架封装好了localStorage的用法，所以，趁此机会了解一下sessionStorage的一些API。&lt;!--more--&gt;
-说起localStorage和sessionStorage，总要说起我们的小甜饼，Cookie。顾名思义，cookie确实非常小，它的大小只有4K左右，是网景公司的前雇员Lou Montulli在1993年3月的发明。它主要用途是用来存放保存登录信息，比如你登录某个网站是可以看到『记住密码』，这通常就是通过在Cookie中存入一段辨别用户的数据来实现的。&lt;/p&gt;
+  &lt;p&gt;working…&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 25 May 2015 00:00:00 +0800</pubDate>
+        <link>http://huangxuan.me/huxblog-boilerplate/2015/05/25/js-module-loader/</link>
+        <guid isPermaLink="true">http://huangxuan.me/huxblog-boilerplate/2015/05/25/js-module-loader/</guid>
+        
+        <category>前端开发</category>
+        
+        <category>JavaScript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Example Post</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;This document is not completed and will be updated anytime.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h3 id=&quot;localstorage-vs-sessionstorage&quot;&gt;localStorage vs sessionStorage&lt;/h3&gt;
-&lt;p&gt;localStorage 是html5 标准中新加入的技术，它并不是什么划时代的新东西。早在IE6的时代，就有一个userDate的东西用于本地存储，而当时考虑到浏览器的兼容性，更通用的方案是使用flash，而如今localStorage被大多数浏览器支持，更多的webview支持，尤其是移动端发展很快。&lt;/p&gt;
+&lt;h2 id=&quot;catagory&quot;&gt;Catagory&lt;/h2&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;特性&lt;/th&gt;
-      &lt;th&gt;Chrome&lt;/th&gt;
-      &lt;th&gt;Firefox&lt;/th&gt;
-      &lt;th&gt;IE&lt;/th&gt;
-      &lt;th&gt;Opera&lt;/th&gt;
-      &lt;th&gt;Safari&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;localStorage&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3.5&lt;/td&gt;
-      &lt;td&gt;8&lt;/td&gt;
-      &lt;td&gt;10.50&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;sessionStorage&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;8&lt;/td&gt;
-      &lt;td&gt;10.50&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#unix&quot;&gt;Unix&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#bell-labs&quot;&gt;Bell Labs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xenix&quot;&gt;Xenix&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#bsd&quot;&gt;BSD&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#freebsd--apple&quot;&gt;FreeBSD &amp;amp; Apple&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#nextstep&quot;&gt;NeXTStep&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#darwin&quot;&gt;Darwin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#posix&quot;&gt;POSIX&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#unix-like&quot;&gt;Unix-like&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#single-unix-specification&quot;&gt;Single Unix Specification&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#apple-ios&quot;&gt;Apple iOS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xnu-kernel&quot;&gt;XNU Kernel&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#linux&quot;&gt;Linux&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#linux-kernel&quot;&gt;Linux Kernel&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#gnu-project&quot;&gt;GNU Project&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#android&quot;&gt;Android&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#android-kernel&quot;&gt;Android Kernel&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#android-rom&quot;&gt;Android ROM&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#chrome-os&quot;&gt;Chrome OS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#chromium-os&quot;&gt;Chromium OS&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;sessionStorage 与localStorage 的接口类似，但保存数据的生命周期与localStorage不同。session对于服务端的童鞋，应该比较了解，但是sessionStorage是个前端的概念。可以将一部分信息存在sessionStorage里，在这次回话结束，页面关闭，sessionStorage中的数据就会被清空。
-localStorage则不同，它是持久化的，换句话说，如果不这是过期时间，localStorage是不会清空的，前提是，不要手动去清除。而sessionStorage则不是这样，页面关闭，会话结束，保存在sessionStorage的信息就会被清除。
-除了这个不同，其他的操作API其实都是一样的，无论是sessionStorage还是localStorage，都有setItem，getItem，clear，removeItem这几个API，具体的见&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage&quot;&gt;mdn官方的文档&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;常用的api&quot;&gt;常用的API&lt;/h3&gt;
+&lt;h2 id=&quot;unix&quot;&gt;Unix&lt;/h2&gt;
 
-&lt;h4 id=&quot;setitem&quot;&gt;setItem&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Unix is a &lt;strong&gt;family&lt;/strong&gt; of multitasking, multiuser computer OS.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;setItem支持k-v这种存值，但是v只能是字符串，所以在存之前，必须要JSON.stringify一下呢。&lt;/p&gt;
+&lt;p&gt;Derive from the original &lt;strong&gt;AT&amp;amp;T Unix&lt;/strong&gt;, Developed in the 1970s at &lt;strong&gt;Bell Labs&lt;/strong&gt; (贝尔实验室), initially intended for use inside the &lt;strong&gt;Bell System&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;localStorage.setItem('TEST','value');
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;bell-labs&quot;&gt;Bell Labs&lt;/h4&gt;
+    &lt;p&gt;Bell 和 AT&amp;amp;A 在那时已经是一家了，可以看到那时的通信公司真是一线 IT 公司呢。
+&lt;strong&gt;C 语言也是 Bell Labs 的产物&lt;/strong&gt;，从一开始就是为了用于 Unix 而设计出来的。所以 Unix （在 73 年用 C 重写）在高校流行后，C 语言也获得了广泛支持。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;AT&amp;amp;T licensed Unix to outside parties(第三方) from the late 1970s, leading to a variety of both &lt;strong&gt;academic&lt;/strong&gt; (最有有名的 BSD ) and &lt;strong&gt;commercial&lt;/strong&gt; (Microsoft Xenix, IBM AIX, SunOS Solaris)&lt;/p&gt;
 
-&lt;h4 id=&quot;getitem&quot;&gt;getItem&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;xenix&quot;&gt;Xenix&lt;/h4&gt;
+    &lt;p&gt;微软 1979 年从 AT&amp;amp;A 授权来的 Unix OS，配合着 x86 成为当时最受欢迎的 Unix 发行版。后来 M$ 和 IBM 合作开发 OS/2 操作系统后放弃，后来最终转向 &lt;strong&gt;Windows NT&lt;/strong&gt;。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;bsd&quot;&gt;BSD&lt;/h4&gt;
+    &lt;p&gt;&lt;strong&gt;Barkeley Software Distribution&lt;/strong&gt;, also called Berkeley Unix. Today the term “BSD” is used to refer to any of the BSD descendants(后代) which together form a branch of the family of Unix-like OS.(共同组成了一个分支)&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;BSD 最大的贡献是在 BSD 中率先增加了虚拟存储器和 Internet 协议&lt;/strong&gt;，其 TCP/IP(IPv4 only) 代码仍然在现代 OS 上使用（ Microsoft Windows and most of the foundation of Apple’s OS X and iOS ）&lt;/li&gt;
+      &lt;li&gt;BSD 后来发展出了众多开源后代，包括 FreeBSD, OpenBSD, NetBSD 等等……很多闭源的 vendor Unix 也都从 BSD 衍生而来。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;freebsd--apple&quot;&gt;FreeBSD &amp;amp; Apple&lt;/h4&gt;
+    &lt;p&gt;FreeBSD 不但是 Open Source BSD 中占有率最高的，还直接影响了 Apple Inc : NeXT Computer 的团队在 FreeBSD 上衍生出了 NeXTSTEP 操作系统，这货后来在 Apple 时期演化成了 &lt;strong&gt;Darwin&lt;/strong&gt; ，这个“达尔文”居然还是个开源系统，而且是 the Core of &lt;strong&gt;Mac OS X&lt;/strong&gt; and &lt;strong&gt;iOS&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;nextstep&quot;&gt;NeXTSTEP&lt;/h4&gt;
+    &lt;p&gt;An &lt;strong&gt;object-oriented&lt;/strong&gt;, multitasking OS. Low-level C but High-level OC language and runtime the first time, combined with an &lt;strong&gt;OO aplication layer&lt;/strong&gt; and including several “kits”.  &lt;br /&gt;
+大家都知道 NeXT 是 Steve Jobs 被 forced out of Apple 后和 a few of his coworkers 创办的，所以 &lt;strong&gt;NeXTSTEP 绝对是证明 Jobs 实力的作品。&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;darwin&quot;&gt;Darwin&lt;/h4&gt;
+    &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Darwin_(operating_system\)&quot;&gt;Darwin&lt;/a&gt;, the core set of components upon which Mac OS X and iOS based, mostly POSIX compatible, but has never, by itself, been certified as being compatible with any version of &lt;strong&gt;POSIX&lt;/strong&gt;. (OS X, since Leopard, has been certified as compatible with the Single UNIX Specification version 3)&lt;br /&gt;
+&lt;strong&gt;所以说 Mac OS X 算是很正统 Unix 的了&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;posix&quot;&gt;POSIX&lt;/h4&gt;
+    &lt;p&gt;可移植操作系统接口, Portable Operating System Interface, is a family of standards specified by the IEEE from maintaining compatibility between OS, defines the API along with Command Line Shells and utility interfaces, for software comaptibility with variants of Unix and other OS.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fully POSIX compliant:
+        &lt;ul&gt;
+          &lt;li&gt;OS X&lt;/li&gt;
+          &lt;li&gt;QNX OS (BlackBerry)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Mostly complicant:
+        &lt;ul&gt;
+          &lt;li&gt;Linux&lt;/li&gt;
+          &lt;li&gt;OpenBSD/FreeBSD&lt;/li&gt;
+          &lt;li&gt;Darwin (Core of &lt;strong&gt;iOS&lt;/strong&gt; &amp;amp; OS X)&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;Android&lt;/strong&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Complicant via compatibility feature （通过兼容功能实现兼容）
+        &lt;ul&gt;
+          &lt;li&gt;Windows NT Kernel
+            &lt;ul&gt;
+              &lt;li&gt;Windows Server 2000, 2003, 2008, 2008 R2, 2012&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Symbian OS (with PIPS)
+            &lt;ul&gt;
+              &lt;li&gt;Symbian was a closed-source OS.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;getItem就比较简单了，只需要localStorage.getItem就可以了，例如：&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;localStorage.getItem('TESTR');
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;unix-like&quot;&gt;Unix-like&lt;/h2&gt;
 
-&lt;h4 id=&quot;removeitem&quot;&gt;removeItem&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;A Unix-like (sometimes referred to as UN*X or *nix) operating system is one that behaves in a manner similar to a Unix system, while not necessarily conforming to or being certified to any version of the &lt;strong&gt;Single UNIX Specification&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;removeItem这个就是移除某个键值的localStorage&lt;/p&gt;
+&lt;p&gt;There is no standard for defining the term.&lt;br /&gt;
+其实 Unix-like 是个相对模糊的概念：&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;localStorage.removeItem('TEST');
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;最狭义的 Unix 单指 Bell Labs’s Unix&lt;/li&gt;
+  &lt;li&gt;稍广义的 Unix 指代所有 Licensed Unix, 即通过了 SUS 的 Unix-like ，比如 OS X&lt;/li&gt;
+  &lt;li&gt;最广义的 Unix 即所有 Unix-like 系统，无论它是否通过过任何 SUS，包括 Linux，BSD Family 等&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4 id=&quot;clear&quot;&gt;clear&lt;/h4&gt;
+&lt;h4 id=&quot;single-unix-specification&quot;&gt;Single UNIX Specification&lt;/h4&gt;
+&lt;p&gt;The Single UNIX Specification (SUS) is the collective name of a family of standards for computer OS, compliance with which is required to &lt;strong&gt;qualify for the name “Unix”&lt;/strong&gt;, like &lt;strong&gt;POSIX&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;clear 这个方法很常用，也很直接，就是直接清空缓存&lt;/p&gt;
+&lt;h4 id=&quot;apple-ios&quot;&gt;Apple iOS&lt;/h4&gt;
+&lt;p&gt;iOS is a &lt;strong&gt;Unix-like OS based on Darwin(BSD)&lt;/strong&gt; and OS X, which share some frameworks including Core Foundation, Founadtion and the Darwin foundation with OS X, but, Unix-like shell access is not avaliable for users and restricted for apps, &lt;strong&gt;making iOS not fully Unix-compatible either.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;localStorage.clear();
+&lt;p&gt;The iOS kernal is &lt;strong&gt;XNU&lt;/strong&gt;, the kernal of Darwin.&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;xnu-kernel&quot;&gt;XNU Kernel&lt;/h4&gt;
+&lt;p&gt;XNU, the acronym(首字母缩写) for &lt;strong&gt;&lt;em&gt;X is Not Unix&lt;/em&gt;&lt;/strong&gt;, which is the &lt;strong&gt;Computer OS Kernel&lt;/strong&gt; developed at Apple Inc since Dec 1996 for use in the Mac OS X and released as free open source software as part of Darwin.&lt;/p&gt;
 
-&lt;p&gt;这就是localStorage最常见的几个API了，不过也是最底层的，但是一般公司不会直接这有去操作localStorage的，因为这个太野蛮了，一点都没封装，比如，直接使用setItem的话，是没设置过期时间的，前面也说到，localStorage的大小有5M左右，但是如果localStorage存放满了，过大了，这时候，用户继续存localStorage的话，怎么办？官方mdn文档没有说，但是也有小伙伴也过一篇文章&lt;a href=&quot;http://crocodillon.com/blog/always-catch-localstorage-security-and-quota-exceeded-errors&quot;&gt;Always catch LocalStorage security and quota exceeded errors&lt;/a&gt;，提到了，如何判断是否存满了&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function isQuotaExceeded(e) {
-  var quotaExceeded = false;
-  if (e) {
-    if (e.code) {
-      switch (e.code) {
-        case 22:
-          quotaExceeded = true;
-          break;
-        case 1014:
-          // Firefox
-          if (e.name === 'NS_ERROR_DOM_QUOTA_REACHED') {
-            quotaExceeded = true;
-          }
-          break;
-      }
-    } else if (e.number === -2147024882) {
-      // Internet Explorer 8
-      quotaExceeded = true;
-    }
-  }
-  return quotaExceeded;
-}
+&lt;h2 id=&quot;linux&quot;&gt;Linux&lt;/h2&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Linux is a Unix-like and mostly POSIX-compliant computer OS.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;除了这些，还有一些特别的判断，还是要自己封装好一些自己常用的API，这有使用起来也不至于那么野蛮粗暴，接下来，等这个项目结束后，我会把封装一些常用的API，放在github上，目前项目提测了，等修完bug，就会来填这个坑。
-期待吧~&lt;/p&gt;</content><author><name></name></author><category term="JavaScript" /><category term="前端" /><summary type="html">最近业务上，有个需求，当一次回话结束，保存的信息，就要销毁。这个一看，正好是sessionStorage的用法，但是之前并没有了解锅sessionStorage，一直是使用localStorage，并且公司的框架封装好了localStorage的用法，所以，趁此机会了解一下sessionStorage的一些API。 说起localStorage和sessionStorage，总要说起我们的小甜饼，Cookie。顾名思义，cookie确实非常小，它的大小只有4K左右，是网景公司的前雇员Lou Montulli在1993年3月的发明。它主要用途是用来存放保存登录信息，比如你登录某个网站是可以看到『记住密码』，这通常就是通过在Cookie中存入一段辨别用户的数据来实现的。</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Unix_timeline.en.svg/800px-Unix_timeline.en.svg.png&quot; alt=&quot;Unix_timeline&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;linux-kernel&quot;&gt;Linux Kernel&lt;/h4&gt;
+
+&lt;p&gt;严格来讲，术语 Linux 只表示 &lt;a href=&quot;http://en.wikipedia.org/wiki/Linux_kernel&quot;&gt;Linux Kernel&lt;/a&gt; 操作系统内核本身，比如说 Android is Based on Linux (Kernel). Linus 编写的也只是这一部分，一个免费的 Unix-like Kernel，并不属于 GNU Project 的一部分。&lt;/p&gt;
+
+&lt;p&gt;但通常把 Linux 作为 Linux Kernel 与大量配合使用的 GNU Project Software Kit (包括 Bash, Lib, Compiler, 以及后期的 GUI etc) 所组合成的 OS 的统称。（包括各类 Distribution 发行版）&lt;/p&gt;
+
+&lt;p&gt;这类操作系统也被称为 &lt;strong&gt;GNU/Linux&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;gnu-project&quot;&gt;GNU Project&lt;/h4&gt;
+
+&lt;p&gt;The GNU Project is a &lt;strong&gt;free software, mass collaboration&lt;/strong&gt; project, which based on the following freedom rights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Users are free to run the software, share (copy, distribute), study and modify it.&lt;/li&gt;
+  &lt;li&gt;GNU software guarantees these freedom-rights legally (via its license).&lt;/li&gt;
+  &lt;li&gt;So it is not only FREE but, more important, FREEDOM.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to ensure that the &lt;em&gt;entire&lt;/em&gt; software of a computer grants its users all freedom rights (use, share, study, modify), even the most fundamental and important part, &lt;strong&gt;the operating system&lt;/strong&gt;, needed to be written.&lt;/p&gt;
+
+&lt;p&gt;This OS is decided to called &lt;strong&gt;GNU (a recursive acronym meaning “GNU is not Unix”)&lt;/strong&gt;. By 1992, the GNU Project had completed all of the major OS components except for their kernel, &lt;em&gt;GNU Hurd&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;With the release of the third-party &lt;strong&gt;Linux Kernel&lt;/strong&gt;, started independently by &lt;em&gt;Linus Torvalds&lt;/em&gt; in 1991 and released under the GPLv0.12 in 1992, for the first time it was possible to run an OS &lt;strong&gt;composed completely of free software&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Though the Linux kernel is not part of the GNU project, it was developed using GCC and other GNU programming tools and was released as free software under the GPL.&lt;/p&gt;
+
+&lt;p&gt;Anyway, there eventually comes to the &lt;strong&gt;GNU/Linux&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;GPL&lt;/strong&gt;: GNU General Public License&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GCC&lt;/strong&gt;: GNU Compiler Collection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;其他与 GPL 相关的自由/开源软件公共许可证：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Mozilla_Public_License&quot;&gt;Mozilla Public License&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/MIT_License&quot;&gt;MIT License&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/BSD_licenses&quot;&gt;BSD Public License&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;GPL 强制后续版本必须是自由软件，而 BSD 的后续可以选择继续开源或者封闭&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Apache_License&quot;&gt;Apache License&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dl2.iteye.com/upload/attachment/0047/4142/d770c85a-49b7-3c7f-8ae2-cbb6451e00d8.png&quot; alt=&quot;Public License&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;android&quot;&gt;Android&lt;/h4&gt;
+
+&lt;p&gt;Android is a mobile OS based on &lt;strong&gt;Linux Kernel&lt;/strong&gt;, so it’s definitely &lt;strong&gt;Unix-like&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux is under GPL so Android has to be open source&lt;/strong&gt;.
+Android’s source code is released by Google under open source licenses, although most Android devices ultimately ship with a combination of open source and proprietary software, including proprietary software developed and licensed by Google &lt;em&gt;(GMS are all proprietary)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;android-kernel&quot;&gt;Android Kernel&lt;/h4&gt;
+
+&lt;p&gt;Android’s kernel is based on one of the Linux kernel’s long-term support (LTS) branches.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android’s variant of the Linux kernel&lt;/strong&gt; has further architectural changes that are implemented by Google outside the typical Linux kernel development cycle, and, certain features that Google contributed back to the Linux kernel. Google maintains a public code repo that contains their experimental work to re-base Android off the latest stable Linux versions.&lt;/p&gt;
+
+&lt;p&gt;Android Kernel 大概是 Linux Kernel 最得意的分支了，Android 也是 Linux 最流行的发行版。不过，也有一些 Google 工程师认为 Android is not Linux in the traditional Unix-like Linux distribution sense. 总之这类东西就算有各种协议也还是很难说清楚，在我理解里 Android Kernel 大概就是 fork Linux Kernel 之后改动和定制比较深的例子。&lt;/p&gt;
+
+&lt;h4 id=&quot;android-rom&quot;&gt;Android ROM&lt;/h4&gt;
+
+&lt;p&gt;既然提到 Android 就不得不提提 Android ROM&lt;/p&gt;
+
+&lt;p&gt;ROM 的本义实际上是只读内存：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Read-only memory&lt;/strong&gt; (ROM) is a class of storage medium used in computers and other electronic devices. Data stored in ROM can only be modified slowly, with difficulty, or not at all, so it is &lt;strong&gt;mainly used to distribute firmware (固件)&lt;/strong&gt; (software that is very closely tied to specific hardware, and unlikely to need frequent updates).&lt;/p&gt;
+
+&lt;p&gt;ROM 在发展的过程中不断进化，从只读演变成了可编程可擦除，并最终演化成了 Flash&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PROM (Programmable read-only memory)&lt;/li&gt;
+  &lt;li&gt;EPROM (Erasable programmable read-only memory)&lt;/li&gt;
+  &lt;li&gt;EEPROM (Electrically erasable programmable read-only memory)
+    &lt;ul&gt;
+      &lt;li&gt;Flash memory (闪存)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Flash 的出现是历史性的，它不但可以作为 ROM 使用，又因其极高的读写速度和稳定性，先后发展成为U盘（USB flash drives）、移动设备主要内置存储，和虐机械硬盘几条街的固态硬盘（SSD），可以说这货基本统一了高端存储市场的技术规格。&lt;/p&gt;
+
+&lt;p&gt;所以我们平时习惯说的 ROM 其实还是来源于老单片机时代，那时的 ROM 真的是写了就很难（需要上电复位）、甚至无法修改，所以那时往 ROM 里烧下去的程序就被称作 firmware ，固件。久而久之，虽然技术发展了，固件仍然指代那些不常需要更新的软件，而 ROM 这个词也就这么沿用下来了。&lt;/p&gt;
+
+&lt;p&gt;所以在 wiki 里是没有 Android ROM 这个词条的，只有 &lt;a href=&quot;http://en.wikipedia.org/wiki/List_of_custom_Android_firmwares&quot;&gt;List of custom Android firmwares&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A custom firmware, also known as a custom ROM, ROM, or custom OS, is an aftermarket distribution of the Android operating system. They are based on the Android Open Source Project (AOSP), hence most are open-sourced releases, unlike proprietary modifications by device manufacturers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;各类 Android ROM 在 Android 词类下也都是属于 &lt;strong&gt;Forks and distributions&lt;/strong&gt; 一类的。&lt;/p&gt;
+
+&lt;p&gt;所以我说，其实各类 Android ROM 也好，fork Android 之流的 YunOS、FireOS 也好，改了多少东西，碰到多深的 codebase ……&lt;strong&gt;其实 ROM 和 Distribution OS 的界限是很模糊的&lt;/strong&gt;，为什么 Android 就不可以是移动时代的 Linux ，为什么 Devlik/ART 就不能是移动时代的 GCC 呢？&lt;/p&gt;
+
+&lt;h4 id=&quot;chrome-os&quot;&gt;Chrome OS&lt;/h4&gt;
+
+&lt;p&gt;Chrome OS is an operating system based on the &lt;strong&gt;Linux kernel&lt;/strong&gt; and designed by Google to work with web applications and installed applications.&lt;/p&gt;
+
+&lt;p&gt;虽然目前只是个 Web Thin Client OS ，但是 RoadMap 非常酷……&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Chrome Packaged Application&lt;/strong&gt; (Support working offline and installed)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Android App Runtime&lt;/strong&gt; (run Android applications natively…fxxking awesome)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;平复一下激动的心情，还是回到正题来：&lt;/p&gt;
+
+&lt;h4 id=&quot;chromium-os&quot;&gt;Chromium OS&lt;/h4&gt;
+
+&lt;p&gt;Chrome OS is based on Chromium OS, which is the open-source development version of Chrome OS, which is a &lt;strong&gt;Linux distribution&lt;/strong&gt; designed by Google.&lt;/p&gt;
+
+&lt;p&gt;For Detail, Chromium OS based on &lt;a href=&quot;http://en.wikipedia.org/wiki/Gentoo_Linux&quot;&gt;Gentoo Linux&lt;/a&gt;, emm…&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Apr 2015 00:00:00 +0800</pubDate>
+        <link>http://huangxuan.me/huxblog-boilerplate/2015/04/14/unix-linux-note/</link>
+        <guid isPermaLink="true">http://huangxuan.me/huxblog-boilerplate/2015/04/14/unix-linux-note/</guid>
+        
+        <category>OS</category>
+        
+        <category>Unix</category>
+        
+        <category>Linux</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Hux Blog</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“Yeah It’s on. ”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;Hux 的 Blog 就这么开通了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#build&quot;&gt;跳过废话，直接看技术实现 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2015 年，Hux 总算有个地方可以好好写点东西了。&lt;/p&gt;
+
+&lt;p&gt;作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。&lt;/p&gt;
+
+&lt;p&gt;在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的&lt;a href=&quot;http://huangxuan.me/portfolio&quot;&gt;个人网站&lt;/a&gt;是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！&lt;/p&gt;
+
+&lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;正文&quot;&gt;正文&lt;/h2&gt;
+
+&lt;p&gt;接下来说说搭建这个博客的技术细节。&lt;/p&gt;
+
+&lt;p&gt;正好之前就有关注过 &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; + &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 快速 Building Blog 的技术方案，非常轻松时尚。&lt;/p&gt;
+
+&lt;p&gt;其优点非常明显：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 带来的优雅写作体验&lt;/li&gt;
+  &lt;li&gt;非常熟悉的 Git workflow ，&lt;strong&gt;Git Commit 即 Blog Post&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
+    &lt;ul&gt;
+      &lt;li&gt;如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Jekyll 的自定制非常容易，基本就是个模版引擎&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本来觉得最大的缺点可能是 GitHub 在国内访问起来太慢，所以第二天一起床就到 GitCafe(Chinese GitHub Copy) 迁移了一个&lt;a href=&quot;http://huxpro.gitcafe.io&quot;&gt;镜像&lt;/a&gt;出来，结果还是巨慢。&lt;/p&gt;
+
+&lt;p&gt;哥哥可是个前端好嘛！ 果断开 Chrome DevTool 查了下网络请求，原来是 &lt;strong&gt;pending 在了 Google Fonts&lt;/strong&gt; 上，页面渲染一直被阻塞到请求超时为止，难怪这么慢。&lt;br /&gt;
+忍痛割爱，只好把 Web Fonts 去了（反正超时看到的也只能是 fallback ），果然一下就正常了，而且 GitHub 和 GitCafe 对比并没有感受到明显的速度差异，虽然 github 的 ping 值明显要高一些，达到了 300ms，于是用 DNSPOD 优化了一下速度。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;配置的过程中也没遇到什么坑，基本就是 Git 的流程，相当顺手&lt;/p&gt;
+
+&lt;p&gt;大的 Jekyll 主题上直接 fork 了 Clean Blog（这个主题也相当有名，就不多赘述了。唯一的缺点大概就是没有标签支持，于是我给它补上了。）&lt;/p&gt;
+
+&lt;p&gt;本地调试环境需要 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;，结果 rubygem 的源居然被墙了……后来手动改成了我大淘宝的镜像源才成功&lt;/p&gt;
+
+&lt;p&gt;Theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Less 里改就好了（平时更习惯 SCSS 些），&lt;strong&gt;不过其实我一直觉得 Bootstrap 在移动端的体验做得相当一般，比我在淘宝参与的团队 CSS 框架差多了……&lt;/strong&gt;所以为了体验，也补了不少 CSS 进去&lt;/p&gt;
+
+&lt;p&gt;最后就进入了耗时反而最长的&lt;strong&gt;做图、写字&lt;/strong&gt;阶段，也算是进入了&lt;strong&gt;写博客&lt;/strong&gt;的正轨，因为是类似 Hack Day 的方式去搭这个站的，所以折腾折腾着大半夜就过去了。&lt;/p&gt;
+
+&lt;p&gt;第二天考虑中文字体的渲染，fork 了 &lt;a href=&quot;http://www.typeisbeautiful.com/&quot;&gt;Type is Beautiful&lt;/a&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font&lt;/code&gt; CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。&lt;/p&gt;
+
+&lt;h2 id=&quot;后记&quot;&gt;后记&lt;/h2&gt;
+
+&lt;p&gt;回顾这个博客的诞生，纯粹是出于个人兴趣。在知乎相关问题上回答并获得一定的 star 后，我决定把这个博客主题当作一个小小的开源项目来维护。&lt;/p&gt;
+
+&lt;p&gt;在经历 v1.0 - v1.5 的蜕变后，这个博客主题愈发完整，不但增加了诸多 UI 层的优化（opinionated）；在代码层面，更加丰富的配置项也使得这个主题拥有了更好的灵活性与可拓展性。而作为一个开源项目，我也积极的为其完善文档与解决 issue。&lt;/p&gt;
+
+&lt;p&gt;如果你恰好逛到了这里，希望你也能喜欢这个博客主题。&lt;/p&gt;
+
+&lt;p&gt;—— Hux 后记于 2015.10&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Jan 2015 20:00:00 +0800</pubDate>
+        <link>http://huangxuan.me/huxblog-boilerplate/2015/01/29/hello-2015/</link>
+        <guid isPermaLink="true">http://huangxuan.me/huxblog-boilerplate/2015/01/29/hello-2015/</guid>
+        
+        <category>生活</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
