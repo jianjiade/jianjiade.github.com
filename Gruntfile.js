@@ -59,6 +59,17 @@ module.exports = function(grunt) {
                 }
             },
         },
+        cssmin: { 
+            target: {
+              files: [{
+                expand: true,
+                cwd: 'css/',
+                src: ['*.css', '!*.min.css'],
+                dest: 'css/',
+                ext: '.min.css'
+              }]
+            }
+          }
     });
 
     // Load the plugins.
@@ -66,8 +77,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
+    grunt.registerTask('default', ['uglify', 'less', 'usebanner','cssmin']);
 
 };
