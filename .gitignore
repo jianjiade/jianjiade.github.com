@@ -1,0 +1,20 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+#node_modules
+
+# production
+.idea
+
+# misc
+.DS_Store
+npm-debug.log
+.vscode
+_site
+mock/test.json
+ttd-mobile-dist-nodejs.iml
+src/ttd/testares/
+node_modules/
+yarn.lock
+yarn-error.log
+package-lock.json
