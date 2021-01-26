@@ -1,0 +1,9 @@
+I"<p>今天测试提了一个bug，在ipad上的click事件无效，要两次click才可以，查了下资料，发现要兼容下，才可以。<!--more--></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$('.documeng').on('click touchstart',function (e) {
+	//do something
+});
+</code></pre></div></div>
+<p>这样才可以。</p>
+
+<p><a href="http://stackoverflow.com/questions/7892863/jquery-click-not-working-with-ipad">解决方案来自：stackoverflow</a></p>
+:ET

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="//img/favicon.ico">
+
+    <title>初识redux - 生活的日常</title>
+
+    <link rel="canonical" href="https://xqian.net//2017/05/07/%E5%88%9D%E8%AF%86redux/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="//css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="//css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="//">生活的日常</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="//">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="//about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="//tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="//img/home-bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('//img/home-bg.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>初识redux</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 生活的日常 on May 7, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<blockquote>
+  <p>简书 <a href="http://www.jianshu.com/u/1578eaace5b4">i蒹葭从风</a>
+转载请注明原创出处，谢谢！
+如果读完觉得有收获的话，欢迎点赞加关注</p>
+</blockquote>
+
+<p>简单介绍一下redux 的一些术语和基本概念。 action，reducer，state，store。主要是这4个术语。下面依次来说说这些概念。</p>
+
+<h2 id="action">action</h2>
+<p>action 本质上是javascript 的普通对象。约定action内使用一个字符串类型的type字段来表示将要执行的动作。很多情况下，type将会定义成字符串常量。例如：<code class="language-plaintext highlighter-rouge">const INCREMENT = 'INCREMENT'</code>，另外，当应用项目很大的时候，建议使用单独的模块或文件来存放action。除了type字段以外，action 对象的结构完全有开发者自己决定。</p>
+<h2 id="reducer">reducer</h2>
+<p>reducer 是个形式为(state, action) =&gt; state 的纯函数 ，描述了action 如何把state 转变成下一个state。</p>
+<blockquote>
+  <p>Reducer  这个名称来源于Array.prototype.reduce中的第一个参数，reducer 。reducer 是一个累加器函数，它的参数是上个累加值和数组当前元素，然后通过计算返回本次的累加值。在redux中，state 就是那个累加值，action 就是数组当前的元素。reduce 以及map filter 等方法是函数式编程中十分常用的数组处理方法。
+<!-- more -->
+state 的形式取决于开发者项目的需要，可是是基本类型，数组，是对象，甚至是immutable.js 生成的数据结构。唯一的点是当state 变化时需要返回全新的对象，而不是修改传入的参数。reducer 要用纯函数。那么什么是纯函数。</p>
+  <h3 id="纯函数">纯函数</h3>
+  <p>纯函数 pure function 是这样一种函数，输入输出数据流全是显式的，显式的意思是，函数与外界交换数据只有一个唯一的渠道，参数和返回值。函数从函数外部接受的所有输入信息都通过参数传递到该函数内部；函数输出到函数外部的所有信息都通过函数返回值传递到该函数外部。
+纯函数不能访问外部变量，它能接触的外部参数只有来自外部的参数。纯函数不能修改参数，因为这样做可能会把一些信息通过输入参数夹带到外界。
+reducer 就是这样的纯函数，永远不要在reducer 里做一下操作：</p>
+  <ol>
+    <li>修改传入的参数</li>
+    <li>执行有副作用的操作，比如：请求API和路由跳转</li>
+    <li>调用非纯函数，如 new Data.now(),Math.random()</li>
+  </ol>
+</blockquote>
+
+<p>函数副作用会给应用带来不可预测的麻烦，产生难以预测的效果。严格的函数式语言要求函数必须无副作用。</p>
+<h3 id="不能修改参数-state">不能修改参数 state</h3>
+<p>当state 是对象时，修改参数state会影响程序的变更追踪。如果你在项目里使用了react-redux 将redux 程序连接上了UI 组件上，那么你的组件将不能更新，因为react-redux 无法察觉到任何state变化。为什么会发生这样的事情？因为在javascript 上，对象是引用类型，当你改变了参数state 变化前后的state 将会指向同一个内存地址，react-redux 就会以为这是两个相同的state，而不会进行渲染。</p>
+<h2 id="store">store</h2>
+<p>store 是个全局对象，将action 和reducer 以及state 联系在一起。Store 有一下职能：
+维持应用的state
+提供getState 方法获取state
+提供dispatch 方法更新state
+通过subscribe (listener)注册监听器</p>
+
+<p>创建store需要从redux 包中导入createStore 这个方法。
+<code class="language-plaintext highlighter-rouge">import  {createStore} from 'redux'</code> 
+使用reducer 纯函数作为第一个参数创建store
+<code class="language-plaintext highlighter-rouge">let store = createStore(reducer)</code>
+还可以添加第二个参数，作为初始化state</p>
+<h3 id="获取和监听">获取和监听</h3>
+<p>创建完store 使用它获取数据，并监听变化</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const store = createStore(reducer);
+let currentValue = store.getState();
+store.subscribe(()=&gt;{
+    const previousValue = currentValue;
+    currentValue = store.getState();
+    console.log(previousValue, currentValue)
+})
+</code></pre></div></div>
+<p>以上代码做了这样几件事：</p>
+<ol>
+  <li>获取初始化state和currentValue</li>
+  <li>使用store.subscribe()方法监听变化</li>
+  <li>在store.subscribe的回调函数中，将currentValue 传递给previousValue 作为先前的state</li>
+  <li>获取更新后的state 到curentValue 作为当前的state</li>
+  <li>打印变化前后的state</li>
+</ol>
+
+<h2 id="发起action">发起action</h2>
+<p>Store 使用dispatch(action)方法发起action，更新state
+当发起action后，就将action 穿进了store中，使用reducer 纯函数继续执行更新。改变内部state 唯一方法是dispatch 一个action。这样确保了视图和网络请求都不能直接修改state，相反它们只能表达想要修改state的意图，也就是dispatch 一个action。</p>
+
+<h2 id="总结">总结</h2>
+<ol>
+  <li>action 是个javascript 对象，包含一个type 字段的javascript 对象，它是store 数据的唯一来源。</li>
+  <li>reducer 是一个纯函数，不要在reducer 中做这些事情，修改传入参数state，执行有副作用的操作，调用非穿函数</li>
+  <li>store 负责更新，查询，订阅state 等多个工作。store 是全局唯一的，它将action，reducer，state联系在一起。</li>
+</ol>
+
+
+                <hr>
+
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2016/10/27/we-chat-app-pages-1/" data-toggle="tooltip" data-placement="top" title="微信小程序系列「一」">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2017/06/05/redux-%E4%B9%8B-middleware/" data-toggle="tooltip" data-placement="top" title="redux 之 middleware ">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+
+                
+
+                
+
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="//tags/#javascript" title="javascript" rel="11">
+                                    javascript
+                                </a>
+                            
+        				
+                            
+                				<a href="//tags/#D2" title="D2" rel="2">
+                                    D2
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="//tags/#JavaScript" title="JavaScript" rel="3">
+                                    JavaScript
+                                </a>
+                            
+        				
+                            
+                				<a href="//tags/#前端" title="前端" rel="2">
+                                    前端
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://huangxuan.me">Hux Blog</a></li>
+                    
+                        <li><a href="#">trip</a></li>
+                    
+                        <li><a href="#">Bar</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/jianjiade">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/vvwhehe">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/jianjiacongfeng">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/jianjiade">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; 生活的日常 2021
+                    <br>
+                    Theme by <a href="http://huangxuan.me">Hux</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="//js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="//js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="//js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

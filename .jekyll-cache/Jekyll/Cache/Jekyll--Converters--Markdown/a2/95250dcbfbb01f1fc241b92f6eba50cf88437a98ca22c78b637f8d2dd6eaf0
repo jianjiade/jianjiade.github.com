@@ -1,0 +1,36 @@
+I"4	<p>今天测试说，蒹葭同学，uat环境有个bug，秒杀产品还没结束，但是前端显示的是已经结束了，你看一下。
+我内心OS：妈蛋，又出bug了。
+不过还是乖乖的去debug了一下代码，最后排查出来是设置的定时器没有生效，直接执行了。<!-- more --></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var timer = new Date('xxxx-xx-xx') - new Date('xxxx-xx-xx');
+setTimeout(function(){
+  //TODO some code
+},timer)
+</code></pre></div></div>
+
+<p>但是TODO里的代码是直接运行了。
+what fuck！！怎么会这样，定时器竟然没有起作用。
+于是查了一下mdn文档。
+mdn文档这样写道：</p>
+
+<blockquote>
+  <p>Maximum delay value
+Browsers including Internet Explorer, Chrome, Safari, and Firefox store the delay as a 32-bit signed integer internally. This causes an integer overflow when using delays larger than 2147483647, resulting in the timeout being executed immediately.</p>
+</blockquote>
+
+<p>链接地址：<a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setTimeout">https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setTimeout</a></p>
+
+<p>大致翻译过来意思就是：</p>
+
+<blockquote>
+  <p>IE Chrome Safari Firefox 等32位的浏览器用延迟的时候，如果延迟的时间大于2147483647 毫秒的话，会导致超时，而立刻执行。</p>
+</blockquote>
+
+<p>顺便说一句，2147483647 这个毫秒数正好是<code class="language-plaintext highlighter-rouge">2的31次方-1</code>
+这样的话，就不难理解了，如果你设置的timer超过2的31次方，那么setTimeout就无效了，而立刻执行，这个也就解释了为什么设置的函数会立刻执行的原因了。
+找到这个问题之后，也思考了下，为什么会出现这种炒鸡大的timer呢？原来是这个时间点都是接口restful下发的，没法控制，所以前端在兼容这个的时候，就采取了一个比较猥琐的办法，如果这个timer大于2147483647这个值，就赋值这个值，否则就是timer。</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>timer = timer &gt; 2147483647 ? 2147483647 : timer;
+
+</code></pre></div></div>
+<p>😄😄最终“完美解决”bug了。</p>
+:ET

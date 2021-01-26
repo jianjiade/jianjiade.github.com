@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="//img/favicon.ico">
+
+    <title>微信小程序系列「一」 - 生活的日常</title>
+
+    <link rel="canonical" href="https://xqian.net//2016/10/27/we-chat-app-pages-1/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="//css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="//css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="//">生活的日常</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="//">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="//about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="//tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="//img/home-bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('//img/home-bg.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="//tags/#WeChatApp" title="WeChatApp">WeChatApp</a>
+                        
+                        <a class="tag" href="//tags/#javascript" title="javascript">javascript</a>
+                        
+                        <a class="tag" href="//tags/#react" title="react">react</a>
+                        
+                    </div>
+                    <h1>微信小程序系列「一」</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 生活的日常 on October 27, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<p>2016年9月21日，在前端届的确是一个值得纪念的日子。这天，微信放出杀手锏，WeChatApp 又称微信小程序。但是就目前来看，有诸多不便，但是这个事情，依然有很大的意义。因为这是一个生态。从放出来这个消息，就开始关注。加上公司也有内测资格，所以准备写一些文章来聊聊weChatApp开发的一些情况，以及踩到的坑。
+<!--more-->
+首先提到的便是1M的大小限制🚫，其实这个看到1M的大小，觉得没什么，但是作为一个大的公司，那么多业务，总共就1M，那么就比较可怜了。算起来我们BU获得的大小容量就100Kb，100Kb是什么概念，纯代码大概只有3000行左右的代码。但是我们之前的代码压缩之后也有235kb呢。反正容量是一个限制。
+其次：很多官方推荐的API也是不能用的。比如ES6，虽然后来开发工具支持了ES6，但是一些android 机是不支持ES6的，也是呵呵哒。还有官方推荐flex布局，但是在iOS 8及其以下是不支持flex布局的，那怎么办呢？官方给的解释是，自己去做兼容。
+官方很容易改变API，很多官方组件还没上线呢，就已经废弃了。比如一下的截图：
+<img src="https://raw.githubusercontent.com/iu2fish/_posts/master/media/14779317322951.jpg" alt="" />
+这个就比较尴尬了。很多在内测的公司，估计第一版就是按着官方的组件来的，结果还没上架，你就把官方的组件给废弃了，这是拿内测公司当小白鼠呢。但是，就算是当小白鼠，很多公司还是跪舔着争当小白鼠。
+下面来说说开发中遇到的坑</p>
+<h5 id="setdata-以数据来驱动view">setData 以数据来驱动view</h5>
+<p>在第一版的API中，setData是可以在onLoad的时候，设置数据的，但是更新一次api之后，在onload就不能设置setData了，但是官方的文档，并没有提到这个。还有在setData的时候，如果数据，有多层级。当数据有改变的时候，必须从外层开始设置，例如</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>obj:{
+    innerObj:{}
+}
+</code></pre></div></div>
+<p>如果在setData的时候写法这样的话，是无效的。</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>this.setData({
+	innerObj:innerObj
+})
+</code></pre></div></div>
+<p>这样是无效的。
+还有在上面提到，在onload 的时候设置setData无效，那怎么办呢，就像我们的项目，必须设置的话，只能采取官方不推荐或者说，比较猥琐的解决方案。</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>this.data.obj = obj;
+</code></pre></div></div>
+<p>虽然官方不推荐，但是也没办法不是吗
+setData在内部的一个队列方案，这个以后会详细的说，这一篇主要是说说小程序有哪些坑。现在有解决方案的，就把解决方案说一下，没有的话，就是吐槽吧。</p>
+<h4 id="数据存储">数据存储</h4>
+<p>每个微信小程序都可以有自己的本地缓存，可以通过 wx.setStorage（wx.setStorageSync）、wx.getStorage（wx.getStorageSync）、wx.clearStorage（wx.clearStorageSync）可以对本地缓存进行设置、获取和清理。本地缓存最大为10MB。
+在第一版的api中，删除storage是不能指定key进行删除的。那么怎么删除指定的storage呢，只有把当前的key的value值设置为空了。</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">wx</span><span class="p">.</span><span class="nx">setStorage</span><span class="p">({</span>
+  <span class="na">key</span><span class="p">:</span><span class="dl">"</span><span class="s2">key</span><span class="dl">"</span><span class="p">,</span>
+  <span class="na">data</span><span class="p">:</span><span class="dl">""</span>
+<span class="p">})</span>
+</code></pre></div></div>
+<p>这个确实也够猥琐的，不过后来的更新中，微信提供了，指定key的删除方法。</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">wx</span><span class="p">.</span><span class="nx">removeStorage</span><span class="p">(</span><span class="nx">OBJECT</span><span class="p">)</span>
+</code></pre></div></div>
+<p><img src="https://raw.githubusercontent.com/iu2fish/_posts/master/media/14780057339213.jpg" alt="" /></p>
+
+<p>也提供了，同步删除的方法。
+<code class="language-plaintext highlighter-rouge">wx.removeStorageSync(KEY)</code>
+用法
+<img src="https://raw.githubusercontent.com/iu2fish/_posts/master/media/14780058000923.jpg" alt="" /></p>
+<h4 id="request请求并发限制">request请求并发限制</h4>
+<p>微信为了保证安全，在同时request请求的时候，做了限制，也就是同时并发5个请求，这个暂时无解。只能自己去封装队列来处理请求。
+request没有cancel的事件，只要这个请求发出去了，是不能取消的。</p>
+<h4 id="5层url跳转">5层url跳转</h4>
+<p>微信也是为了安全考虑，限制了，页面跳转的限制，如果层级大于5个的话，不报错，页面就是白页，官方提供的wx.redirectTo去处理，而不是wx.navigateTo。</p>
+<h4 id="view的布局以及wxss">view的布局以及wxss</h4>
+<p>官方推荐flex布局，但是当使用form表单的时候，form表单支持flex的并不是很好，使用的时候，要注意。
+<code class="language-plaintext highlighter-rouge">action-sheet</code> 这个东西，很适合做下面的筛选项，但是这个适合少量的数据，因为不能滚动而且自带的样式也是不好控制。呵呵哒。不过也被官方判了死刑，还未上线就被废弃。<code class="language-plaintext highlighter-rouge">modal lodding toast</code>，这3个组件已经被官方判了死刑了，还没上线就被废弃。</p>
+<h4 id="wxss的一些限制">wxss的一些限制</h4>
+<p>第一版的时候，wxss不支持层级选择，后来更新的时候，官方把这句话给删除了，也不知道是推荐使用层级还是不支持，反正就是把不支持层级选择给删除了。官方的<code class="language-plaintext highlighter-rouge">changelist</code>也没提到这块。
+<code class="language-plaintext highlighter-rouge">iconfont</code>能不能使用？可以，但是<code class="language-plaintext highlighter-rouge">ios</code>下有兼容性，如果使用在线的iconfont的话，ios不支持，所以为了包的容量，只能<code class="language-plaintext highlighter-rouge">base64</code>在本地了。</p>
+
+<h4 id="另外一些别的坑如业务交互">另外一些别的坑，如业务交互</h4>
+<p>这块等下一篇再详细介绍</p>
+
+
+                <hr>
+
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2016/09/27/eslint-%E5%9C%A8%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/" data-toggle="tooltip" data-placement="top" title="eslint 在项目中的使用">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2017/05/07/%E5%88%9D%E8%AF%86redux/" data-toggle="tooltip" data-placement="top" title="初识redux">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+
+                
+
+                
+
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="//tags/#javascript" title="javascript" rel="11">
+                                    javascript
+                                </a>
+                            
+        				
+                            
+                				<a href="//tags/#D2" title="D2" rel="2">
+                                    D2
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="//tags/#JavaScript" title="JavaScript" rel="3">
+                                    JavaScript
+                                </a>
+                            
+        				
+                            
+                				<a href="//tags/#前端" title="前端" rel="2">
+                                    前端
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://huangxuan.me">Hux Blog</a></li>
+                    
+                        <li><a href="#">trip</a></li>
+                    
+                        <li><a href="#">Bar</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/jianjiade">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/vvwhehe">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/jianjiacongfeng">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/jianjiade">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; 生活的日常 2021
+                    <br>
+                    Theme by <a href="http://huangxuan.me">Hux</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="//js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="//js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="//js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

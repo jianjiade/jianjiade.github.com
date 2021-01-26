@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="//img/favicon.ico">
+
+    <title>Git中级用户的25个提示 - 生活的日常</title>
+
+    <link rel="canonical" href="https://xqian.net//2015/10/07/Git%E4%B8%AD%E7%BA%A7%E7%94%A8%E6%88%B7%E7%9A%8425%E4%B8%AA%E6%8F%90%E7%A4%BA/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="//css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="//css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="//">生活的日常</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="//">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="//about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="//tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="//img/home-bg.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('//img/home-bg.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Git中级用户的25个提示</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by 生活的日常 on October 7, 2015</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+				<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>作者/Andy Jeffries
+Ruby on Rails 开发者 我使用 Git 大约已经有18个月时间，自认为能很好地驾驭它了。但是当我们请到 GitHub 的 Scott Chacon 来到 LVS 公司（一个博彩/游戏软件供应商/开发商）做专场培训时，我在第一天就学到了大量的东西。 由于有些人总是对使用 Git 自我感觉良好，因此，我想分享一些我从社区获取到的 Git 精品，这样就可能会帮助那些人无需浪费大量研究时间而直接找到答案。 ![](https://raw.githubusercontent.com/iu2fish/_posts/master/media/14428125581957/14428126636942.jpg) &lt;!--more--&gt; ## 基本提示 ### 1.安装之后第一步 安装 Git 之后，你要做的第一件事情就是去配置你的名字和邮箱，因为每一次提交都需要这些信息：
+
+	$ git config --global user.name "Some One"
+	$ git config --global user.email "someone@gmail.com"
+</code></pre></div></div>
+
+<h3 id="2-git-是以指针为基础">2. Git 是以指针为基础</h3>
+<p>存储在 git 中的所有东西都包含在一个文件中。当你提交的时候，git 会创建一个包含提交消息和相关数据的文件（名称、邮件、日期/时间、上一次提交等等），并将其链接到一个树形文件。树形文件包含一个对象列表或者其它树。对象或二进制大数据对象（BLOB）是提交的真正内容（一个文件，如果你愿意，虽然文件名没有存储在对象中，但会存储在树中）。所有这些文件都以对象的 SHA-1 哈希为文件名进行存储。</p>
+
+<p>分支和标签只是一些文件，这些文件包含（基本上）一个指向提交的 SHA-1 哈希值。使用这些引用在灵活性和速度上均有大幅提升，创建一个新的分支就和创建一个文件一样简单，只是这个文件带有分支名称和一个包含指向提交（你从这个提交建立分支）的SHA-1哈希值。当然，当你使用 Git 命令行工具（或一个图形用户界面）时，你永远也不会这么做，但它就是这么简单。</p>
+
+<p>你可能已经听说过对 HEAD 的引用。它只是一个包含 SHA-1 引用的文件，这个引用指向你当前的提交。如果你正在解决一个合并冲突问题，查看一下 HEAD，你会发现，它与一个特定的分支或分支上的特定点无关，只和你现在的位置有关。</p>
+
+<p>所有的分支指针保存在 .git/refs/heads 目录下，HEAD 在 .git/HEAD 目录下，标签在 .git/refs/tags 目录下 - 你可以随意看看。</p>
+
+<h3 id="3两个-parents---当然">3.两个 Parents - 当然！</h3>
+<p>当在日志文件中查看一个合并提交的消息时，你会看到两个 parents（与正常提交相比）。第一个parent 是你所在的分支，第二个 parents 是你并入的分支。</p>
+
+<h3 id="合并冲突">合并冲突</h3>
+<p>到目前为止，我确信你一定有一个合并冲突需要解决。通常情况下，通过编辑该文件，删除文件中的««, ====, »»标记，然后保存你需要保留的代码就可以了。有时候，在任何变更之前查看代码都是一个值得推荐的做法，比如，在你对两个有冲突的分支采取行动之前。这是又一个命令：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git diff --merge
+	diff --cc dummy.rb
+	index 5175dde,0c65895..4a00477
+	--- a/dummy.rb
+	+++ b/dummy.rb
+	@@@ -1,5 -1,5 +1,5 @@@
+	  class MyFoo
+    def say
+-     puts "Bonjour"
+ -    puts "Hello world"
+++    puts "Annyong Haseyo"
+    end
+  end
+</code></pre></div></div>
+
+<p>如果文件是二进制的，文件比较就不是那么容易了…你通常要做的是尝试每个版本的二进制文件，并决定使用哪一个（或者在二进制文件编辑器手动复制部分内容）。从一个特定分支下 pull 一个文件副本（如果你要合并主分支和分支132的话）：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git checkout master flash/foo.fla # or...
+	$ git checkout feature132 flash/foo.fla
+	$ # Then...
+	$ git add flash/foo.fla
+</code></pre></div></div>
+
+<p>另一种方法是从 git 中查看这个文件 - 你能够以其他文件名的方式进行查看，然后将正确的文件（当你确定它是哪一个时）复制到正常的文件名中：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git show master:flash/foo.fla &gt; master-foo.fla
+	$ git show feature132:flash/foo.fla &gt; feature132-foo.fla
+	$ # Check out master-foo.fla and feature132-foo.fla
+	$ # Let's say we decide that feature132's is correct
+	$ rm flash/foo.fla
+	$ mv feature132-foo.fla flash/foo.fla
+	$ rm master-foo.fla
+	$ git add flash/foo.fla
+</code></pre></div></div>
+
+<p>更新：感谢 Carl 在早先的的博客评论中给与的提醒，你实际上能使用 “git checkout —ours flash/foo.fla” 和 “git checkout —theirs flash/foo.fla” 检出一个特定的版本而不需要记住你要合并到哪一个分支。我个人更喜欢更明确些，但是你可以随便选择…</p>
+
+<p>在解决了合并冲突问题之后（就像我上面所做的那样），请记得将这个文件添加给索引。</p>
+
+<h2 id="服务器分支标签">服务器、分支、标签</h2>
+<h3 id="5远程服务器">5.远程服务器</h3>
+<p>Git 最强大的功能之一是可以有一个以上的远程服务器（另一个事实，你总是可以运行一个本地仓库）。你不一定总是需要写访问权限，你可以从多个服务器中读取（用于合并），然后写到另一个服务器中。添加一个远程服务器很简单：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git remote add john git@github.com:johnsomeone/someproject.git
+</code></pre></div></div>
+
+<p>如果你想查看远程服务器的相关信息，你可以这样做</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	#shows URLs of each remote server
+	$ git remote -v
+
+	#gives more details about each
+	$ git remote show name
+</code></pre></div></div>
+
+<p>你还可以查看本地分支和远程分支之间的差别</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git diff master ..john/master
+</code></pre></div></div>
+
+<p>你也能查看不在远程分支上的HEAD的变化</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log remote/branch..
+	#Note: no final refspec after .. ### 6.标签 在Git中存在两种类型的标签。一个是轻量级标签和一个注解标签。记着第二个提示中说过Git是基于指针的，二者区别很简单。一个轻量级标签无非是一个指向提交的具名指针。你可以改变它并指向另一个提交。一个注解标签是一个指向标签对象的具名指针，这个标签对象拥有自己的消息和历史。如果有需要，标签对象的消息可以采用GPG加密签名。 创建两种类型的标签很容易，只是一个命令行选项的差异
+
+	git tag to-be-tested
+	$ git tag -a v1.1.0
+</code></pre></div></div>
+
+<h3 id="7创建分支">7.创建分支</h3>
+<p>在Git中创建分支非常容易，闪电般的速度，因为它仅仅需要创建一个不到100字节的文件，创建一个新分支并切换过去的通用写法是:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git branch feature123
+	git checkout feature123
+</code></pre></div></div>
+
+<p>当然，如果你知道你要马上切换过去，你可以使用一条命令就能做到：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git checkout -b feature123
+</code></pre></div></div>
+
+<p>如果你要重命名一个本地分支，同样是件很容易的时，长命令用来显示具体的执行过程：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git checkout -b twitter-experiment feature123
+	git branch -d feature123
+</code></pre></div></div>
+
+<p>更新：或者你只使用 <code class="language-plaintext highlighter-rouge">git branch</code> 和 <code class="language-plaintext highlighter-rouge">-m</code> 选项就可以一步到位“</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git branch -m twitter-experiment
+	git branch -m feature123 twitter-experiment
+</code></pre></div></div>
+
+<h3 id="8合并分支">8.合并分支</h3>
+<p>在某个时候，你想要合并你的变更。有两种方式可以实现：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git checkout master
+	git merge feature123
+	git rebase feature123
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">merge</code>和<code class="language-plaintext highlighter-rouge">rebase</code>的区别在于，merge试图解决变更而且创建一个融合后的新提交，而rebase则试图把自你上次在其他分支上得变化，在另一个分支的HEAD上重现。但是，在你向远程服务器推送一个分支之后，不要进行rebase操作，这会引发混淆问题。</p>
+
+<p>如果你不能确定哪些分支仍然有独立的工作在进行，以便你能知道你需要合并哪一个分支以及删除哪些分支，git branch 命令有两个选项可以帮助实现这一点：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git branch --merge
+
+	git branch --no-merged
+</code></pre></div></div>
+
+<h3 id="9远程分支">9.远程分支</h3>
+<p>如果你有一个本地分支，你想让它出现在远程服务器上，你可以使用这样一个推送命令：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git push origin twitter-experiment:refs/heads/twitter-experiment
+	#where origin is our server name and twitter-experiment is the branch
+</code></pre></div></div>
+
+<p>更新：感谢Erlend 的评论提到，这实际上和git push origin twitter-experiment 达到的效果是一样的，但是通过使用全部语法，你能看到实际上在两端使用了不同的名字，你本地的名字可能是add-ssl-support 而远程的名字可能是issue-11199。
+如果你想删除一个远程服务器上得分支，请注意分支名称之前的冒号</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git push origin :twitter-experiment
+</code></pre></div></div>
+
+<p>如果你想显示所有远程分支的状态，你能像这样查看它们：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git push origin :twitter-experiment
+</code></pre></div></div>
+
+<p>如果你想显示所有远程分支的状态，你能像这样查看他们：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git remote show origin
+</code></pre></div></div>
+
+<p>这可能会列出一些服务器上曾经有过，但现在已不存在的分支。如果碰到这种情况，你可以很轻松的使用如下命令从本地检出并将其删除：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git remote prune
+</code></pre></div></div>
+
+<p>最后，如果你有一个远程分支，你想在本地进行跟踪它，通常的做法是：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git branch --track myfeature origin/myfeature
+	git checkout myfeature
+</code></pre></div></div>
+
+<p>然而，如果你使用 -b 标示符检出的话，新版的 Git 会自动建立跟踪：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git checkout -b myfeature origin/myfeature
+</code></pre></div></div>
+
+<h2 id="在临时存放区索引和文件系统中保存内容">在临时存放区、索引和文件系统中保存内容</h2>
+<h3 id="10临时存放-stashing">10.临时存放 Stashing</h3>
+<p>在 Git 中，你可以把当前的工作状态存储在一个临时的存储区域堆栈，然后重新加以利用。简单的案例如下：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git stash
+	git stash pop
+</code></pre></div></div>
+
+<p>很多人推荐使用，git stash apply 来代替 pop ，然而如果你真的这么做的话，你最终得到一个长长的毫无用处的储存清单。如果对它进行清理，pop 只会把它从堆栈中删除。如果你已经使用了 git stash apply ，你可以使用如下命令从堆栈中删除最后一项：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git stash drop
+</code></pre></div></div>
+
+<p>Git 会基于当前的提交消息自动创建一个注释消息。如果，你更喜欢使用一个自定义的消息，因为，他可能和之前的提交无关：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git stash save "my stash message"
+</code></pre></div></div>
+
+<p>如果你想从你的列表中不必是最后一个，对一个特定的stash加以利用，你可以列出它们并像这样使用它们</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git stash list
+	stash@{0}: On master: Changed to German
+	stash@{1}: On master: Language is now Italian
+	$ git stash apply stash@{1}
+</code></pre></div></div>
+
+<h3 id="11交互式添加">11.交互式添加</h3>
+<p>在 Subversion 的世界里，你修改文件然后只是提交有变化的文件。而在 Git 的世界里，你在提交某些文件甚至某些补丁上有更多的控制权。为了提交某些文件或者文件的某些部分，你必须进入交互模式。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git add -i
+       staged     unstaged path
+
+	*** Commands ***
+	1: status      2: update   3: revert   4: add untracked
+	5: patch      6: diff     7: quit     8: help
+	What now&gt;
+</code></pre></div></div>
+
+<p>这会让你进入一个基于交互式命令的菜单模式。你可以使用命令的数字符号或者加亮字符（如果你开启颜色高亮显示功能的话）进入对应模式，然后就是正常输入文件数的问题了（你可以使用像1或1-4或2,4,7这样的格式）。</p>
+
+<p>如果你想进入修补模式（交互模式下输入‘p’或‘5’ ），你也可以直接进入那个模式：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git add -p
+	diff --git a/dummy.rb b/dummy.rb
+	index 4a00477..f856fb0 100644
+	--- a/dummy.rb
+	+++ b/dummy.rb
+	@@ -1,5 +1,5 @@
+ 		class MyFoo
+   		def say
+		-    puts "Annyong Haseyo"
+		+    puts "Guten Tag"
+   		end
+ 		end
+	Stage this hunk [y,n,q,a,d,/,e,?]?
+</code></pre></div></div>
+
+<p>如你所见，在底部你得到一系列选项为选择去添加文件改变的部分，这个文件的所有变化等等。使用‘?’ 命令可以了解选不同选项的解释。</p>
+<h3 id="12存储从文件系统检索">12.存储/从文件系统检索</h3>
+<p>一些项目，直接在Git文件系统中存储额外的文件而不必是检入文件。
+让我们开始在Git中存储一个任意文件：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ echo "Foo" | git hash-object -w --stdin
+	51fc03a9bb365fae74fd2bf66517b30bf48020cb
+</code></pre></div></div>
+
+<p>此时，该文件对象已在数据库中，但是如果你不设置一些东西指向那个文件对象，它将被作为垃圾而回收。最简单的方法是标记它：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git tag myfile 51fc03a9bb365fae74fd2bf66517b30bf48020cb
+</code></pre></div></div>
+
+<p>既然在这里我们已经标记了myfile。当我们需要获取该文件时，我们可以这样做：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git cat-file blob myfile
+</code></pre></div></div>
+
+<p>程序员可能经常用到的工具文件，不需要每次都检出在磁盘上，这种方法非常有效。</p>
+
+<h2 id="日志记录">日志记录</h2>
+
+<h3 id="13查看日志">13.查看日志</h3>
+
+<p>如果你不使用 git log 查看最近提交历史的话，你就不能长时间顺利的使用Git。但是，也存在一些如何更好使用它的建议。例如，你可以查看每次提交改变的一个补丁。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log -p
+</code></pre></div></div>
+
+<p>或者，你可以只是查看一个那些文件有所更改的概述：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log --stat
+</code></pre></div></div>
+
+<p>你可以在一行中设置一个不错得别名，用于显示简短的提交和漂亮的带有消息的分支图例如：gitk</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git config --global alias.lol "log --pretty-online --abbrev-commit --graph --decorate"
+	git lol
+	* 4d2409a (master) Oops, meant that to be in Korean
+	* 169b845 Hello world
+</code></pre></div></div>
+
+<h3 id="14检索日志">14.检索日志</h3>
+<p>如果你想在日志中查询一个特定作者，你可以这样指定</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log --author=Andy
+</code></pre></div></div>
+
+<p>更新：感谢Johannes的评论，我终于化解了一部分疑惑。
+或者如果你有一个搜索词出现在提交消息中：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log --grep="something in the message"
+</code></pre></div></div>
+
+<p>还有一个更强大的叫pickaxe的命令，他可以查找来自添加或删除一个特定的内容，也就是当它第一次出现或者被删除的时候。这样你就可以知道何时增加了一行，但是如果一行中得字符随后被改变，你将无从得知。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log -S "TODO: checkout for admin status"
+</code></pre></div></div>
+
+<p>如果你改变一个特定的文件会怎么样呢，例如：lib/foo.sh</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log lib/foo.sh
+</code></pre></div></div>
+
+<p>比如说你有一个feature/123分支和一个feature/456分支，你想查看在这些分支，但却不在主分支上得提交：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log feature/123 feature/456 ^master
+</code></pre></div></div>
+
+<p>你也可以使用ActiveSupport 风格的日期缩小日期范围：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log --since-2.months.ago --until-1.day.ago
+</code></pre></div></div>
+
+<p>它默认使用OR模式来组合查询，但是你也可以很轻松的改为AND模式</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log --since=2.months.ago --until=1.day.ago --author=andy -S "something" --all-match
+</code></pre></div></div>
+
+<h3 id="15选择查看修改版本">15.选择查看/修改版本</h3>
+
+<p>当引用一个修订版本时，你有许多选项可以选择，当然这取决于你对此功能的了解程度：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git show 12a86bc38 # By revision
+	$ git show v1.0.1 # By tag
+	$ git show feature132 # By branch name
+	$ git show 12a86bc38^ # Parent of a commit
+	$ git show 12a86bc38~2 # Grandparent of a commit
+	$ git show feature132@{yesterday} # Time relative
+	$ git show feature132@{2.hours.ago} # Time relative
+</code></pre></div></div>
+
+<p>请注意，和上一节有所不同，在行尾的脱字符表示提交的 parent - 行首的脱字符则表示不在这个分支上。</p>
+<h3 id="16选择一个范围">16.选择一个范围</h3>
+
+<p>这最简单的方法是这样来用</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git log origin/master ..new
+</code></pre></div></div>
+
+<p>你也可以删除 new 使用当前的HEAD</p>
+
+<h2 id="时间回退和错误修复">时间回退和错误修复</h2>
+<h3 id="17重置更改">17.重置更改</h3>
+<p>如果你还没有提交一个更改，你可以很容易的重置它：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git reset HEAD lib/foo.sh
+</code></pre></div></div>
+
+<p>通常使用unstage 作为别名比较好，因为它是不是那么显而易见。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git config --global alias.unstage "reset HEAD"
+	git unstage lib/foo.sh
+</code></pre></div></div>
+
+<p>如果你已经提交了文件，那么你可以做两件事，如果是最后一次提交，你可以这样修改：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit --amend
+</code></pre></div></div>
+
+<p>这将回滚到最后一次提交，让你的工作副本回到变化存储的暂存区状态，你可以编辑提交消息准备下一次的提交。
+如果你的提交不止一次，并且只想完全回滚他们，你可以重置分支回到之前的时间点：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git checkout feature123
+	git reset --hard HEAD ~2
+</code></pre></div></div>
+
+<p>如果你真的想把分支只想一个完全不同的SHA-1 也许你把一个分支的HEAD指向另一个分支，或者进一步提交，你可以按照以下方式去做：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git checkout Foo
+	git reset --hard SHA
+</code></pre></div></div>
+
+<p>实际上还有一种更便捷的方式，因为它不会将你的工作副本变回最初的Foo 状态，然后再指向SHA：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git update-ref refs/heads/Foo SHA
+</code></pre></div></div>
+
+<h3 id="18提交到错误的分支">18.提交到错误的分支</h3>
+<p>好吧，让我们假设你提交到主分支，但应该已经创建了一个experimental的主题分支。为了移除这些变化，你可以在当前创建一个分支，回退HEAD，然后检出新的分支：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git branch experimental
+	git reset --hard master~3
+	git checkout experimental
+</code></pre></div></div>
+
+<p>如果你已经在一个分支的一个分支的一个分支等上面做了些变更，这将会更复杂。然后你需要做的就是在这个分支上，将其变更release到另外一个地方“</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git branch newtopic STARTPOINT
+	git rebase oldtopic --onto newtopic
+</code></pre></div></div>
+
+<h3 id="19交互式rebasing">19.交互式rebasing</h3>
+<p>这是一个很酷的特性，我之前已看过演示，但当时没有真正搞明白，现在来看其实很简单。比方说，你已做了3次提交，但是你想对它们进行重新排序或者编辑（或者合并它们）：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git rebase -i master~3
+</code></pre></div></div>
+
+<p>然后你将编辑器打开。你所要做的就是修改 “pick/squash/edit 的指令来进行如何提交，然后保存/退出。在编辑之后，你可以使用 <code class="language-plaintext highlighter-rouge">git rebase —continue </code>让你的每一个指令一个一个进行。</p>
+
+<p>如果你选择编辑一个文件，这会让你停留在你提交时的状态，因此你需要使用 git commit —amend 对它进行编辑。</p>
+
+<p>备注：在 REBASE 过程中不要进行提交工作 - 只能添加然后使用 —continue, —skip or —abort 选项。</p>
+<h3 id="20清理">20.清理</h3>
+<p>如果你已经提交了一些内容到你的分支中（也许你是从SVN中的旧代码库导入的），你想从历史中删除掉所有的已提交内容：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git filter-branch --tree-filter 'rm -f *.class' HEAD
+</code></pre></div></div>
+
+<p>如果你已经向远程服务器推送过代码，但自那之后提交的都是一些垃圾，在推送之前你可以在本地系统上执行这样的操作：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git filter-branch --tree-filter 'rm -f *.class' origin/master..HEAD
+</code></pre></div></div>
+
+<h2 id="各种各样的提示">各种各样的提示</h2>
+<h3 id="21之前你看过的引用">21.之前你看过的引用</h3>
+<p>如果你知道你之前已经查看过一个 SHA-1，但是你已经做了一些重置/回退工作，你可以使用 reflog 命令去查看你最近看过的 SHA-1：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git reflog
+	git log -g
+</code></pre></div></div>
+
+<h3 id="22分支命名">22.分支命名</h3>
+<p>一个可爱的小提示 - 请记住，分支的名字并不局限于 a-z 和 0-9 这些字符。名字中可以使用 / 和 . 来伪装命名空间或者版本号，例如：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git shortlog release/123 ^release/131
+	git tag v1.0.1 release/132
+</code></pre></div></div>
+
+<h3 id="23寻找谁是始作俑者">23.寻找谁是始作俑者</h3>
+<p>寻找谁更改了一个文件中的一行代码经常会用到。简单命令如下：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	git blame FILE
+</code></pre></div></div>
+
+<p>有时更改来自于前一个文件（如果你已经合并了两个文件，或者你已经移动了一个函数），因此你可以这样用：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ # shows which file names the content came from
+	$ git blame -C FILE
+</code></pre></div></div>
+
+<p>有时通过向前或向后点击来进行变化跟踪，这是很好的方法。有一个内置的 GUI 程序专门为此设计：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git gui blame FILE
+</code></pre></div></div>
+
+<h3 id="24数据库维护">24.数据库维护</h3>
+<p>Git 通常不需要大量维护，它基本上可以自我维护。然而，你可以使用如下命令查看数据库统计信息：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git count-objects -v
+</code></pre></div></div>
+
+<p>如果数值很高，你可以选择使用垃圾回收你的重复内容。这不会影响推送或者其它用户，但却可以让你的命令运行更快且占用更少空间：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git gc
+</code></pre></div></div>
+
+<p>经常运行一致性检查也是值得推荐的做法：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git fsck --full
+</code></pre></div></div>
+
+<p>你也可以在行尾添加一个 —auto 参数（如果你频繁运行它，或者在你的服务器上每日从 crontab 中运行它），如果统计数据表明必须进行要进行一致性检查，只要 fsck 命令就行。</p>
+
+<p>如果检查 “dangling” 或 “unreachable” 的结果一切正常，这经常是由于回退 HEAD 或 rebasing的结果。如果检查“missing” 或 “sha1 mismatch” 出了问题…寻求专业帮助吧！</p>
+
+<h3 id="25恢复一个丢失的分支">25.恢复一个丢失的分支</h3>
+<p>如果你使用 -D 选项删除了一个分支 experimental，你可以重新创建它：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	$ git branch experimental SHA1_OF_HASH
+</code></pre></div></div>
+
+<p>你可以使用 git reflog 来发现一个 SHA-1 哈希值，如果你近期访问过它的话。</p>
+
+<p>另一种方法是使用 git fsck —lost-found。一个悬空的提交就是一个 lost HEAD（它只会是一个已删除分支的 HEAD，因为当一个 HEAD^ 被 HEAD 引用时，它就没有悬空）。</p>
+
+
+                <hr>
+
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2015/08/29/thinking-of-javascript-demo/" data-toggle="tooltip" data-placement="top" title="一个 javascript demo 的思考">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2015/10/07/%E5%9B%BE%E8%A7%A3-HTTP-%E4%B9%8B-%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C%E7%9A%84HTTP%E7%8A%B6%E6%80%81%E7%A0%81/" data-toggle="tooltip" data-placement="top" title="图解 HTTP 之 返回结果的HTTP状态码">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+
+                
+
+                
+
+            </div>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="//tags/#javascript" title="javascript" rel="11">
+                                    javascript
+                                </a>
+                            
+        				
+                            
+                				<a href="//tags/#D2" title="D2" rel="2">
+                                    D2
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+                				<a href="//tags/#JavaScript" title="JavaScript" rel="3">
+                                    JavaScript
+                                </a>
+                            
+        				
+                            
+                				<a href="//tags/#前端" title="前端" rel="2">
+                                    前端
+                                </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://huangxuan.me">Hux Blog</a></li>
+                    
+                        <li><a href="#">trip</a></li>
+                    
+                        <li><a href="#">Bar</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/jianjiade">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/vvwhehe">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/jianjiacongfeng">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/jianjiade">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; 生活的日常 2021
+                    <br>
+                    Theme by <a href="http://huangxuan.me">Hux</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="91px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="//js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="//js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="//js/hux-blog.min.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

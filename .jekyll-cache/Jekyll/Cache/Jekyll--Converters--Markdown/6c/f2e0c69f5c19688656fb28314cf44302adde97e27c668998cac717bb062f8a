@@ -1,0 +1,141 @@
+I"R<p>周末无聊在群里吹水，单身狗的周末日常啊。<!--more--></p>
+
+<p>突然有小伙伴问了一个问题，看了下确实蛮有意思的：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var f1 = function () {
+  var n = 1;
+  Add = function () {
+    n += 1;
+  }
+  return function () {
+    console.log (n);
+  }
+}
+
+var a = f1(),
+    b = f1(),
+    c = f1();
+
+a();
+b();
+c();
+Add();
+a();
+b();
+c();
+</code></pre></div></div>
+
+<p>好了，大家猜猜输出的结果是啥。我第一眼看到就是，<code class="language-plaintext highlighter-rouge">1 1 1 2 2 2</code> 结果并不是。结果而是<code class="language-plaintext highlighter-rouge">1 1 1  1 1 2</code>，这个结果还是蛮出乎意料的。为什么是这个结果？首先想到的是，<code class="language-plaintext highlighter-rouge">Add()</code>这个函数是全局函数，因为在<code class="language-plaintext highlighter-rouge">f1</code>内部没有<code class="language-plaintext highlighter-rouge">var</code>定义，所以升级为全局变量，但是，这个不是关键。关键是之后的赋值操作。我们娓娓道来。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var a = f1();
+</code></pre></div></div>
+
+<p>这个赋值语句意味着是这样的：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var a = function () {
+  var n = 1;
+  Add = function(){
+      n+=1;
+      console.log(n)
+  };
+  return function(){
+      console.log(n);
+  }
+}
+</code></pre></div></div>
+
+<p>然后运行<code class="language-plaintext highlighter-rouge">a()</code></p>
+
+<p>同理</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var b = f1();
+</code></pre></div></div>
+
+<p>也是这样的，</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var b = function () {
+  var n = 1;
+  Add = function(){
+      n+=1;
+      console.log(n)
+  };
+  return function(){
+      console.log(n);
+  }
+}
+</code></pre></div></div>
+
+<p>同理</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var c = f1();
+</code></pre></div></div>
+
+<p>也是这样的，</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var c = function () {
+  var n = 1;
+  Add = function(){
+      n+=1;
+      console.log(n)
+  };
+  return function(){
+      console.log(n);
+  }
+}
+</code></pre></div></div>
+
+<p>但是当我们执行了后面一个赋值操作，之前的Add函数就变了，这是为什么呢，因为是全局变量。后面的操作会覆盖掉之前的定义，override掉。</p>
+
+<p>所以就变成这样了</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var a = function () {
+  var n = 1;
+
+  return function(){
+      console.log(n);
+  }
+}
+
+var b = function () {
+  var n = 1;
+
+  return function(){
+      console.log(n);
+  }
+}
+
+var c = function () {
+  var n = 1;
+  Add = function(){
+      n+=1;
+      console.log(n)
+  };
+  return function(){
+      console.log(n);
+  }
+}
+</code></pre></div></div>
+
+<p>这个时候，你再执行之前的操作是不是就很好理解了？</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var a1 = a();
+var b1 = b();
+var c1 = c();
+a1();
+b1();
+c1();
+Add();
+a1();
+b1();
+c1();
+</code></pre></div></div>
+
+<p>所以结果是<code class="language-plaintext highlighter-rouge">1 1 1 1 1 2</code>。</p>
+
+<p>你明白了吗？
+有什么不对的地方在评论里讨论。</p>
+
+<blockquote>
+  <p>感谢吹水群的@bailnl（百灵鸟），@vingo，@楚汉，以及群里各位吹水的童鞋。</p>
+</blockquote>
+:ET
