@@ -69,7 +69,23 @@ module.exports = function(grunt) {
                 ext: '.min.css'
               }]
             }
-          }
+          },
+          //压缩图片
+    imagemin: {
+        prod: {
+          options: {
+            optimizationLevel: 7,
+            pngquant: true
+          },
+          files: [
+            {expand: true, 
+                cwd: 'img/', 
+                src: ['*.{png,jpg,jpeg,gif,webp,svg}'], 
+                dest: 'img/'}
+          ]
+        }
+      },
+  
     });
 
     // Load the plugins.
@@ -78,7 +94,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
     // Default task(s).
     grunt.registerTask('default', ['uglify', 'less', 'usebanner','cssmin']);
 

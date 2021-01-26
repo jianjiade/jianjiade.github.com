@@ -19,5 +19,8 @@
     "scripts": {
         "preview": "cd _site; python -m SimpleHTTPServer 8020",
         "watch": "grunt watch & npm run preview & jekyll serve -w;"
+    },
+    "dependencies": {
+        "grunt-contrib-imagemin": "^4.0.0"
     }
 }
