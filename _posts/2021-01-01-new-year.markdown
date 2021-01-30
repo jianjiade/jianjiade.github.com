@@ -3,6 +3,7 @@ layout: post
 title:  "2020年终复盘"
 date:   2020-12-31 15:13:29 +0800
 header-img: "img/Lamei.jpg"
+author:     "xqian"
 categories: 
 
 ---
