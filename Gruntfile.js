@@ -74,8 +74,8 @@ module.exports = function(grunt) {
     imagemin: {
         prod: {
           options: {
-            optimizationLevel: 7,
-            pngquant: true
+            optimizationLevel: 6,
+            pngquant: false
           },
           files: [
             {expand: true, 
