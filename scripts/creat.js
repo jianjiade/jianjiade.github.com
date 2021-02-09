@@ -8,14 +8,14 @@ function todo () {
     const pinyinList = PinYin(list, {
         style: PinYin.STYLE_NORMAL
     });
-    const contain = template(list);
+    const {temp,showTitle} = template(list);
 
     const componentDir = path.resolve(__dirname, '../')
 
-    console.log(componentDir);
+    console.log(showTitle);
     // return;
-    const filePath = `${componentDir}/_posts/${list}.markdown`;
-    fs.writeFile(filePath, contain,'utf8',function(error){
+    const filePath = `${componentDir}/_posts/${showTitle}.markdown`;
+    fs.writeFile(filePath, temp,'utf8',function(error){
         if(error){
             console.log(error);
             return false;
@@ -37,7 +37,8 @@ function template(title){
         "m+": this.getMinutes(), //分
         "s+": this.getSeconds(), //秒
         "q+": Math.floor((this.getMonth() + 3) / 3), //季度
-        "S": this.getMilliseconds() //毫秒
+        "S": this.getMilliseconds(), //毫秒
+        "Z": this.getTimezoneOffset() / 60,
         };
         if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
         for (var k in o)
@@ -48,12 +49,15 @@ function template(title){
     const pinyinList = PinYin(title, {
         style: PinYin.STYLE_NORMAL
     });
-    const showTitle = pinyinList.join('-');
     const date = new Date();
-    const dateString = date.Format("yyyy-MM-dd hh:mm:ss");
+
+    const showTitle = date.Format("yyyy-MM-dd")+'-'+pinyinList.join('-');
+    
+    const dateString = date.Format("yyyy-MM-dd ") + date.toTimeString()//Format("yyyy-MM-dd hh:mm:ss Z");
+    console.log(dateString)
     const temp = `---
 layout: post
-title:  ${showTitle}
+title:  ${title}
 date:   ${dateString}
 header-img: "img/Lamei-2.jpeg"
 author:     "xqian"
@@ -64,7 +68,7 @@ categories:
 ### ${title}
     `;
 
-    return temp;
+    return {temp,showTitle};
 }
 
 
