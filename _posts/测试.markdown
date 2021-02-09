@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ce-shi"
+title:  "ceshi"
 date:   2021-02-09 12:48:39 +0800
 header-img: "img/Lamei-2.jpeg"
 author:     "xqian"
