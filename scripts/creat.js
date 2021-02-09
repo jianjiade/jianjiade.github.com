@@ -51,8 +51,7 @@ function template(title){
     const showTitle = pinyinList.join('-');
     const date = new Date();
     const dateString = date.Format("yyyy-MM-dd hh:mm:ss");
-    const temp = `
----
+    const temp = `---
 layout: post
 title:  ${showTitle}
 date:   ${dateString}
