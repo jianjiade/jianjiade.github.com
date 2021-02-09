@@ -1,15 +1,21 @@
 
 const fs = require('fs');
-var PinYin = require("pinyin");
+const PinYin = require("pinyin");
+const path = require('path');
 
-function todo (param) {
-    const list = params = process.argv[2];
+function todo () {
+    const list = process.argv[2];
     const pinyinList = PinYin(list, {
         style: PinYin.STYLE_NORMAL
     });
     const contain = template(list);
-    const path = `_post/${list}.markdown`;
-    fs.writeFile(path, contain,'utf8',function(error){
+
+    const componentDir = path.resolve(__dirname, '../')
+
+    console.log(componentDir);
+    // return;
+    const filePath = `${componentDir}/_posts/${list}.markdown`;
+    fs.writeFile(filePath, contain,'utf8',function(error){
         if(error){
             console.log(error);
             return false;
