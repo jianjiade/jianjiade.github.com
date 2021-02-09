@@ -5,9 +5,55 @@
     <description></description>
     <link>https://xqian.net//</link>
     <atom:link href="https://xqian.net//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Jan 2021 09:39:29 +0800</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2021 09:39:29 +0800</lastBuildDate>
+    <pubDate>Tue, 09 Feb 2021 16:46:26 +0800</pubDate>
+    <lastBuildDate>Tue, 09 Feb 2021 16:46:26 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>2021年1月最后一周的记录</title>
+        <description>&lt;h1 id=&quot;2021-01-25-111533-am&quot;&gt;2021-01-25 11:15:33 AM&lt;/h1&gt;
+
+&lt;p&gt;事实上&lt;/p&gt;
+
+&lt;h1 id=&quot;2021-01-25-144615-pm&quot;&gt;2021-01-25 14:46:15 PM&lt;/h1&gt;
+
+&lt;p&gt;老婆说，删了饿了么美团app，要自己做饭吃，不知道能坚持多久。&lt;/p&gt;
+
+&lt;h1 id=&quot;2021-01-26-142901-pm&quot;&gt;2021-01-26 14:29:01 PM&lt;/h1&gt;
+
+&lt;p&gt;折腾了一番，希望这次审核通过吧&lt;/p&gt;
+&lt;h4 id=&quot;落户上海&quot;&gt;落户上海&lt;/h4&gt;
+
+&lt;h1 id=&quot;2021-01-27-132036-pm&quot;&gt;2021-01-27 13:20:36 PM&lt;/h1&gt;
+
+&lt;p&gt;上海派出所好严格啊，同事的堂哥，在地铁和别人发生肢体冲突，被判为互殴，对方不和解，结果被拘留10天，对方拘留3天&lt;/p&gt;
+
+&lt;h1 id=&quot;2021-01-28-095901-am&quot;&gt;2021-01-28 09:59:01 AM&lt;/h1&gt;
+
+&lt;p&gt;今天我生日呀🎂&lt;/p&gt;
+
+&lt;h1 id=&quot;2021-01-28-101238-am&quot;&gt;2021-01-28 10:12:38 AM&lt;/h1&gt;
+
+&lt;p&gt;红色景点，搞的鸡飞狗跳。就因为红色景点要用严肃的词，不能用游玩，要用参观，呵呵&lt;/p&gt;
+
+&lt;h1 id=&quot;2021-01-29-104946-am&quot;&gt;2021-01-29 10:49:46 AM&lt;/h1&gt;
+
+&lt;p&gt;落户上海，预审核了，期待ing&lt;/p&gt;
+
+&lt;h1 id=&quot;2021-01-29-194510-pm&quot;&gt;2021-01-29 19:45:10 PM&lt;/h1&gt;
+
+&lt;p&gt;没有中奖，不开心。&lt;/p&gt;
+
+&lt;h1 id=&quot;2021-01-31-194510-pm&quot;&gt;2021-01-31 19:45:10 PM&lt;/h1&gt;
+
+&lt;p&gt;老婆要去出去约会，生气。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Feb 2021 09:00:00 +0800</pubDate>
+        <link>https://xqian.net//2021/02/01/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</link>
+        <guid isPermaLink="true">https://xqian.net//2021/02/01/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2021-01-18~2021-01-25的记录</title>
@@ -475,120 +521,6 @@ request没有cancel的事件，只要这个请求发出去了，是不能取消�
         <category>javascript</category>
         
         <category>react</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>eslint 在项目中的使用</title>
-        <description>&lt;p&gt;前段一段时间，组里搞了jslint，但是，jslint好像没有eslint的配置灵活一些，并且webstrom 也支持eslint，所以就自己搞了一套eslint的检测配置，虽然提交了代码，但是并不强制要求使用。&lt;/p&gt;
-
-&lt;!--more--&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
-***
-***
-Rules 规则说明
-'off' 或者 0  - 关闭规则
-'warn' 或者 1 - 开启规则，使用警告级别的错误，warn 不会导致程序退出
-'error' 或者 2 - 开启规则，使用错误级别的错误，error 当被触发的时候，程序会退出
-
- @link http://eslint.cn/docs/rules/
- @link http://eslint.org/docs/rules/
-*/
-
-
-{
-  &quot;env&quot;: {
-    &quot;browser&quot;: false,
-    &quot;node&quot;:true,
-    &quot;es6&quot;: true
-  },
-  &quot;globals&quot;: {
-
-  },
-  &quot;rules&quot;: {
-    &quot;camelcase&quot;: 2,
-    &quot;curly&quot;: 0,
-    &quot;brace-style&quot;: [2, &quot;1tbs&quot;],
-    &quot;quotes&quot;: [2, &quot;single&quot;],
-    &quot;semi&quot;: [2, &quot;always&quot;],
-    &quot;array-bracket-spacing&quot;: [2, &quot;never&quot;],
-
-    &quot;space-infix-ops&quot;: 2,
-
-    &quot;no-unused-vars&quot;: [&quot;error&quot;, { &quot;vars&quot;: &quot;all&quot;, &quot;args&quot;: &quot;all&quot; }],
-
-    &quot;comma-dangle&quot;: [2, &quot;only-multiline&quot;],
-    &quot;no-cond-assign&quot;: 2,
-    &quot;no-console&quot;: 2,
-    &quot;no-constant-condition&quot;: 0, // 待确定
-    &quot;no-control-regex&quot;: 0,
-    &quot;no-debugger&quot;: 2,
-    &quot;no-dupe-args&quot;: 2,
-    &quot;no-dupe-keys&quot;: 2,
-    &quot;no-duplicate-case&quot;: 2,
-    &quot;no-empty&quot;: 2,
-    &quot;no-empty-character-class&quot;: 2,
-    &quot;no-ex-assign&quot;: 2,
-    &quot;no-extra-boolean-cast&quot;: 2,
-    &quot;no-extra-semi&quot;: 2,
-    &quot;no-func-assign&quot;: 2,
-    &quot;no-inner-declarations&quot;: 2,
-    &quot;no-prototype-builtins&quot;: 2,
-    &quot;use-isnan&quot;: 2,
-    &quot;valid-jsdoc&quot;: 2,
-    &quot;valid-typeof&quot;: 2,
-    &quot;accessor-pairs&quot;: 2,
-    &quot;array-callback-return&quot;: 2,
-    &quot;block-scoped-var&quot;: 2, // Fix me 是否有必要开启
-    &quot;complexity&quot;: [2, {'max': 4}],
-    &quot;consistent-return&quot;: 0,
-    &quot;default-case&quot;: 2,
-    &quot;dot-location&quot;: [2, &quot;property&quot;],
-    &quot;eqeqeq&quot;: 2,
-    &quot;guard-for-in&quot;: 2, //  不建议使用for in 循环
-    &quot;no-alert&quot;: 2,
-    &quot;no-case-declarations&quot;: 2,
-    &quot;no-else-return&quot;: 0,
-    &quot;no-empty-function&quot;: 2,
-    &quot;no-eq-null&quot;: 2,
-    &quot;no-eval&quot;: 2,
-    &quot;no-extend-native&quot;: 2,
-    &quot;no-extra-bind&quot;: 2,
-    &quot;no-fallthrough&quot;: 2,
-    &quot;no-floating-decimal&quot;: 2,
-    &quot;no-implicit-coercion&quot;: 0,
-    &quot;no-implicit-globals&quot;: 2,
-    &quot;no-implied-eval&quot;: 2,
-    &quot;no-invalid-this&quot;: 0,
-    &quot;no-lone-blocks&quot;: 2,
-    &quot;no-loop-func&quot;: 2,
-    &quot;no-magic-numbers&quot;: 2,
-    &quot;no-multi-spaces&quot;: 2,
-    &quot;no-multi-str&quot;: 2,
-    &quot;no-native-reassign&quot;: 2,
-    &quot;no-new&quot;: 2,
-    &quot;no-new-func&quot;: 2,
-    &quot;no-new-wrappers&quot;: 2,
-    &quot;no-octal&quot;: 2,
-    &quot;no-octal-escape&quot;: 2,
-    &quot;no-param-reassign&quot;: [2, { &quot;props&quot;: false }],
-    &quot;no-redeclare&quot;: 2,
-    &quot;no-return-assign&quot;: 2,
-    &quot;no-script-url&quot;: 2,
-    &quot;no-self-assign&quot;: 2,
-    &quot;no-self-compare&quot;: 2,
-    &quot;no-useless-call&quot;: 2,
-    &quot;wrap-iife&quot;: 2,
-    &quot;block-spacing&quot;: 0,
-    &quot;indent&quot;: [2, &quot;tab&quot;]
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Tue, 27 Sep 2016 09:04:33 +0800</pubDate>
-        <link>https://xqian.net//2016/09/27/eslint-%E5%9C%A8%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
-        <guid isPermaLink="true">https://xqian.net//2016/09/27/eslint-%E5%9C%A8%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
         
         
       </item>
