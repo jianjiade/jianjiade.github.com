@@ -82,8 +82,8 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "trip",
-        href: "#"
+        title: "Trip",
+        href: "https://trip.com"
     },{
         title: "Bar",
         href: "#"
