@@ -1,0 +1,22 @@
+I")<h2 id="git-clean-的基本用法">git clean 的基本用法</h2>
+
+<h3 id="git-删除untracked的文件及目录">git 删除untracked的文件及目录</h3>
+
+<h4 id="删除untracked-files">删除untracked files</h4>
+
+<p><code class="language-plaintext highlighter-rouge">git clean -f</code></p>
+
+<h4 id="删除untracked-folders">删除untracked folders</h4>
+
+<p><code class="language-plaintext highlighter-rouge">git clean -fd</code></p>
+
+<h4 id="连-gitignore-的untrack-文件目录也一起删掉">连 gitignore 的untrack 文件/目录也一起删掉</h4>
+<p><code class="language-plaintext highlighter-rouge">git clean -xfd</code></p>
+
+<h4 id="在用上述-git-clean-前墙裂建议加上--n-参数来先看看会删掉哪些文件防止重要文件被误删">在用上述 git clean 前，墙裂建议加上 -n 参数来先看看会删掉哪些文件，防止重要文件被误删</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clean -nxfd
+git clean -nf
+git clean -nfd
+</code></pre></div></div>
+:ET
