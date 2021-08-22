@@ -2,7 +2,7 @@
 layout: post
 title:  学习驾照的日记
 date:   2021-06-20 09:36:54 GMT+0800 (China Standard Time)
-header-img: "img/Lamei-2.jpeg"
+header-img: "https://cdn.jellow.site/FpTbm_XzW2WObCDvTR3ttO8Eti8bv2.jpg?imageMogr2/auto-orient/thumbnail/2000x2000%3E/quality/100/interlace/1"
 author:     "xqian"
 categories: 
 tags: [技能,驾照]
