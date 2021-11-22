@@ -60,7 +60,7 @@ layout: post
 title:  ${title}
 date:   ${dateString}
 header-img: "img/Lamei-2.jpeg"
-author:     "xqian"
+author:     "xQian"
 categories: 
 
 ---
@@ -88,21 +88,3 @@ function format(){
         if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
         return fmt;
 }
-
-
-/**
- * 
- 
-
- ---
-layout: post
-title:  "2021年1月最后一周的记录"
-date:   2021-02-01 09:00:00 +0800
-header-img: "img/Lamei-2.jpeg"
-author:     "xqian"
-categories: 
-
----
-
-
- */
