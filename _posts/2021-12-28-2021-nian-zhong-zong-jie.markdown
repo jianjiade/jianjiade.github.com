@@ -2,7 +2,7 @@
 layout: post
 title:  2021年终总结
 date:   2021-12-28 16:16:23 GMT+0800 (China Standard Time)
-header-img: "https://cdn.jellow.site/Fv-nDPqbJO1NAlx48-KzWwS-O5lUv2.jpg?imageMogr2/auto-orient%7Cwatermark/3/image/aHR0cHM6Ly93YXRlcm1hcmsuamVsbG93LmNsdWIvP3RleHQ9JUU1JThEJUIzJUU1JTg4JUJCJTIwJTQwJUU4JTkyJUI5JUU4JTkxJUFEJUU0JUJCJThFJUU5JUEzJThFJmhlaWdodD03NQ==/gravity/SouthEast/dx/10/dy/10"
+header-img: "https://cdn.jellow.site/FswG0udQ0UhX-wGVyjffuSy_yNvxv2.jpg"
 author:     "xQian"
 categories: 
 
