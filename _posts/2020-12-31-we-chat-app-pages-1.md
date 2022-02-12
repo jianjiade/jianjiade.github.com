@@ -2,7 +2,7 @@
 layout: post
 title: 微信小程序系列「一」
 date: 2016-10-27 00:48:45
-tags: [WeChatApp, javascript, react]
+tags: [WeChatApp, JavaScript, react]
 ---
 2016年9月21日，在前端届的确是一个值得纪念的日子。这天，微信放出杀手锏，WeChatApp 又称微信小程序。但是就目前来看，有诸多不便，但是这个事情，依然有很大的意义。因为这是一个生态。从放出来这个消息，就开始关注。加上公司也有内测资格，所以准备写一些文章来聊聊weChatApp开发的一些情况，以及踩到的坑。
 <!--more-->
@@ -35,14 +35,14 @@ setData在内部的一个队列方案，这个以后会详细的说，这一篇�
 #### 数据存储
 每个微信小程序都可以有自己的本地缓存，可以通过 wx.setStorage（wx.setStorageSync）、wx.getStorage（wx.getStorageSync）、wx.clearStorage（wx.clearStorageSync）可以对本地缓存进行设置、获取和清理。本地缓存最大为10MB。
 在第一版的api中，删除storage是不能指定key进行删除的。那么怎么删除指定的storage呢，只有把当前的key的value值设置为空了。
-``` javascript
+``` JavaScript
 wx.setStorage({
   key:"key",
   data:""
 })
 ```
 这个确实也够猥琐的，不过后来的更新中，微信提供了，指定key的删除方法。
-```javascript
+```JavaScript
 wx.removeStorage(OBJECT)
 ```
 ![](https://raw.githubusercontent.com/iu2fish/_posts/master/media/14780057339213.jpg)

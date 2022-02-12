@@ -3,7 +3,7 @@ layout: post
 title: talk about sesionStorage VS localStorage
 date: 2016-07-11 23:35:53
 keywords:
-- javascript
+- JavaScript
 - sesionStorage
 - localStorage
 tags: [JavaScript, 前端]

@@ -2,7 +2,7 @@
 layout: post
 title: Learning-Backbone-1
 date: 2015-01-31 13:15:51
-tags: [javascript,Backbone]
+tags: [JavaScript,Backbone]
 ---
 今天开始，进行Backbone的学习笔记了。
 ###模型###

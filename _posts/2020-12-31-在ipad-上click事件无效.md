@@ -2,7 +2,7 @@
 layout: post
 title: 在iPad 上click事件无效
 date: 2014-11-03 19:38:10
-tags: [javascript,bug,ipad,click,touchstart]
+tags: [JavaScript,bug,ipad,click,touchstart]
 ---
 今天测试提了一个bug，在ipad上的click事件无效，要两次click才可以，查了下资料，发现要兼容下，才可以。<!--more-->
 ```

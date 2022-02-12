@@ -1,14 +1,14 @@
 ---
 layout: post
-title: javascript 错误以及如何修复
+title: JavaScript 错误以及如何修复
 date: 2015-02-02 20:01:38
 tags:
 ---
 <blockquote>
-	原文《[JavaScript Errors and How to Fix Them](http://davidwalsh.name/fix-javascript-errors)》
+	原文《[JavaScript Errors and How to Fix Them](http://davidwalsh.name/fix-JavaScript-errors)》
 	作者：Jani Hartikainen
 	翻译：[涂鸦码农](http://weibo.com/newwave)
-	译文：[译文地址](http://jinlong.github.io/2015/02/01/javascript-errors-and-how-to-fix-them/)
+	译文：[译文地址](http://jinlong.github.io/2015/02/01/JavaScript-errors-and-how-to-fix-them/)
 </blockquote>
 JavaScript 调试是一场噩梦：首先给出的错误非常难以理解，其次给出的行号不总有帮助。有个查找错误含义，及修复措施的列表，是不是很有用？
 以下是奇怪的 JavaScript 错误列表。同样的错误，不同的浏览器会给出不同的消息，因此有一些不同的例子。<!--more-->
@@ -58,7 +58,7 @@ Chrome 中典型的错误像这样：
 由于以上<code>a</code>和<code>b</code>循环引用彼此，结果对象无法转成JSON。
 ####Unexpected token####
 相关错误：<code>Expected),missing ) after argument list</code>
-Javascript 解释器预期的东西没有被包含。不匹配的圆括号或方括号通常引起这个错误。
+JavaScript 解释器预期的东西没有被包含。不匹配的圆括号或方括号通常引起这个错误。
 错误信息可能有所不同，<code>Unexpected token]</code>或者<code>Expected {</code>等。
 如何修复错误：有时候出现行号并不准确，因此很难修复。
 1.[]{}()这几个符号不配对常常导致错误。检查所有的圆括号和方括号是否配对。行号指出的不仅是问题字符。
@@ -112,4 +112,4 @@ http://some/url/</code>
 如何修复：查看错误指出的行号，确保代码运行的时机正确，或者在它之前添加了不必要的调用
 
 ###结论###
-我看过不少不用的javascript错误，比如PHP中声名狼藉的异常<code>Expected T_PAAMAYIM_NEKUDOTAYIM</code>.抛出更熟悉的错误才更有意义，现代浏览器不再抛出完全无用的错误，才会更有帮助。
+我看过不少不用的JavaScript错误，比如PHP中声名狼藉的异常<code>Expected T_PAAMAYIM_NEKUDOTAYIM</code>.抛出更熟悉的错误才更有意义，现代浏览器不再抛出完全无用的错误，才会更有帮助。

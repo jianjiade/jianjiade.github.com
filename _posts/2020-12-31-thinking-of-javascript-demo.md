@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一个 javascript demo 的思考
+title: 一个 JavaScript demo 的思考
 date: 2015-08-29 13:44:44
 tags:
 ---

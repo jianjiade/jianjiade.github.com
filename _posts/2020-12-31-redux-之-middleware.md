@@ -4,7 +4,7 @@ title: 'redux 之 middleware '
 author: 蒹葭从风
 tags:
   - redux
-  - javascript
+  - JavaScript
 categories: []
 date: 2017-06-04 22:58:00
 ---

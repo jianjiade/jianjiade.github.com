@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A few firendy tips for your javascript"
+title:  "A few firendy tips for your JavaScript"
 date:   2020-12-31 15:13:29 +0800
 categories: 
 
@@ -94,7 +94,7 @@ If by now you still don’t know what lint is, you might already have produced a
 
 There’re many tools that can help you with linting, but I strongly recommend [ESLint](http://eslint.org/), since it supports future JavaScript standard such as ES6. You can, of course just install eslint and use it straightaway, but I challenge you to have a look at [Webpack](https://webpack.github.io/) or [Gulp](http://gulpjs.com/), and then find a way to make your linting process automatic, which means everytime you save a file, it will be scanned by ESLint.
 
-In the meantime, I have a bonus for you. Go to have a look at the [ESLint config](http://ktei.github.io/2016/01/07/(https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)) provided by Airbnb. You can follow the readme file to configure your ESLint as strict as theirs. So easy to be professional, right?
+In the meantime, I have a bonus for you. Go to have a look at the [ESLint config](http://ktei.github.io/2016/01/07/(https://github.com/airbnb/JavaScript/tree/master/packages/eslint-config-airbnb)) provided by Airbnb. You can follow the readme file to configure your ESLint as strict as theirs. So easy to be professional, right?
 
 Okay, these are just tips of Part 1. It shall be continued…
 

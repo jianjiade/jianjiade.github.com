@@ -4,7 +4,7 @@ title: call、apply之间的区别
 date: 2015-08-05 22:22:29
 categories: 
 ---
-在ECMAScript3 给Function的原型定义了2个方法，它们分别是Function.prototype.call和Function.prototype.apply。在实际的开发中，特别是一些函数式编程中，call和apply方法尤其有用。反正我也不懂什么是函数式编程，最近也出了一本javascript方面的书，函数式编程，有兴趣的同学可以自己去看看。<!--more-->
+在ECMAScript3 给Function的原型定义了2个方法，它们分别是Function.prototype.call和Function.prototype.apply。在实际的开发中，特别是一些函数式编程中，call和apply方法尤其有用。反正我也不懂什么是函数式编程，最近也出了一本JavaScript方面的书，函数式编程，有兴趣的同学可以自己去看看。<!--more-->
 ###call和apply的区别
 先说下call和apply的区别，区别嘛，好像就是传入的参数不同，它的作用完全是一样的。
 apply接受2个参数，第一个参数制定了函数体内this对象的指向。第二个参数为一个带下标的集合，这个集合可以为数组，可以为类数组，apply方法把这个集合中得元素作为参数传递给被调用的函数：
@@ -24,7 +24,7 @@ call呢，我自己觉得它就是apply的语法糖，实例化了apply得方法
         fun.call(null, 1, 2, 3);
         //输出的结果就是:[1, 2, 3]
 
-当调用一个函数时，javascript的解释器并不会计较形参和实参的数量，类型，以及顺序上得区别，javascript的参数在内部就是用一个数组来表示。从这个意义上，apply比call使用的频率高。因为，编写程序的时候，不用考虑参数的个数，只要一股脑儿的全部丢过去，就好了。call就是包装在apply的语法糖，如果明确地知道函数接收多少个参数，那么就可以一目了然的表达清楚要表达的，如果不是，apply是你最好的选择。
+当调用一个函数时，JavaScript的解释器并不会计较形参和实参的数量，类型，以及顺序上得区别，JavaScript的参数在内部就是用一个数组来表示。从这个意义上，apply比call使用的频率高。因为，编写程序的时候，不用考虑参数的个数，只要一股脑儿的全部丢过去，就好了。call就是包装在apply的语法糖，如果明确地知道函数接收多少个参数，那么就可以一目了然的表达清楚要表达的，如果不是，apply是你最好的选择。
 如果我们在传入的参数中，第一个是null无论是call或者apply那么函数体内的this都是window，但是如果在严格模式strict下，this还是null。看下面的栗子。
 
         var fun = function(a, b, c){

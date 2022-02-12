@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 深入理解javascript原型和闭包（2）——函数和对象的关系
+title: 深入理解JavaScript原型和闭包（2）——函数和对象的关系
 date: 2015-02-08 21:10:03
-tags: [javascript]
+tags: [JavaScript]
 ---
 上文已经提到，函数就是对象的一种，因为通过instanceof 函数可以判断。
 <pre>

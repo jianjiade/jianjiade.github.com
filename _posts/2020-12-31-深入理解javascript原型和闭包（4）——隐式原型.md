@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  深入理解javascript原型和闭包（4）——隐式原型
+title:  深入理解JavaScript原型和闭包（4）——隐式原型
 date:  2015-02-09 21:55:24
-tags:  [javascript]
+tags:  [JavaScript]
 ---
-注意：本文不是javascript基础教程，如果你没有接触过原型的基本知识，应该先去了解一下，推荐看下《javascript高级程序设计第三版第6章：面向对象的程序设计》。
+注意：本文不是JavaScript基础教程，如果你没有接触过原型的基本知识，应该先去了解一下，推荐看下《JavaScript高级程序设计第三版第6章：面向对象的程序设计》。
 上文已经提到，每个函数function都有一个prototype，既原型。这里还要加上一句话，每个对象都有一个 `__proto__`,可以成为隐式原型。
-这个`__proto__`是一个隐藏的属性，javascript不希望开发者用到这个属性，有的低版本浏览器甚至不支持这个属性值。<!--more-->
+这个`__proto__`是一个隐藏的属性，JavaScript不希望开发者用到这个属性，有的低版本浏览器甚至不支持这个属性值。<!--more-->
 <pre>
 var obj = {};
 console.log(`obj.__proto__`);
