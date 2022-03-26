@@ -56,7 +56,7 @@
 body {
   font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
-  font-size: 16px;
+  font-size: 18px;
   color: #404040;
   overflow-x: hidden;
 }
@@ -71,8 +71,14 @@ h5,
 h6 {
   font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
+  font-family: 'FZXiJinLJW';
   line-height: 1.1;
   font-weight: bold;
+}
+h1,
+h2,
+h3 {
+  font-size: 23px;
 }
 h4 {
   font-size: 21px;
