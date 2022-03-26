@@ -17,7 +17,7 @@
         "url": "https://github.com/jianjiade/jianjiade.github.com"
     },
     "scripts": {
-        "preview": "cd _site; python -m SimpleHTTPServer 8020",
+        "preview": "cd _site; python3 -m http.server 8020",
         "watch": "grunt watch & npm run preview & jekyll serve -w;",
         "creat": "node ./scripts/creat.js"
     },
