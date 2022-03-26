@@ -48,6 +48,11 @@
 .sidebar-container .short-about .list-inline > li {
   padding-left: 0px;
 }
+@font-face {
+  font-family: 'FZXiJinLJW';
+  src: url('../fonts/FZXiJinLJW.TTF');
+  src: url('../fonts/FZXiJinLJW.TTF') format('truetype');
+}
 body {
   font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
@@ -132,6 +137,9 @@ pre code {
   width: auto;
   white-space: pre;
   word-wrap: normal;
+}
+.post-container {
+  font-family: 'FZXiJinLJW';
 }
 .post-container a {
   color: #337ab7;
