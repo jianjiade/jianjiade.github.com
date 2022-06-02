@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  上海解封了
-date:   2022-06-02 22:48:57 GMT+0800 (GMT+08:00)
+date:   2022-06-02 22:48:57 GMT+0800 (China Standard Time)
 header-img: "https://cdn.jellow.site/llPksunlOOqQbse_LJekupa5-jBvv3.jpg"
 author:     "xQian"
 categories: 

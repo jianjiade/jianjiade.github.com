@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  2022上海疫情
-date:   2022-03-25 22:54:08 GMT+0800 (GMT+08:00)
+date:   2022-03-25 22:54:08 GMT+0800 (China Standard Time)
 header-img: "https://cdn.jellow.site/FqlxPEHHX_wa4eEB2x-WO8jNv8TZv2.jpg"
 author:     "xQian"
 categories: 
