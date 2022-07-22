@@ -5,7 +5,7 @@ date: 2015-08-05 22:22:29
 categories: 
 ---
 在ECMAScript3 给Function的原型定义了2个方法，它们分别是Function.prototype.call和Function.prototype.apply。在实际的开发中，特别是一些函数式编程中，call和apply方法尤其有用。反正我也不懂什么是函数式编程，最近也出了一本JavaScript方面的书，函数式编程，有兴趣的同学可以自己去看看。<!--more-->
-###call和apply的区别
+### call和apply的区别
 先说下call和apply的区别，区别嘛，好像就是传入的参数不同，它的作用完全是一样的。
 apply接受2个参数，第一个参数制定了函数体内this对象的指向。第二个参数为一个带下标的集合，这个集合可以为数组，可以为类数组，apply方法把这个集合中得元素作为参数传递给被调用的函数：
 
@@ -45,11 +45,11 @@ call呢，我自己觉得它就是apply的语法糖，实例化了apply得方法
 
         Math.max.apply(null, [1, 2, 3, 4, 5]); // 输出为5
 
-###call和apply的用途
+### call和apply的用途
 上面也提到过一些，之前关于this的那篇文章也有提到。
 ####改变this的指向
 改变this的指向呢，上一篇详细的讲述了，这里就不多说了。
-####Function.prototype.bind
+#### Function.prototype.bind
 大部分现代浏览器都支持了Function.prototype.bind的方法，但是还是有部分浏览器不支持这个方法的，不支持怎么办呢，为了兼容这个浏览器没办法只能写hack了，可以自己手动的实现这个bind。
 
         Function.prototype.bind = function (content) {
@@ -67,7 +67,7 @@ call呢，我自己觉得它就是apply的语法糖，实例化了apply得方法
         fun();
 
 通过Function.prototype.bind来包装fun函数，并且传入一个对象content当作参数，这个content对象就是我们想要修正的this对象。
-####借用其他对象方法
+#### 借用其他对象方法
 
 
 
