@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  小镇做题家的20年
+title:  『小镇做题家』的20年
 date:   2022-07-24 00:30:55 GMT+0800 (China Standard Time)
-header-img: "https://cdnv2.ruguoapp.com/FsEvnX_AGRSHxoksMKkNWG817D1jv3.jpg"
+header-img: "https://cdnv2.ruguoapp.com/FgUG5YDx1bS0JhSSUK8Z-QlXdYgPv3.jpg"
 author:     "xQian"
 categories: 
 
