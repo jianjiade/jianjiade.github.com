@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  你好，2024
+title:  你好2024
 date:   2024-01-01 18:52:13 GMT+0800 (China Standard Time)
-header-img: "img/Lamei-2.jpeg"
+header-img: "https://cdnv2.ruguoapp.com/FoVmD_sCGqcgNibguE41N8HZ6k6pv3.jpg"
 author:     "xQian"
 categories: 
 
