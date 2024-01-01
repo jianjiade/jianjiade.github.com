@@ -50,8 +50,8 @@
 }
 @font-face {
   font-family: 'FZXiJinLJW';
-  src: url('../fonts/FZXiJinLJW.TTF');
-  src: url('../fonts/FZXiJinLJW.TTF') format('truetype');
+  src: url('../fonts/xiquesongti.ttf');
+  src: url('../fonts/xiquesongti.ttf') format('truetype');
 }
 body {
   font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
