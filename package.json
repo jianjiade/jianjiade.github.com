@@ -19,7 +19,8 @@
     "scripts": {
         "preview": "cd _site; python3 -m http.server 8020",
         "watch": "grunt watch & npm run preview & jekyll serve -w;",
-        "creat": "node ./scripts/creat.js"
+        "creat": "node ./scripts/creat.js",
+        "minicss": "grunt cssmin"
     },
     "dependencies": {
         "grunt-contrib-imagemin": "^4.0.0",
