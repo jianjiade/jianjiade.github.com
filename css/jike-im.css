@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'FZXiJinLJW';
+  src: url('../fonts/FZXiJinLJW.TTF');
+  src: url('../fonts/FZXiJinLJW.TTF') format('truetype');
+}
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -50,11 +55,11 @@
 }
 @font-face {
   font-family: 'FZXiJinLJW';
-  src: url('../fonts/xiquesongti.ttf');
-  src: url('../fonts/xiquesongti.ttf') format('truetype');
+  src: url('../fonts/FZXiJinLJW.TTF');
+  src: url('../fonts/FZXiJinLJW.TTF') format('truetype');
 }
 body {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
   font-size: 18px;
   color: #404040;
@@ -69,7 +74,7 @@ h3,
 h4,
 h5,
 h6 {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
   font-family: 'FZXiJinLJW';
   line-height: 1.1;
@@ -272,7 +277,7 @@ pre code {
   left: 0;
   width: 100%;
   z-index: 3;
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
 }
 .navbar-custom .navbar-brand {
@@ -419,7 +424,7 @@ pre code {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
   font-size: 18px;
   line-height: 1.1;
@@ -443,7 +448,7 @@ pre code {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
   font-size: 17px;
   line-height: 1.4;
@@ -452,7 +457,7 @@ pre code {
   margin-top: -5px;
 }
 .intro-header .post-heading .meta {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   font-style: italic;
   font-weight: 300;
   font-size: 18px;
@@ -493,7 +498,7 @@ pre code {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   color: #808080;
   font-size: 16px;
   font-style: italic;
@@ -619,7 +624,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 14px;
@@ -644,7 +649,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 13px;
@@ -788,7 +793,7 @@ body {
 }
 .one-tag-list .tag-text {
   font-weight: 200;
-  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
+  font: 300 1em/1.8 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
   line-height: 1.7;
 }
 .one-tag-list .post-preview {
@@ -931,9 +936,4 @@ body {
 }
 .test {
   font-size: 13px;
-}
-@media only screen and (min-width: 768px) {
-  .test {
-    font-size: 14px;
-  }
 }
