@@ -60,7 +60,7 @@
 }
 body {
   font: 300 1em/1.5 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
-  line-height: 1.7;
+  line-height: 1.5;
   font-size: 18px;
   color: #404040;
   overflow-x: hidden;
@@ -75,7 +75,7 @@ h4,
 h5,
 h6 {
   font: 300 1em/1.5 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
-  line-height: 1.7;
+  line-height: 1.5;
   font-family: 'FZXiJinLJW';
   line-height: 1.1;
   font-weight: bold;
@@ -278,7 +278,7 @@ pre code {
   width: 100%;
   z-index: 3;
   font: 300 1em/1.5 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
-  line-height: 1.7;
+  line-height: 1.5;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -425,7 +425,7 @@ pre code {
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font: 300 1em/1.5 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
-  line-height: 1.7;
+  line-height: 1.5;
   font-size: 18px;
   line-height: 1.1;
   display: block;
@@ -449,7 +449,7 @@ pre code {
 }
 .intro-header .post-heading .subheading {
   font: 300 1em/1.5 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
-  line-height: 1.7;
+  line-height: 1.5;
   font-size: 17px;
   line-height: 1.4;
   font-weight: normal;
@@ -625,7 +625,7 @@ form .row:first-child .floating-label-form-group {
 }
 .btn {
   font: 300 1em/1.5 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
-  line-height: 1.7;
+  line-height: 1.5;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -650,7 +650,7 @@ form .row:first-child .floating-label-form-group {
 .pager li > a,
 .pager li > span {
   font: 300 1em/1.5 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
-  line-height: 1.7;
+  line-height: 1.5;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 800;
@@ -794,7 +794,7 @@ body {
 .one-tag-list .tag-text {
   font-weight: 200;
   font: 300 1em/1.5 FZXiJinLJW, PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, 'sans-serif';
-  line-height: 1.7;
+  line-height: 1.5;
 }
 .one-tag-list .post-preview {
   position: relative;
