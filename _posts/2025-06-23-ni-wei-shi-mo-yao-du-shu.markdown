@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  你为什么要读书
-date:   2025-06-23 00:38:08 GMT+0800 (China Standard Time)
+date:   2025-06-23 00:00:13 GMT+0800 (China Standard Time)
 header-img: "https://cdn.jellow.site/Fmm3fYo0uF1M7uWAiyGyfE9NtZTFv2.jpg"
 author:     "xQian"
 categories: 
